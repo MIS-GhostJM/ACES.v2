@@ -322,13 +322,22 @@ body {
 #C-Sat\ Scripts-nav{
     background: linear-gradient(135deg, #32e21a, #02a14a);
 }
+#C-Sat\ Scripts-nav.active{
+    background: #BC6C25;
+}
 
 #Exchange\ and\ Cancellation\ Tips-nav{
     background: linear-gradient(135deg, #214bd3da, #776206);
 }
+#Exchange\ and\ Cancellation\ Tips-nav.active{
+    background: #BC6C25;
+}
 
 #General\ Scripts-nav{
     background: linear-gradient(135deg, #abe410da, #776206);
+}
+#General\ Scripts-nav.active{
+    background: #BC6C25;
 }
 
 
