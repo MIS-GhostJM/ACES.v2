@@ -1,0 +1,1938 @@
+[
+  {
+    "id": "Opening",
+    "category": "chat",
+    "title": "Chat Opening (asking to wait) ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": " Hello [Cx Name], my name is [Agent Name]. Please give me a moment to review your request.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Opening",
+    "category": "chat",
+    "title": "Chat Opening (asking to state the request) ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Hello [Cx Name], my name is [Agent Name]. How may I help you with your booking?. ",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Opening",
+    "category": "chat",
+    "title": "Chat Opening after connecting with the chat BOT (but no resolution) ETG UK",
+    "description": "The customer has gone through our chatbot however his query was not resolved and is now connected to the agent",
+    "cards": [
+      {
+        "content": "Hi [Cx Name], this is [Agent Name] from [Brand] Support. I noticed our chatbot couldn't fully assist you—my apologies for the inconvenience, and thank you for your patience! I'll review your case details and be with you shortly!",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Opening",
+    "category": "chat",
+    "title": "Order not found (request to spell provider's URL) ETG UK",
+    "description": "When the customer provides an order number which is related to other OTAs/provider's booking",
+    "cards": [
+      {
+        "content": "Thanks for providing the order number! It looks like this one isn't from our site. Kindly provide the correct spelling of the email address linked to your confirmation email. If that is unavailable, please spell out the URL [Website Address] where you purchased your ticket.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Opening",
+    "category": "chat",
+    "title": "Order not found (potentially booked with another provider) ETG UK",
+    "description": "When the customer provides a name/site's URL which is related to other OTAs/provider's booking",
+    "cards": [
+      {
+        "content": "Thanks for sharing your booking reference! It seems the number provided doesn’t match a ticket purchased through our website and may have been purchased elsewhere. If you have another reference number, please provide it now. Otherwise, it's best to reach out directly to the provider. Let me know if there's anything else I can assist you with!",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Opening",
+    "category": "chat",
+    "title": "Asking for Order Number",
+    "description": "",
+    "cards": [
+      {
+        "content": "Hello, [Cx Name]! My name is [Agent Name]. To assist you, I will need your order number.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Opening",
+    "category": "chat",
+    "title": "Chat Opening (asking to wait)",
+    "description": "",
+    "cards": [
+      {
+        "content": "Hello, [Cx Name]! My name is [Agent Name]. Please give me a moment to review your request.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Opening",
+    "category": "chat",
+    "title": "Chat Opening (asking to state the request)",
+    "description": "",
+    "cards": [
+      {
+        "content": "Hello, [Cx Name]! My name is [Agent Name]. How may I help you with your booking?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Opening",
+    "category": "chat",
+    "title": "When the customer doesn't have the order number",
+    "description": "",
+    "cards": [
+      {
+        "content": "To assist you, I need to find your booking first. Please provide one of the following:<br>E-ticket number: <br>Booking / airline reference number: <br>Transaction number / approval code:",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Opening",
+    "category": "chat",
+    "title": "Order not found",
+    "description": "potentially booked with other provider",
+    "cards": [
+      {
+        "content": "We're sorry to inform you that the booking reference does not match a ticket purchased through our website. It appears that your ticket was acquired through another company. If you have any additional questions or concerns, please don't hesitate to reach out to us again.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Opening",
+    "category": "chat",
+    "title": "Chat Opening due to long wait time (more than 5 minutes) Request stated",
+    "description": "",
+    "cards": [
+      {
+        "content": "Hi [Cx Name] from [Brand] support, and I'm here to assist you today. Due to the high volume of requests we are receiving, you might have experienced delays. Thank you for your patience and understanding. Please allow me a few minutes to review your case.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Opening",
+    "category": "chat",
+    "title": "Chat Opening due to long wait time (more than 5 minutes) Request NOT stated",
+    "description": "",
+    "cards": [
+      {
+        "content": " than 5 minutes) Request NOT stated Hi [Cx Name] from [Brand] support, and I'm here to assist you today. Due to the high volume of requests we are receiving, you might have experienced delays. Thank you for your patience and understanding. How may I help you with your booking?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Closing",
+    "category": "chat",
+    "title": "Question before closing ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Is there anything else I can assist you with today?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Closing",
+    "category": "chat",
+    "title": "Close chat ETG/B.com UK",
+    "description": "When the customer responds \"no\" to a question \"Is there anything else I can help you with?",
+    "cards": [
+      {
+        "content": "Thank you for reaching out. Have a wonderful day!",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Closing",
+    "category": "chat",
+    "title": "Customer doesn't respond 1st Warning ETG/B.com UK",
+    "description": "To use when the customer doesn't respond for 2 minutes. Send it and wait for another 3 min.",
+    "cards": [
+      {
+        "content": " ETG/B.com UK To use when the customer doesn't respond for 2 minutes. Send it and wait for another 3 min.  Hi, I wanted to check in to see if you're still with us. Please reply so I can continue assisting you. If I don't hear from you in the next 3 minutes, the chat will close due to inactivity.<br><br>Don't worry - you can always reach out again whenever you’re ready. We’re here to help!",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Closing",
+    "category": "chat",
+    "title": "Close chat after no response for 5 min ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I still haven't received a response, and it seems that you are no longer connected. This chat will now be closed. If you need further assistance, please start a new chat. Thank you!.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Closing",
+    "category": "chat",
+    "title": "Thanking and checking if customer needs any further help",
+    "description": "",
+    "cards": [
+      {
+        "content": "It was a pleasure to have assisted you today . Would there be anything else I can help you with?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "I'm glad I have been able to assist you today. Please let me know if you have any further questions or concerns.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Is there anything else I can help you with?.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Thank you for contacting us. Have a nice day!.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Closing",
+    "category": "chat",
+    "title": "The customer is already unhappy with our service we need to use this script instead of using a standard closing script",
+    "description": "",
+    "cards": [
+      {
+        "content": "We apologize for the inconvenience, but we're unable to assist you at this moment. Your satisfaction is important to us, and we're continuously striving to improve our service. Please feel free to reach out in the future for any assistance. This chat will now close.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Closing",
+    "category": "chat",
+    "title": "To use when the customer doesn't respond for 2 minutes. Send it and wait for another 3 minutes",
+    "description": "",
+    "cards": [
+      {
+        "content": "I didn't receive any response, and I want to make sure we're still connected. Let me know by responding to the chat. Otherwise, this chat will close in 3 minutes.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Closing",
+    "category": "chat",
+    "title": "Close chat after no response for 5 minutes",
+    "description": "",
+    "cards": [
+      {
+        "content": " I still haven't received any response, and it seems that you are no longer connected. This chat will now be closed. If you need further assistance, please start a new chat. Thank you.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Hold",
+    "category": "chat",
+    "title": "Putting customer on hold",
+    "description": "",
+    "cards": [
+      {
+        "content": "Please give me a moment to review your information. It won't take more than 5 minutes.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Hold",
+    "category": "chat",
+    "title": "Refresh/Extend Hold",
+    "description": "",
+    "cards": [
+      {
+        "content": " Thank you for waiting. But I will need 5 more minutes to work on your request.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Thank you for your continued patience. I will require a 5 extra minutes to thoroughly work on your request.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "I appreciate your understanding during this time. I will need a 5 more minutes to ensure your request is handled properly.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "I appreciate your patience. I would be needing a few additional minutes to complete your request. I'll give you update within 5 minutes.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Hold",
+    "category": "chat",
+    "title": "Customer Proceed with request",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thank you. Please give me a moment to process your request. I will need an additional 5 minutes, please.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Payment",
+    "category": "chat",
+    "title": "When sending payment link on email",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thank you, [Cx Name]! I have shared a payment link on your registered email address. Please make the payment and let me know. You can use the link within the next 5 minutes to complete the payment. Please be aware that not responding within this timeframe will result in this chat being disconnected. If you cannot access the payment link or have any other questions, please let me know, and I'll be happy to assist you.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Payment",
+    "category": "chat",
+    "title": "When sending payment link in chatbox",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thank you, [Cx Name]! I've included a payment link in this chat window. Please open the link in a separate browser tab without closing the chat. You can use the link within the next 5 minutes to complete the payment. Please be aware that not responding within this timeframe will result in this chat being disconnected. If you cannot access the payment link or have any other questions, please let me know, and I'll be happy to assist you. ",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Handling Objections",
+    "category": "chat",
+    "title": "Objection on ETG service fee",
+    "description": "",
+    "cards": [
+      {
+        "content": "Our service fee covers your case handling, including all necessary communication and administrative work with the airline. As your travel agency, we’re committed to managing all paperwork and follow-up to ensure that the process is handled smoothly. Please feel free to reach out if you have any additional questions regarding this matter.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Handling Objections",
+    "category": "chat",
+    "title": "If customer has an objection when referred to the airline",
+    "description": "",
+    "cards": [
+      {
+        "content": "As your travel agency, we're here to make your booking experience as smooth as possible and assist with your travel needs. While we can help with most inquiries, like itinerary changes and general questions, there are some cases where you'll need to contact the airline directly. This is due to airline policies that require their intervention. Rest assured, we’ll continue to support you in any way we can to ensure your trip goes smoothly.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Handling Objections",
+    "category": "chat",
+    "title": "The case is already with Support and we are waiting for airline reply",
+    "description": "",
+    "cards": [
+      {
+        "content": "Our team is still waiting for a response from the airline. We will get back to you as soon as we have an update.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Handling Objections",
+    "category": "chat",
+    "title": "When the refund process takes more than 15 business days",
+    "description": "",
+    "cards": [
+      {
+        "content": "We totally understand how frustrating it can be when things take longer than expected, and we're really sorry if this delay has caused any inconvenience to you. Rest assured, we're doing all we can to speed up this refund process. Normally, once we get the go-ahead from the airline, we aim to sort it out within about 6 days. But sometimes, delays beyond our control can happen. Please kindly note, any extra delay might not be our fault—sometimes it's down to how quickly your bank processes the refund once we've sent it over. Thanks for bearing with us while we get this sorted. We genuinely appreciate your patience and understanding during this time. If you've got any other questions or need a hand with anything else, just let us know. We're here to help!",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Handling Objections",
+    "category": "chat",
+    "title": "If customer has an objection on airline costs",
+    "description": "",
+    "cards": [
+      {
+        "content": "The price of a ticket is based on demand and set by the airline – the fare is higher for the date and time you are choosing than the ticket you originally paid for. If you are flexible, I can search for 2 to 3 different travel dates/times for a lesser fare difference. Would you like me to do that?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Handling Objections",
+    "category": "chat",
+    "title": "The customer keeps pushing back after the agent has repeatedly tried educating the customer in regards to their refund delay",
+    "description": "",
+    "cards": [
+      {
+        "content": "I acknowledge your frustration but we have already provided all the information we have. I regret that I will need to disconnect this chat, which is inevitable due to many other customers waiting in our queues. We are doing our best in order to get your refund. Therefore I'm going to disconnect the chat, thank you for understanding.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Handling Objections",
+    "category": "chat",
+    "title": "When customer agrees to a supervisor call within the next 24H",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thank you, [Cx Name]. One of our supervisors will contact you at the phone number provided within 24 hours.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Handling Objections",
+    "category": "chat",
+    "title": "I will sue your company",
+    "description": "",
+    "cards": [
+      {
+        "content": "We totally understand your point of view, however, we would like to assure you that we have already taken all the necessary actions regarding your request and no further actions are required from your side.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Handling Objections",
+    "category": "chat",
+    "title": "Will I get compensation?",
+    "description": "",
+    "cards": [
+      {
+        "content": "While we may understand the reason for your request we do not handle any compensation-related requests over the telephone. You may submit your request through our contact form and our Customer Relations team will investigate and reply accordingly",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Please take into consideration that due to increased volumes it might take some time until you receive a response.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Change",
+    "category": "chat",
+    "title": "Change Breakdown",
+    "description": "",
+    "cards": [
+      {
+        "content": "Currently, the charges for rebooking, including the tax and/or fare difference are listed below:<br>Total to pay for change: [Total Change Fee Amount] <br>-Breakdown of charges-<br>Airline change fee: [Airline Change Fee] <br>Handling fee: [Change Handling Fee] <br>Fare difference: [(Change) Fare Difference] <br>New flight details : <br>X-------------------------X <br>Would you like to proceed with the changes?.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Change",
+    "category": "chat",
+    "title": "Change request - not-permitted/non-refundable",
+    "description": "",
+    "cards": [
+      {
+        "content": "I have checked the details of your booking. However, the rules state that this ticket is non-refundable and cannot be changed.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Change",
+    "category": "chat",
+    "title": "If the customer objects to (not-permitted/non-refundable)",
+    "description": "",
+    "cards": [
+      {
+        "content": "We are required to follow the airline's rules for your ticket(s). Unfortunately, in this case we are not allowed to make the changes and ticket is not refundable.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Change",
+    "category": "chat",
+    "title": "CHG request - permitted ETG",
+    "description": "",
+    "cards": [
+      {
+        "content": "I’d be happy to help you make the change; however, change fees will apply for this service. Allow me check the details for in 5 minutes.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Change",
+    "category": "chat",
+    "title": "No changes made ETG - Customer doesn't want to change",
+    "description": "",
+    "cards": [
+      {
+        "content": "No problem. Please note that I have not made any changes to your booking. If you decide to make this change, contact us again no later than [Deadline]. After this date, changes may not be allowed or additional airline fees may apply.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Change",
+    "category": "chat",
+    "title": "If customer has an objection on airline costs",
+    "description": "",
+    "cards": [
+      {
+        "content": "After this date, changes may not be allowed or additional airline fees may apply.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "The price of a ticket is based on demand and set by the airline – the fare is higher for the date and time you are choosing than the ticket you originally paid for If you are flexible, I can search for 2 to 3 different travel dates/times for a lesser fare difference. Do you want me to do that?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Change",
+    "category": "chat",
+    "title": "Customer objects when referred to the airline",
+    "description": "",
+    "cards": [
+      {
+        "content": "As your travel agency, we're here to make your booking experience as smooth as possible and assist with your travel needs. While we can help with most inquiries, like itinerary changes and general questions, there are some cases where you'll need to contact the airline directly. This is due to airline policies that require their intervention. Rest assured, we’ll continue to support you in any way we can to ensure your trip goes smoothly",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Change",
+    "category": "chat",
+    "title": "When the customer provides multiple dates to check for pricing",
+    "description": "",
+    "cards": [
+      {
+        "content": "I can provide you with only 2 or 3 new travel options for your trip through this channel. However, you can find more by checking the cost and flight availability in “My Bookings”, under the “Manage trip” tab. If it's not available for your ticket, check the airline's website for your desired dates and prices, then contact our Support. Thank you for your understanding.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Change",
+    "category": "chat",
+    "title": "Pax doesn't want to proceed to rebooking or change",
+    "description": "",
+    "cards": [
+      {
+        "content": "No problem. Please note that I have not made any changes to your booking. If you decide to make this change, kindly contact us again no later than [deadline]. After this date, changes may not be allowed or additional airline fees may apply.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Refunds",
+    "category": "chat",
+    "title": "The customer is asking for the status of their refund",
+    "description": "",
+    "cards": [
+      {
+        "content": "You can check your refund status by logging in to \"My Bookings\", which you can access through the top right corner of our site.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Log in with Facebook or Google if you used your linked email account to make the booking or enter your order number and the email you used when booking.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Once logged on to \"My Bookings\" you will be able to see the latest information about your refund.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Refunds",
+    "category": "chat",
+    "title": "My friend who booked with another agency already got their refund, when will I get mine?",
+    "description": "",
+    "cards": [
+      {
+        "content": "As a result of the sudden increase in refund requests, we as a company are trying to complete as many requests as possible every day. We have appointed the maximum available additional staffing to ensure that we handle all the requests with the highest possible priority. We are handling all the requests by date of submission, however, there are other factors that influence the waiting time and the outcome itself, such as if, and how quickly we are able to retrieve the funds from the airline. We assure you that we are doing our best to help all our customers as soon as possible.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Refunds",
+    "category": "chat",
+    "title": "when the customer is inquiring on the refund status and we have given all possible information",
+    "description": "",
+    "cards": [
+      {
+        "content": "We have already provided all the available information regarding your refund status. To stay updated, please visit the \"My Bookings\" page on our website. Unfortunately, our support team is unable to assist you further at this time.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Thank you for your patience and understanding. We're working diligently to process your refund as quickly as possible. We apologize for any inconvenience this may have caused.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Due to the high volume of customer inquiries, we must now close this chat. If you have any other questions or concerns, please don't hesitate to reach out to us again. Have a great day!",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Refund Delays",
+    "category": "chat",
+    "title": "But how long do I have to wait?",
+    "description": "",
+    "cards": [
+      {
+        "content": "While I don't have an exact timeframe at the moment, please be assured that processing your refund is a top priority for us. As an intermediary of the airline, we are unable to confirm the refund timeframe, as we have to wait for the refund from the airline. Refunds typically undergo a thorough review process, which can vary based on several factors including payment method, bank processing times, and any specific policies related to your booking. Rest assured, we are actively working to expedite the process as much as possible. Our refund team will notify you via email once the refund is processed. You may also check the refund status on our website under the 'My Bookings' section. We appreciate your patience and truly value your business.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Refund timelines can vary, but we're here to ensure a smooth process! On average, it takes them 5 business days to process these, and once we receive those funds, our internal processing takes about 6 days. This means you can expect to see your refund within 10-15 business days. We're committed to transparency and will keep you informed every step of the way.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Refund Delays",
+    "category": "chat",
+    "title": "When will I get my refund. It has been days/months I am waiting for my refund",
+    "description": "",
+    "cards": [
+      {
+        "content": "We totally get how frustrating it can be when things take longer than expected, and we're really sorry if this delay has caused any inconvenience to you. Rest assured, we're doing all we can to speed up this refund process. Normally, once we get the go-ahead from the airline, we aim to sort it out within about 6 days. But sometimes, delays beyond our control can be caused. Thanks for bearing with us while we get this sorted. We genuinely appreciate your patience and understanding during this time. Refund timelines can vary, but we're here to ensure a smooth process! On average, it takes them 5 business days to process these, and once we receive those funds, our internal processing takes about 6 days. This means you can expect to see your refund within 10-15 business days. We're committed to transparency and will keep you informed every step of the way.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Refund Delays",
+    "category": "chat",
+    "title": "We should always update the customer on where they can check the status of their refund",
+    "description": "",
+    "cards": [
+      {
+        "content": "We assure you that we are doing everything we can to make sure that the refund is processed as soon as possible, We truly understand your concern, and we assure you that all the necessary actions have been taken from our end for your tickets. The reason why you have not received the refund for the ticket is because we cannot start processing a refund until we have received the funds from the airline. You will be notified via a separate email as soon as the rest of the amount has been refunded. We totally understand your point of view, however, we would like to assure you that we have already taken all the necessary actions regarding your request",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Refund Delays",
+    "category": "chat",
+    "title": "We should always update the customer on where they can check the status of their refund",
+    "description": "",
+    "cards": [
+      {
+        "content": "We totally get how frustrating it can be when things take longer than expected, and we're really sorry if this delay has caused any inconvenience to you.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Rest assured, we're doing all we can to speed up this refund process. Normally, once we get the go-ahead from the airline, we aim to sort it out within about 6 days. But sometimes, delays beyond our control can be caused.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Thanks for bearing with us while we get this sorted. We genuinely appreciate your patience and understanding during this time.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Refund Delays",
+    "category": "chat",
+    "title": "Can you call the airline to prioritize my refund?",
+    "description": "",
+    "cards": [
+      {
+        "content": "I truly apologize for the inconvenience, while we absolutely understand your concern, we have no influence over the airlines' prioritization from our end as they work with an extremely increased workload as well and have their own priorities to meet. As a result, the only option is for us to wait for the airline to finalize our request. Your patience is highly appreciated.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Refund Delays",
+    "category": "chat",
+    "title": "The airline said I can have a full refund, why are you saying I can't get a full refund?",
+    "description": "",
+    "cards": [
+      {
+        "content": "Based on the force majeure guidelines we have received from the airline, we cannot proceed with your refund request. If you were informed by the representative of the airline company that you are entitled to a full refund, please ask them to insert a note in your booking with the authorization code.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Refund Delays",
+    "category": "chat",
+    "title": "If refund is still within the timeline",
+    "description": "",
+    "cards": [
+      {
+        "content": "Appreciate your patience, On average, processing the refund by airline takes about 5 business days, followed by an additional 6 days for our internal handling. Therefore, you can expect to receive your refund within 10 to 15 business days. We are currently facing a high volume of refund requests, and are doing our best to prioritize based on their submission date and other factors.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Although we are unable to give you a precise time frame, please be assured that we are doing our best to process your request as soon as possible. We'll send you an email as soon as your refund is finalized. Thank you for your understanding.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Cancel",
+    "category": "chat",
+    "title": "When the ticket is within 'void' window (no add-ons)",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thank you for waiting, [Cx Name]. I'm very happy to inform you we can cancel the reservation as it's still under same-day booking and you can have the refund less the handling fee from our end. The rest of the amount will be refunded back.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Thank you for waiting, [Cx Name]. I'm very happy to inform you we can cancel the reservation as it's still under same- day booking and you can have the refund less the handling fee from our end. <br>I have checked and you have some add-on products as well which can't be refunded after cancellation. <br>These products are: <br>[Non-refundable Add on Products] <br>The rest of the amount will be refunded back. <br>Would you like to proceed with the cancellation?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Cancel",
+    "category": "chat",
+    "title": "The customer wants to cancel",
+    "description": "full refund applicable",
+    "cards": [
+      {
+        "content": "Hi [Cx Name], According to the airline terms and conditions for cancellation, cancellation fees will apply which are listed below: <br>Total to pay for Cancellation: [Total Cancelation Fee Amount] <br>-Breakdown of charge-<br>Airline Cancellation fee: [Airline Cancelation fee] <br>Handling fee: [Cancelation Handling fee] <br>Would you like us to proceed with canceling your booking and submitting a refund request to the airline?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Cancel",
+    "category": "chat",
+    "title": "Cancel (Non-refundable)",
+    "description": "",
+    "cards": [
+      {
+        "content": "According to the airline rules, the ticket, including any add-on products such as (baggage/seats/meals) fees, is non-refundable. Would you still like me to cancel your booking?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Cancel",
+    "category": "chat",
+    "title": "When the cancellation is done (Refundable)",
+    "description": "",
+    "cards": [
+      {
+        "content": "Your booking is cancelled, and you will be getting a confirmation email after this conversation. On average, processing the refund by airline takes about 5 business days, followed by an additional 6 days for our internal handling. Therefore, you can expect to receive your refund within 10 to 15 business days. We are currently facing a high volume of refund requests, and are doing our best to prioritize based on their submission date and other factors. Although we are unable to give you a precise time frame, please be assured that we are doing our best to process your request as soon as possible. We'll send you an email as soon as your refund is finalized. Thank you for your understanding.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Cancel",
+    "category": "chat",
+    "title": "Customer wants to cancel",
+    "description": "No refund applicable but with voucher",
+    "cards": [
+      {
+        "content": "[Cx Name], the airline's rules indicate that they are ONLY allowing a future travel credit/voucher instead of a refund. Should I secure this for you as you can use this up to [-voucher validity-] months, Shall we go ahead and cancel the booking?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Cancel",
+    "category": "chat",
+    "title": "If customer is adamant on a refund only (Non-refundable)",
+    "description": "",
+    "cards": [
+      {
+        "content": "According to the current policy, the refund will only be as per the fare rules which state that your tickets are not refundable. Shall we go ahead and cancel the booking?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Cancel",
+    "category": "chat",
+    "title": "When the cancellation is done (Non-refundable)",
+    "description": "",
+    "cards": [
+      {
+        "content": "I have now cancelled your original ticket and I have sent all details regarding Future Travel ticket/open voucher on your registered email address.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Cancel",
+    "category": "chat",
+    "title": "Customer wants to cancel (ticket is partially used)",
+    "description": "",
+    "cards": [
+      {
+        "content": "[Cx Name], I can see that the airline might be offering a refund. Please note that an airline fee per person applies for cancellation, while your refund eligibility depends on the amount corresponding to the part of the ticket used. Also, some taxes and extra services may be non-refundable per the airline's rules and our terms and conditions. Do you want to cancel for all passengers? ",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Please note: <br>On average, processing the refund by the airline takes about 5 business days, followed by an additional 6 days for our internal handling. Therefore, you can expect to receive your refund within 10 to 15 business days. <br>Cancellation fees will apply which are listed below: <br>Total amount to pay for cancellation: [Total Cancelation Fee Amount] <br>-Breakdown- <br>Airline cancellation fee: [Airline Cancelation fee] <br>Handling fee: [Cancelation Handling fee] <br>Shall I proceed with the cancellation?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Cancel",
+    "category": "chat",
+    "title": "When the cancellation is done (Partially used)",
+    "description": "",
+    "cards": [
+      {
+        "content": "It's all done, [Cx Name]. I have sent the cancellation confirmation to your registered email address.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Cancel",
+    "category": "chat",
+    "title": "Customer wants to cancel",
+    "description": "No refund applicable and our service fee higher than refundable taxes",
+    "cards": [
+      {
+        "content": "Certainly, [Cx Name]. I will go ahead and check the airline policy for you. Allow me 5 minutes while I check this.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "[Cx Name], the airline's rules indicate that your ticket is non-refundable and the amount of refundable tax is lower than our service fee of per person. This said, you will not receive a refund nor will you be charged any additional fees. Would you like me to proceed with the cancellation to notify the airline?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Cancel",
+    "category": "chat",
+    "title": "Cancellation with cancelation protection (medical)",
+    "description": "",
+    "cards": [
+      {
+        "content": "I can see that you purchased a cancellation protection. Please note the following requirements to submit a claim:  <br>1. A medical certificate must be submitted and completed by a doctor affiliated with the Social Insurance Office. The certificate must bear the name, contact telephone number and stamp of the doctor. <br>2. A copy of the doctor's identification must be enclosed if no stamp is available. <br>3. The doctor's certificate must state the examination date, examination results, diagnosis and the fact that you are unable to travel. <br>4. The doctor must use the Gotogate doctor's certificate (I will send the link via email): this is the only doctor's certificate we accept. The doctor's certificate must be printed by an independent party for the doctor's certificate to be valid.  <br><br>Please let me know if you have any questions. The next step we will undertake is to cancel your flights. Would you like to proceed?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Cancel",
+    "category": "chat",
+    "title": "Pax doesn't want to Cancel",
+    "description": "",
+    "cards": [
+      {
+        "content": "No problem. Please note that I have not made any changes to your booking. If you decide to cancel, please contact us again no later than [Cancelation deadline]. After this date, changes may not be allowed or additional airline fees may apply.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Cancel",
+    "category": "chat",
+    "title": "The customer wants to cancel (full refund applicable and ATC/Edvin Calculator is working)",
+    "description": "",
+    "cards": [
+      {
+        "content": "Hi [Cx Name], According to the airline terms and conditions for cancellation, cancellation fees will apply which are listed below: <br>Total to pay for cancellation: [Total Cancelation Fee Amount] <br>-Breakdown- <br>Airline cancellation fee: [Airline Cancelation fee] <br>Handling fee: [Cancelation Handling fee] <br>Total Refund Amount: [Total Refund Amount]  <br><br>Would you like us to proceed with canceling your booking and submitting a refund request to the airline?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Schedule Change",
+    "category": "chat",
+    "title": "Transferring chat to 2L/h3>",
+    "description": "",
+    "cards": [
+      {
+        "content": "Your request needs to be handled by a different team, specialised in schedule changes. Please stay connected in chat while I connect you to an agent from this team.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Schedule Change",
+    "category": "chat",
+    "title": "Flight reconfirmation",
+    "description": "Customers checking any changes or cancellations due to adverse weather, escalating tensions, etc.; however, flight remains active and confirmed on our system and no updates of any changes from the airline.",
+    "cards": [
+      {
+        "content": "Based on our records, your flight is confirmed, and we have not received any updates from the airline. If you have any further concerns about this flight, we kindly ask you to contact the airline directly. Thank you for your understanding.<br><br>For your easy reference, please provide the following details when contacting the airline<br>Ticket number: <br>Passenger's last name: <br><br>Airline website link: [Link]",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Opening",
+    "category": "chat",
+    "title": "Chat Opening due to long wait time (more than 5 minutes) Request stated ETG/B.com UK",
+    "description": "The customer has gone through the workflow and is waiting to be connected to the agent",
+    "cards": [
+      {
+        "content": "Hi [Cx Name], this is [Agent name]. Thank you for your patience as we handle a high volume of requests. I'll review your case details and be with you shortly!",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Payment",
+    "category": "chat",
+    "title": "Payment successfully received",
+    "description": "for Baggage/Seating/Special equipment",
+    "cards": [
+      {
+        "content": "Great news – your payment has been received! We’re now processing the changes, and our ticketing team will send your updated ticket to your email shortly. You can expect to receive it as soon as possible. If there’s anything you need in the meantime, feel free to reach out.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Helpful Scripts",
+    "category": "chat",
+    "title": "Initiating a positive interaction/simple requests",
+    "description": "",
+    "cards": [
+      {
+        "content": "Sure, let me check that for you.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Sure, I’ll be happy to help.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Absolutely, I can help with that",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Helpful Scripts",
+    "category": "chat",
+    "title": "Acknowledging customer's answers",
+    "description": "",
+    "cards": [
+      {
+        "content": "Great! Let me check that for you.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "No worries at all.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "Not a problem at all.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "My pleasure!",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "I appreciate that!",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Helpful Scripts",
+    "category": "chat",
+    "title": "Find out some information",
+    "description": "",
+    "cards": [
+      {
+        "content": "That is a good question, let me check the details for you.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Helpful Scripts",
+    "category": "chat",
+    "title": "Assurance Statement",
+    "description": "",
+    "cards": [
+      {
+        "content": "I'll be happy to help you with your request, give me some time to review the [policy/information/details/availability].",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Helpful Scripts",
+    "category": "chat",
+    "title": "Empathy Statement",
+    "description": "",
+    "cards": [
+      {
+        "content": "I appreciate your point. Let me see what I can do.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "I am really sorry to hear that. Let me see what I can do to help.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Helpful Scripts",
+    "category": "chat",
+    "title": "Apology",
+    "description": "",
+    "cards": [
+      {
+        "content": "I understand your frustration. I will do my best to help you.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "I apologize for the inconvenience. I will do my best to provide you the best option.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "I am really sorry this happened. Let me see if I can find a solution your concern.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "I’m sorry you are having this problem. Let’s see what I can do to solve this for you.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Helpful Scripts",
+    "category": "chat",
+    "title": "Asking For fare breakdown of the refund",
+    "description": "",
+    "cards": [
+      {
+        "content": "I see that the refund has been completely processed. If you wish to get the fare breakdown of the refund, I will have to raise a request to our team to send the breakdown of the refund.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Helpful Scripts",
+    "category": "chat",
+    "title": "Incomplete refund amount received",
+    "description": "",
+    "cards": [
+      {
+        "content": "I do apologize for the inconvenience and I understand that you are looking for full refund. As per checking here the refund amount of [Amount of Refund] has been credited back to your account. Due to incomplete amount I will have to raise a follow up request to our team in regards of your refund.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Helpful Scripts",
+    "category": "chat",
+    "title": "Customer pushed back by the airline multiple times",
+    "description": "",
+    "cards": [
+      {
+        "content": "I do apologize for the inconvenience that it caused you [Cx Name]. I'd really love to assist you, however I will have to forward your request to our support team to handle the request due to your ticket is already under airlines control.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Helpful Scripts",
+    "category": "chat",
+    "title": "Customer ask for receipt",
+    "description": "",
+    "cards": [
+      {
+        "content": "To access/find and print your receipt: <br><br>-Check the email address used during booking for the receipt. <br>-Look in your spam or junk folder if you don't see it. <br>-Alternatively, log in to \"My Bookings\" on our website or app.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Helpful Scripts",
+    "category": "chat",
+    "title": "Customer ask for business receipt",
+    "description": "",
+    "cards": [
+      {
+        "content": "To generate a business receipt: <br>-Open your confirmation email. <br>-Click on \"My Bookings\" or go directly to our website. <br>-Fill in your booking details. <br>-Scroll down and click \"Print confirmation\". <br>-In the dialogue box, select \"Create business receipt\". <br>-Fill in your company's details if needed: <br><br>*Company Name <br>*Company Address <br>*City <br>*Postal Code <br>*VAT Number <br>*Director's Name <br><br>-The receipt will open as a PDF file, which you can print or save.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "General Scripts",
+    "category": "chat",
+    "title": "Acknowledgment (Cancel)",
+    "description": "",
+    "cards": [
+      {
+        "content": "I understand that you wanted to cancel your flight. I'll be glad to check the cancellation policy. Please allow me 5 minutes to check the information.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "General Scripts",
+    "category": "chat",
+    "title": "Acknowledgment (Rebooking)",
+    "description": "",
+    "cards": [
+      {
+        "content": "I see that you would like to change the booking. I'll be happy to help you with your request. May I know your preferred flight please?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "I see that you would like to change the booking. I'll be happy to help you with your request, please give me some time to review the availability.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "General Scripts",
+    "category": "chat",
+    "title": "Complaint due to extended refund time frame (Delayed Refund)",
+    "description": "",
+    "cards": [
+      {
+        "content": "We totally get how frustrating it can be when things take longer than expected, and we're really sorry if this delay has caused any inconvenience to you. Rest assured, we're doing all we can to speed up this refund process. Normally, once we get the go-ahead from the airline, we aim to sort it out within about 6 days. But sometimes, delays beyond our control can be caused.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "General Scripts",
+    "category": "chat",
+    "title": "Passport Details (Asking the passport details from the customer)",
+    "description": "",
+    "cards": [
+      {
+        "content": "Kindly share us below details as per your passport. <br><br>Document issue country: <br>Document number: <br>Document nationality country: <br>Date of birth: Gender: <br>Document expiration date: <br>Last name: <br>First name: <br>Middle Name or Initial:",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "General Scripts",
+    "category": "chat",
+    "title": "Disconnect First Warning",
+    "description": "To use when the customer doesn't respond for 2 minutes. Send it and wait for another 3 min.",
+    "cards": [
+      {
+        "content": "I didn't receive a response, and I want to make sure we're still connected. Let me know by responding to the chat. Otherwise, this chat will close in 3 minutes.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "General Scripts",
+    "category": "chat",
+    "title": "Disconnect Final Warning",
+    "description": "Close chat after no response for 5 min ETG/B.com UK",
+    "cards": [
+      {
+        "content": "I still haven't received a response, and it seems that you are no longer connected. This chat will now be closed. If you need further assistance, please start a new chat. Thank you!.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "General Scripts",
+    "category": "chat",
+    "title": "Cancellation Guarantee",
+    "description": "Customer purchased the Cancellation Guarantee",
+    "cards": [
+      {
+        "content": "Hi [Cx Name], sure, I will be happy to assist you with the cancellation using the Cancellation Guarantee Product. Please be reminded that, we need to check for certain eligibility criteria. Once eligible, Please note that; <br>1. This product qualifies you for 90% of the ticket value in the form of a voucher that can be redeemed only on our website [www.xyz.com] <br>2. The voucher is valid for 12 months from the date of issuance. Please allow me up to 5 min to check if this booking is eligible for cancellation using the Cancellation Guarantee Product.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "General Scripts",
+    "category": "chat",
+    "title": "Email Template",
+    "description": "Customer stopped responding - Cancel Request",
+    "cards": [
+      {
+        "content": "We have received your query about a cancellation request. However, the chat went idle. Please note that I have not made any cancellation to your booking. If you decide to proceed, contact us again no later than [Cancelation deadline] prior your departure. After this date, cancellation may not be allowed or additional airline fees may apply.<br><br>Please note that [Airline Cancelation fee] and our handling fee of [Cancelation Handling fee] will be applied.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "General Scripts",
+    "category": "chat",
+    "title": "Ancillary - Baggage Unable to add baggage (GDS/LCC)",
+    "description": "",
+    "cards": [
+      {
+        "content": "Due to airline restrictions, we are unable to add baggage for you and modifications such as adding baggage typically need to be done directly with the airline. The airline would be better equipped to assist you with this information. Please find their contact details below: [Airline Phone #] using reference number [XXXX] for a swifter resolution. We truly appreciate your business",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "General Scripts",
+    "category": "chat",
+    "title": "Step Guide for Customer how to check in on airlines website",
+    "description": "",
+    "cards": [
+      {
+        "content": "Step 1 - Kindly go to the airlines website insert link and click on the Manage my booking / Check-In tab <br>Step 2 - Enter your Booking reference PNR: [Insert PNR] /Ticket number: [Insert Ticket#], First Name and Last Name exactly as in your ticket <br>Step 3 - Then you have to click on the Confirm or Submit button <br>Step 4 - A new page will generate where you need to complete all the required information and your boarding pass will be generated.<br><br>Note:<br>Please review and ensure that you have entered the correct information before you click on Submit or Check-in<br>Airline has its own designated window time for online check in",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "General Scripts",
+    "category": "chat",
+    "title": "New itinerary not updated in the app ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "No worries, in our system, we can see that your flight has already been updated and confirmed. While our website may not be updated, we can easily send you the new information via email. Additionally, feel free to check your new flight directly on the airline website. Would you like me to send you the new information via email now?",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Exchange and Cancellation Tips",
+    "category": "chat",
+    "title": "Fare difference is high",
+    "description": "",
+    "cards": [
+      {
+        "content": "The prices are dynamic in nature and depend on the seat and fare availability – as of now, the fare is higher for the date and time you are choosing, than the ticket you originally paid for",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "I have checked the availability for multiple dates and this is the cheapest date and fare in this specific date range that I can find for you",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Exchange and Cancellation Tips",
+    "category": "chat",
+    "title": "Fare cheaper on other sites",
+    "description": "",
+    "cards": [
+      {
+        "content": "I understand your concern, but the fares may differ on airlines website or other booking sites, but we are following the changes based on the restrictions and terms and conditions of the fare class that you have booked",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Exchange and Cancellation Tips",
+    "category": "chat",
+    "title": "Fare cheaper on our site",
+    "description": "",
+    "cards": [
+      {
+        "content": "I understand your concern, but the prices and availability that you are seeing currently on our website is applicable for new bookings since they may be basic or most restricted fares, but we have to follow the restrictions of original ticket that you have booked and the inventory is different for rebooking",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Exchange and Cancellation Tips",
+    "category": "chat",
+    "title": "Downgrade not permitted",
+    "description": "",
+    "cards": [
+      {
+        "content": "We are required to follow the same class of service for rebooking, based on airlines ticket rules, and we are not allowed to downgrade your ticket",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Exchange and Cancellation Tips",
+    "category": "chat",
+    "title": "Flexible ticket policy",
+    "description": "",
+    "cards": [
+      {
+        "content": "As per Flexible ticket policy, only airlines change fee and handling fee are waived, but you still have to pay the difference in fare",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "Exchange and Cancellation Tips",
+    "category": "chat",
+    "title": "Step Guide for Customer to check the Fare rules / Terms and Condition",
+    "description": "",
+    "cards": [
+      {
+        "content": "Step 1 - Kindly check the confirmation email that was sent to you after booking.<br>Step 2 - Please scroll to the bottom portion of the confirmation email where you can find the \"Travel Conditions/Fare Rules\" link.<br>Step 3 - If you click on the Ticket Rules link, a new window will open.<br>Step 4 - Then, you have to sign in your Email Address and Order Number [Insert Order#].<br>Step 5 - Once done, a verification email will be sent to your email which you need to confirm.<br>Step 6 - Then, you can review the Ticket Rules associated to your booking.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "C-Sat Scripts",
+    "category": "chat",
+    "title": "FOLLOW HOLD PROCEDURE",
+    "description": "5 min ( DON’T EXCEED )",
+    "cards": [
+      {
+        "content": "Thank you for waiting [Cx Name]. I am now checking the [reason for hold] and would be needing more time. It won't take more than 5 minutes",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "C-Sat Scripts",
+    "category": "chat",
+    "title": "WHEN PLACING CUSTOMER ON HOLD",
+    "description": "Explain the reason why you are putting the customer on hold / or the activities being conducted",
+    "cards": [
+      {
+        "content": "I am currently checking the [reason for hold/what you are doing]. Please allow me more time.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "C-Sat Scripts",
+    "category": "chat",
+    "title": "APOLOGIZE FOR LONG OR MULTIPLE HOLDS OR IF CHAT IS TAKING TOO LONG",
+    "description": "Apologize and explain why the transaction is taking so much time. Always respect customers time",
+    "cards": [
+      {
+        "content": "I apologize for taking so much of your time and I appreciate your patience with me today. I am making sure that I am processing this correctly thus I will need a 5 minutes to work on this.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "C-Sat Scripts",
+    "category": "chat",
+    "title": "TRANSFER CUSTOMER TO SCHEDULE CHANGE TEAM / BOOKING.COM",
+    "description": "Educate customer why you cant help , where are you transferring and apologize for inconvenience",
+    "cards": [
+      {
+        "content": "I understand your concern, and I’d really love to help you with the [eg: schedule change in your flight from JFK to LON on 23MAR for (Passenger Name)], however since there is a dedicated team that work on these scenarios, I need to transfer your chat to our Process Expert team i.e. [Mention Team name] team who can assist you better.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "C-Sat Scripts",
+    "category": "chat",
+    "title": "Send to Support Cases",
+    "description": "Briefly explain that you want to help but due to some reason (provide the reason), (you need to send the request to our concern team) ( LCC, TRAVELFUSION, ETC WHERE YOU CANT HELP)",
+    "cards": [
+      {
+        "content": "I understand your concern, and I’d really love to help you with the [ex: name correction for (Passenger Name) in your flight from JFK to LON on 23MAR] in your flight, however since there is a dedicated team that work on these scenarios, I need to send this request to our Support Expert Team who will get in touch with you to assist you better.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "C-Sat Scripts",
+    "category": "chat",
+    "title": "TIMELINE CONCERN OF CUSTOMER",
+    "description": "",
+    "cards": [
+      {
+        "content": "Unfortunately, we do not have a specific timeline, since the team will work on your case and once they complete your request, they will update you via call or email as soon as possible.<br><br>Please verify that following are your correct email address and your best contact number.<br>Contact Number - [customer contact number] <br>Email Address - [customer email]",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "C-Sat Scripts",
+    "category": "chat",
+    "title": "REFERRING THE CUSTOMER TO AIRLINE",
+    "description": "Briefly explain that you want to help but due to some reason(specify the reason example ticket is in airlines control or instruction in Document Tab states that the customer need to contact the airline)",
+    "cards": [
+      {
+        "content": "I understand your concern, and I would love to assist you with your [ex: modifications in your flight from JFK to LON on 23MAR for (Passenger Name)] in your flight, however since we have limited access to your reservation, and [ex: airline has control over the ticket] thus we’re unable to proceed. You will have to reach out to the airline for this request.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "C-Sat Scripts",
+    "category": "chat",
+    "title": "Refund Delay apology",
+    "description": "Where is the refund and apologize its taking longer than expectation",
+    "cards": [
+      {
+        "content": "I am sorry for taking some time to check your refund status and as I see that refund is still pending [DEPARTMENT / AIRLINES / TEAM / BACKEND]. Please accept my sincere apologies for the delay and I assure you that our team is working closely with [FREE FLOW TO USE DEPARTMENT / AIRLINES / TEAM / BACKEND] to expedite the process.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "C-Sat Scripts",
+    "category": "chat",
+    "title": "Customer not OK with SERVICE FEES CHARGES",
+    "description": "Need to explain what charges are and Apologize for inconvenience",
+    "cards": [
+      {
+        "content": "I understand your concern, however our service fee covers your case handling, including all necessary communication and administrative work with the airline. As your travel agency, we’re committed to managing all paperwork and follow-up to ensure that the process is handled smoothly. Please feel free to reach out if you have any additional questions regarding this matter.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "C-Sat Scripts",
+    "category": "chat",
+    "title": "Closing After Long Chat",
+    "description": "",
+    "cards": [
+      {
+        "content": "It was my pleasure assisting you today and I sincerely apologize that it took some time to complete [Customer Request - Rebooking freeflow]. I truly appreciate your patience with me.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      },
+      {
+        "content": "I truly apologize for the delay in completing the [Customer Request - Rebooking freeflow]. It was a pleasure helping you today and I sincerely thank you for bearing with me. ",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "C-Sat Scripts",
+    "category": "chat",
+    "title": "IDLE CHAT / DISCONNECT EMAIL SCRIPT FORMAT FOR DSAT",
+    "description": "Mention the resoulution to customer concern on disconnect email even if not discussed",
+    "cards": [
+      {
+        "content": "Hi [Cx Name],<br><br>We are contacting you because you reached out via chat and we were not able to come to a conclusion. I aplogize for the incovenience you had to go through, but please find your answer below:<br><br>[Free flow text]<br><br>Please note this email address cannot receive replies. Kindly call or chat with us if you have any further questions.<br><br>Thank you.<br>[Agent name]<br>[Brand Name] Support",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "C-Sat Scripts",
+    "category": "chat",
+    "title": "Language translator chat / Start of conversation",
+    "description": "",
+    "cards": [
+      {
+        "content": "Please be advised that we may use a translation tool to provide support in your local language, and you may see grammatical errors in our replies. I apologize for any confusion and thank you for understanding.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "C-Sat Scripts",
+    "category": "chat",
+    "title": "Language translator chat / Middle of the conversation",
+    "description": "",
+    "cards": [
+      {
+        "content": "I apologize for any grammatical errors during this chat that may have happened due to language translation tool. Thank you for your patience and understanding.",
+        "created": "2025-02-26T09:57:39.188Z",
+        "updated": "2025-02-26T09:57:39.188Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-02-24",
+    "updated": "2025-02-26T09:57:39.188Z"
+  }
+]

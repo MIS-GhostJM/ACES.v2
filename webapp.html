@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app-style.css">
+    <link rel="stylesheet" href="errands-style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>A C E S</title>
+</head>
+<body>
+    <div class="app-container">
+        <div class="head-banner">
+            <div class="head-logo">
+                <h3><i class="fa-solid fa-comments"></i> A C E S</h3>
+                <h4>Automated Chat Enhancement Script</h4>
+            </div>
+            <div class="searchbar-group">
+                <select id="channel-selection">
+                    <option value="all">All</option>
+                    <option value="chat">Chat</option>
+                    <option value="voice">Voice</option>
+                </select>
+                <input type="text" id="search-input" placeholder="Search script...">
+                <button id="search-action">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="quick-link">
+                <button class="fd-calculator-link">
+                    <a href="https://mis-ghostjm.github.io/fd-calculator/" target="_blank">
+                        <i class="fa-solid fa-calculator"></i>
+                        <h3>FD Calculator</h3>
+                    </a>
+                </button>
+            </div>
+            <div class="script-canvas-reset">
+                <button class="global-script-reset">
+                    <i class="fa-solid fa-trash-can-arrow-up"></i>
+                </button>
+            </div>
+            <div class="customer-input">
+                <input type="text" id="customer" placeholder="Customer Name">
+                <i class="fa-solid fa-user-tie"></i>
+            </div>
+            <div class="agent-user-input">
+                <input type="text" id="user" placeholder="Agent Name">
+                <i class="fa-solid fa-user-secret"></i>
+            </div>
+        </div>
+        <main class="app-body">
+            <div class="side-panel">
+                <div class="nav-item active">
+                    <button id="script-page-action">
+                        <i class="fa-solid fa-scroll"></i>
+                    </button>
+                    <h3>Scripts</h3>
+                    <div class="nav-tooltip">Scripts</div>
+                </div>
+                <div class="nav-item">
+                    <button id="errands-page-action">
+                        <i class="fa-solid fa-clipboard"></i>
+                        <i class="fa-solid fa-clipboard"></i>
+                    </button>
+                    <h3>Errand-Notes</h3>
+                    <div class="nav-tooltip">Errands</div>
+                </div>
+                <div class="nav-item">
+                    <button id="notes-page-action">
+                        <i class="fa-solid fa-clipboard-list"></i>
+                    </button>
+                    <h3>Free-flow</h3>
+                    <div class="nav-tooltip">Freeflow Notes</div>
+                </div>
+                <div class="nav-item">
+                    <button id="check-list-page-action">
+                        <i class="fa-solid fa-list-check"></i>
+                    </button>
+                    <h3>Checklist <i class="fa-solid fa-check"></i></h3>
+                    <div class="nav-tooltip">Process Checklist</div>
+                </div>
+            </div>
+            <div class="main-page">
+                <!--Freeflow Notes-->
+                <div class="sub-page" id="notes-page">
+                    <div class="freeflow-header">
+                        Freeflow Notes
+                    </div>
+                    <div class="freeflow-input">
+                        <textarea name="freeflow-textarea" id="ff-txt" placeholder="Your notes here..."></textarea>
+                    </div>
+                </div>
+                <!--Freeflow Notes End-->
+
+                <!--Errands Note-->
+                <div class="sub-page" id="errands-page">
+                    <div class="errands-header">
+                        Errand Notes
+                    </div>
+                    <div class="twin-form-box">
+                        <form class="form-container" aria-labelledby="customer1-heading">
+                            <h2 id="customer1-heading" class="customer-heading">Customer 1</h2>
+                            <div class="form-area">
+                                <div class="input-pair">
+                                    <label for="input-interaction-id-1" class="input-label">Interaction ID: </label>
+                                    <input type="text" name="input-interaction-id" id="input-interaction-id-1" placeholder="Interaction ID" class="input-field" aria-required="true">
+                                </div>
+                                <div class="input-pair">
+                                    <label for="input-cxname-1" class="input-label">Customer Name: </label>
+                                    <input type="text" name="input-cxname" id="input-cxname-1" placeholder="Customer Name" class="input-field" aria-required="true">
+                                </div>
+                                <div class="input-pair">
+                                    <label for="input-dpa-1" class="input-label">DPA: </label>
+                                    <input type="text" name="input-dpa" id="input-dpa-1" placeholder="DPA" class="input-field">
+                                </div>
+                                <div class="input-pair">
+                                    <label for="input-relationship-1" class="input-label">Relationship: </label>
+                                    <input type="text" name="input-relationship" id="input-relationship-1" placeholder="Relationship" class="input-field">
+                                </div>
+                                <div class="input-pair">
+                                    <label for="input-query-1" class="input-label">Query: </label>
+                                    <input type="text" name="input-query" id="input-query-1" placeholder="Query" class="input-field">
+                                </div>
+                                <div class="input-pair">
+                                    <label for="input-resolution-1" class="input-label">Resolution: </label>
+                                    <input type="text" name="input-resolution" id="input-resolution-1" placeholder="Resolution" class="input-field">
+                                </div>
+                                <div class="input-pair">
+                                    <label for="input-yyrl-1" class="input-label">YY RL/Ticket No. Provided: </label>
+                                    <input type="text" name="input-yyrl" id="input-yyrl-1" placeholder="YY RL/Ticket No. Provided" class="input-field">
+                                </div>
+                                <div class="input-pair">
+                                    <label for="input-ghostline-1" class="input-label">Ghostline:</label>
+                                    <input type="text" name="input-ghostline" id="input-ghostline-1" placeholder="Ghostline" class="input-field">
+                                </div>
+                                <div class="input-pair">
+                                    <label for="input-validator-1" class="input-label">Validated by:</label>
+                                    <input type="text" name="input-validator" id="input-validator-1" placeholder="Validated by" class="input-field">
+                                </div>
+                                <div class="form-action">
+                                    <button type="button" class="copy-button"><i class="fa-solid fa-copy"></i> Copy</button>
+                                    <button type="button" class="clear-button"><i class="fa-solid fa-trash"></i> Clear</button>
+                                    <button type="button" class="archive-button"><i class="fa-solid fa-box-archive"></i> Archive</button>
+                                </div>
+                            </div>
+                            <div class="notes-area">
+                                <textarea name="notes" id="notes-1" placeholder="Add your notes here..."></textarea>
+                            </div>
+                        </form>
+                        <form class="form-container" aria-labelledby="customer2-heading">
+                            <h2 id="customer2-heading" class="customer-heading">Customer 2</h2>
+                            <div class="form-area">
+                                <div class="input-pair">
+                                    <label for="input-interaction-id-2" class="input-label">Interaction ID: </label>
+                                    <input type="text" name="input-interaction-id" id="input-interaction-id-2" placeholder="Interaction ID" class="input-field" aria-required="true">
+                                </div>
+                                <div class="input-pair">
+                                    <label for="input-cxname-2" class="input-label">Customer Name: </label>
+                                    <input type="text" name="input-cxname" id="input-cxname-2" placeholder="Customer Name" class="input-field" aria-required="true">
+                                </div>
+                                <div class="input-pair">
+                                    <label for="input-dpa-2" class="input-label">DPA: </label>
+                                    <input type="text" name="input-dpa" id="input-dpa-2" placeholder="DPA" class="input-field">
+                                </div>
+                                <div class="input-pair">
+                                    <label for="input-relationship-2" class="input-label">Relationship: </label>
+                                    <input type="text" name="input-relationship" id="input-relationship-2" placeholder="Relationship" class="input-field">
+                                </div>
+                                <div class="input-pair">
+                                    <label for="input-query-2" class="input-label">Query: </label>
+                                    <input type="text" name="input-query" id="input-query-2" placeholder="Query" class="input-field">
+                                </div>
+                                <div class="input-pair">
+                                    <label for="input-resolution-2" class="input-label">Resolution: </label>
+                                    <input type="text" name="input-resolution" id="input-resolution-2" placeholder="Resolution" class="input-field">
+                                </div>
+                                <div class="input-pair">
+                                    <label for="input-yyrl-2" class="input-label">YY RL/Ticket No. Provided: </label>
+                                    <input type="text" name="input-yyrl" id="input-yyrl-2" placeholder="YY RL/Ticket No. Provided" class="input-field">
+                                </div>
+                                <div class="input-pair">
+                                    <label for="input-ghostline-2" class="input-label">Ghostline: </label>
+                                    <input type="text" name="input-ghostline" id="input-ghostline-2" placeholder="Ghostline" class="input-field">
+                                </div>
+                                <div class="input-pair">
+                                    <label for="input-validator-2" class="input-label">Validated by: </label>
+                                    <input type="text" name="input-validator" id="input-validator-2" placeholder="Validated by" class="input-field">
+                                </div>
+                                <div class="form-action">
+                                    <button type="button" class="copy-button"><i class="fa-solid fa-copy"></i> Copy</button>
+                                    <button type="button" class="clear-button"><i class="fa-solid fa-trash"></i> Clear</button>
+                                    <button type="button" class="archive-button"><i class="fa-solid fa-box-archive"></i> Archive</button>
+                                </div>
+                            </div>
+                            <div class="notes-area">
+                                <textarea name="notes" id="notes-2" placeholder="Add your notes here..."></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="archived-errands-section">
+                        <div class="archive-header">
+                            <h3>Archived Errands</h3>
+                            <button id="clear-archive-btn" class="archive-action-btn">
+                                <i class="fa-solid fa-trash-can"></i> Clear Archive
+                            </button>
+                        </div>
+                        <div class="archived-table-container">
+                            <table id="archived-errands-table">
+                                <thead>
+                                    <tr>
+                                        <th>Interaction ID</th>
+                                        <th>Customer Name</th>
+                                        <th>DPA</th>
+                                        <th>Relationship</th>
+                                        <th>Query</th>
+                                        <th>Resolution</th>
+                                        <th>YY RL/Ticket</th>
+                                        <th>Ghostline</th>
+                                        <th>Validated by</th>
+                                        <th>Notes</th>
+                                        <th>Archived Date</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="archived-errands-body">
+                                    <!-- Archived errands will be added here dynamically -->
+                                </tbody>
+                            </table>
+                            <div id="no-archives-message" class="no-archives-message">No archived errands</div>
+                        </div>
+                    </div>
+                </div>
+                <!--Errands Note End-->
+
+                <!--Script Page-->
+                <div class="sub-page active" id="script-page">
+                    <div class="script-nav-container">
+                        <button id="opening-nav" class="nav-btn active">Opening</button>
+                    </div>
+
+                    <div class="script-canvas"></div>
+                </div>
+
+                <!--Checklis Page-->
+                <div class="sub-page" id="check-list-page">
+                    <div class="check-list-nav-container">
+                        <button id="Automated Void-nav" class="nav-btn active">Automated Void</button>
+                        <button id="Automated Exchange-nav" class="nav-btn">Automated Exchange</button>
+                    </div>
+
+                    <div class="checklist-canvas"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js" defer></script>
+    <script src="copy-functions.js" defer></script>
+    <script src="sync-inputs.js" defer></script>
+    <script src="errands-page.js"></script>
+</body>
+</html>
