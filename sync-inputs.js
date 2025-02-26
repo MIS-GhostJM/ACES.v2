@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const scriptCanvas = document.querySelector('.script-canvas');
     const scriptNavContainer = document.querySelector('.script-nav-container');
-    const jsonFilePath = 'https://mis-ghostjm.github.io/Scripts-beta-test/scripts.json';
+    const jsonFilePath = 'https://mis-ghostjm.github.io/ACES.v2/scripts-list.json';
     const customerInput = document.getElementById('customer');
     const agentInput = document.getElementById('user');
     let stateManager;
