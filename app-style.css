@@ -119,6 +119,7 @@ body {
 .searchbar-group {
     position: relative;
 }
+
 #search-input::placeholder {
     color: rgba(255, 255, 255, 0.7);
 }
@@ -316,6 +317,7 @@ body {
     display: block;
 }
 .script-nav-container {
+    justify-content: space-between;
     padding-top: 4px;
     padding-left: 10px;
     padding-right: 10px;
@@ -490,14 +492,14 @@ body {
     background: #ffffff;
     position: fixed;
     top:100px;
-    width: 90%;
-    height: 510px;
+    width: 92%;
+    height: calc(100vh - 150px);
     padding: 10px;
     border-radius: 8px;
     margin: 10px;
     color: #000000;
-    resize: none;
     font-size: 14px;
+    resize: none;
 }
 
 .freeflow-input ::placeholder{
@@ -545,4 +547,198 @@ body {
 .check-list-nav-container button:hover:not(.active) {
     background: var(--secondary-color);
     color: var(--white);
+}
+/* Checklist Styles */
+.checklist-canvas {
+    width: 100%;
+    padding: 20px;
+    background-color: linear-gradient(135deg, #2c3e50, #3498db);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.checklist-module {
+    display: none;
+    width: 100%;
+}
+
+.checklist-module.active {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.checklist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background: #3498db;
+    padding: 5px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+}
+
+.checklist-header h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 0;
+}
+
+.reset-checklist {
+    background-color: #e7881c;
+    border: 1px solid #e7881c;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #ffffff;
+}
+
+.reset-checklist:hover {
+    background-color: #fa1909;
+}
+
+.reset-checklist i {
+    color: #ffffff;
+}
+
+.checklist-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: rgb(103, 104, 98);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.checklist-table th {
+    background-color: #4682B4;
+    color: white;
+    padding: 12px 15px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+.checklist-table td {
+    padding: 3px 5px;
+    border-bottom: 1px solid #eee;
+    border: 1px solid #000000;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.checklist-table tr:hover {
+    background-color: #cfcd3a;
+    color: #000000;
+}
+
+.checkbox-column {
+    text-align: center;
+}
+
+.checkbox-cell {
+    text-align: center;
+}
+
+.step-checkbox {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.step-title {
+    font-weight: 500;
+}
+
+/* Important warnings/notes styling */
+tr[data-step-number="1"] .step-title,
+.step-title:contains("!!!") {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.completed-step {
+    background-color: #e8f4e5;
+}
+
+.completed-step td {
+    color: #000000;
+    text-decoration: line-through;
+}
+
+.completed-step .step-title {
+    text-decoration: line-through;
+}
+
+.amadeus-content p,
+.sabre-content p {
+    margin: 0;
+    padding: 2px 0;
+    font-family: monospace;
+}
+
+/* Animation for switching between checklists */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Add some styling to the navigation buttons for consistency */
+.listnav-btn {
+    padding: 8px 15px;
+    margin: 0 5px 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.listnav-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.listnav-btn.active {
+    background-color: #4682B4;
+    color: white;
+}
+
+.check-list-nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Making the table responsive */
+@media (max-width: 768px) {
+    .checklist-table {
+        display: block;
+        overflow-x: auto;
+    }
+    
+    .checklist-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .reset-checklist {
+        align-self: flex-end;
+    }
 }
