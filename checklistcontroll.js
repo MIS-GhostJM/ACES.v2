@@ -284,10 +284,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 position: relative;
             }
             .command-cell:hover {
-                background-color: #f0f8ff;
+                color:rgb(248, 236, 132);
             }
             .command-cell:active {
-                background-color: #e6f3ff;
+                color:rgb(176, 184, 68);
             }
             .copy-feedback {
                 position: fixed;
