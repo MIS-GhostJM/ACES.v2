@@ -249,7 +249,7 @@
   {
     "id": "Manual Cancel",
     "created": "2025-03-03T14:41:41.743Z",
-    "updated": "2025-03-03T14:51:23.545Z",
+    "updated": "2025-03-03T15:42:45.071Z",
     "steps": [
       {
         "stepnumber": "1",
@@ -489,13 +489,13 @@
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": "[Command:\"RFAB & ER\""
+            "content": "[Command:\"RFAB & ER\"]"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": "[Command:\"6AB & ER\""
+            "content": "[Command:\"6AB & ER\"]"
           }
         ]
       },
