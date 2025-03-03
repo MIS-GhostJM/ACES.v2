@@ -2,9 +2,13 @@
 const DOM = {
     channelSelect: document.getElementById('channel-selection'),
     scriptNavContainer: document.querySelector('.script-nav-container'),
+    checklistNavContainer: document.querySelector('.check-list-nav-container'),
     scriptCanvas: document.querySelector('.script-canvas'),
-    navButtons: document.querySelectorAll('.nav-btn'),
+    checklistCanvas: document.querySelector('.checklist-canvas'),
+    scriptNavButtons: document.querySelectorAll('.script-nav-container .nav-btn'),
+    checklistNavButtons: document.querySelectorAll('.check-list-nav-container .nav-btn'),
     scriptModules: document.querySelectorAll('.script-module'),
+    checklistModules: document.querySelectorAll('.checklist-module'),
     navItems: document.querySelectorAll('.nav-item'),
     subPages: document.querySelectorAll('.sub-page'),
     searchInput: document.getElementById('search-input'),
@@ -18,10 +22,23 @@ const DOM = {
     customerInput: document.getElementById('customer')
 };
 
+// Create search clear button element
+const searchClearButton = document.createElement('button');
+searchClearButton.id = 'search-clear';
+searchClearButton.innerHTML = '<i class="fa-solid fa-times"></i>';
+searchClearButton.style.display = 'none'; // Hidden by default
+searchClearButton.classList.add('search-clear-btn');
+
+// Add the clear button after the search input
+if (DOM.searchInput && DOM.searchInput.parentNode) {
+    DOM.searchInput.parentNode.insertBefore(searchClearButton, DOM.searchInput.nextSibling);
+}
+
 // State management
 const state = {
     currentChannel: 'all',
-    activeNavButton: null
+    activeScriptNavButton: null,
+    activeChecklistNavButton: null
 };
 
 // Reset functionality for script canvas
@@ -93,11 +110,19 @@ const SearchManager = {
         this.isSearchActive = false;
         this.resetModules();
         DOM.searchInput.value = ''; // Clear search input
-        ScriptManager.updateModule(); // Restore default module state
+        this.updateClearButtonVisibility(); // Hide clear button
+        ScriptManager.updateScriptModule(); // Restore default module state
         
         // Restore channel-based visibility
         const currentChannel = DOM.channelSelect.value;
         ScriptManager.updateTitles(currentChannel);
+    },
+
+    // Update clear button visibility based on search input
+    updateClearButtonVisibility() {
+        if (searchClearButton) {
+            searchClearButton.style.display = DOM.searchInput.value ? 'block' : 'none';
+        }
     },
 
     // Activate matching modules and their components
@@ -157,6 +182,7 @@ const SearchManager = {
 
         this.isSearchActive = true;
         this.resetModules();
+        this.updateClearButtonVisibility();
         
         // Split search into individual terms and filter out empty strings
         const searchTerms = searchTerm.toLowerCase().split(/\s+/).filter(term => term.length > 0);
@@ -200,13 +226,24 @@ const SearchManager = {
         let debounceTimer;
         DOM.searchInput.addEventListener('input', () => {
             clearTimeout(debounceTimer);
+            this.updateClearButtonVisibility();
             debounceTimer = setTimeout(() => {
                 this.performSearch(DOM.searchInput.value);
             }, 300);
         });
 
+        // Clear button functionality
+        if (searchClearButton) {
+            searchClearButton.addEventListener('click', () => {
+                DOM.searchInput.value = '';
+                this.updateClearButtonVisibility();
+                this.restoreDefaultState();
+                DOM.searchInput.focus(); // Return focus to search input
+            });
+        }
+
         // Add state restoration to navigation events
-        DOM.navButtons.forEach(button => {
+        document.querySelectorAll('.nav-btn').forEach(button => {
             button.addEventListener('click', () => {
                 if (this.isSearchActive) {
                     this.restoreDefaultState();
@@ -266,10 +303,27 @@ const ScriptManager = {
         state.currentChannel = channel;
     },
 
-    updateModule() {
+    updateScriptModule() {
+        // Reset all script modules
         DOM.scriptModules.forEach(module => module.classList.remove('active'));
         
+        // Find active script nav button
         const activeButton = DOM.scriptNavContainer.querySelector('.nav-btn.active');
+        if (activeButton) {
+            const moduleId = activeButton.id.replace('-nav', '');
+            const targetModule = document.getElementById(moduleId);
+            if (targetModule) targetModule.classList.add('active');
+        }
+    },
+
+    updateChecklistModule() {
+        // Reset all checklist modules
+        document.querySelectorAll('.checklist-module').forEach(module => 
+            module.classList.remove('active')
+        );
+        
+        // Find active checklist nav button
+        const activeButton = DOM.checklistNavContainer.querySelector('.nav-btn.active');
         if (activeButton) {
             const moduleId = activeButton.id.replace('-nav', '');
             const targetModule = document.getElementById(moduleId);
@@ -278,13 +332,26 @@ const ScriptManager = {
     }
 };
 
-// Navigation management
+// Navigation management - separated for script and checklist
 const NavigationManager = {
-    setActiveButton(button) {
-        DOM.navButtons.forEach(btn => btn.classList.remove('active'));
+    setActiveScriptButton(button) {
+        // Only affect script nav buttons
+        DOM.scriptNavContainer.querySelectorAll('.nav-btn').forEach(btn => 
+            btn.classList.remove('active')
+        );
         button.classList.add('active');
-        state.activeNavButton = button;
-        ScriptManager.updateModule();
+        state.activeScriptNavButton = button;
+        ScriptManager.updateScriptModule();
+    },
+
+    setActiveChecklistButton(button) {
+        // Only affect checklist nav buttons
+        DOM.checklistNavContainer.querySelectorAll('.nav-btn').forEach(btn => 
+            btn.classList.remove('active')
+        );
+        button.classList.add('active');
+        state.activeChecklistNavButton = button;
+        ScriptManager.updateChecklistModule();
     },
 
     toggleActivePage(event) {
@@ -418,10 +485,17 @@ function initializeEventListeners() {
         ScriptManager.updateTitles(e.target.value)
     );
 
-    // Navigation buttons
-    DOM.navButtons.forEach(button => {
+    // Script Navigation buttons
+    DOM.scriptNavContainer.querySelectorAll('.nav-btn').forEach(button => {
         button.addEventListener('click', () => 
-            NavigationManager.setActiveButton(button)
+            NavigationManager.setActiveScriptButton(button)
+        );
+    });
+
+    // Checklist Navigation buttons
+    DOM.checklistNavContainer.querySelectorAll('.nav-btn').forEach(button => {
+        button.addEventListener('click', () => 
+            NavigationManager.setActiveChecklistButton(button)
         );
     });
 
@@ -443,8 +517,12 @@ function initializeEventListeners() {
 document.addEventListener('DOMContentLoaded', () => {
     initializeEventListeners();
     ScriptManager.updateTitles('all');
-    ScriptManager.updateModule();
+    
+    // Initialize both module types independently
+    ScriptManager.updateScriptModule();
+    ScriptManager.updateChecklistModule();
+    
     TooltipManager.init();
     SearchManager.init();
-    ResetManager.init(); // Initialize the reset functionality
+    ResetManager.init();
 });
