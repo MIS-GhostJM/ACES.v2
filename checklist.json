@@ -2,11 +2,11 @@
   {
     "id": "Manual Void",
     "created": "2025-02-26T09:57:39.188Z",
-    "updated": "2025-03-03T13:48:19.074Z",
+    "updated": "2025-03-03T16:10:13.642Z",
     "steps": [
       {
         "stepnumber": "1",
-        "title": "!!! DO NOT FORGET TO ADD GHOSTLINE",
+        "title": "[important:\"!!! DO NOT FORGET TO ADD GHOSTLINE\"]",
         "amadeus": [
           {
             "contentnumber": "1",
@@ -38,7 +38,7 @@
       },
       {
         "stepnumber": "3",
-        "title": "Always check for NO-SHOW policy of YY",
+        "title": "[important:\"Always check for NO-SHOW policy of YY\"]",
         "amadeus": [
           {
             "contentnumber": "1",
@@ -166,33 +166,33 @@
       },
       {
         "stepnumber": "11",
-        "title": "Note for SABRE: WV command action must be done twice to confirm it",
+        "title": "[important:\"Note for SABRE: WV command action must be done twice to confirm it\"]",
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ]
       },
       {
         "stepnumber": "12",
-        "title": "Void all tickets",
+        "title": "Delete all segments",
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": "[Command:\"XE(segment#)\"]"
+            "content": "--"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": "[Command:\"X(segment#)\"]"
+            "content": "--"
           }
         ]
       },
@@ -214,33 +214,33 @@
       },
       {
         "stepnumber": "14",
-        "title": "!!! Do IR and double check the booking ",
+        "title": "[important:\"!!! Do IR and double check the booking\"]",
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ]
       },
       {
         "stepnumber": "15",
-        "title": "Proceed with Modify Order key in Edvin & select VOID",
+        "title": "Proceed with Modify Order key in Edwin & select VOID",
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ]
       }
@@ -249,11 +249,11 @@
   {
     "id": "Manual Cancel",
     "created": "2025-03-03T14:41:41.743Z",
-    "updated": "2025-03-03T15:42:45.071Z",
+    "updated": "2025-03-03T16:06:26.561Z",
     "steps": [
       {
         "stepnumber": "1",
-        "title": "!!! DO NOT FORGET TO ADD GHOSTLINE",
+        "title": "[important:\"!!! DO NOT FORGET TO ADD GHOSTLINE\"]",
         "amadeus": [
           {
             "contentnumber": "1",
@@ -285,7 +285,7 @@
       },
       {
         "stepnumber": "3",
-        "title": "Check if the travel date of the customer is closely to the no-show policy of YY",
+        "title": "[important:\"Check if the travel date of the customer is closely to the no-show policy of YY\"]",
         "amadeus": [
           {
             "contentnumber": "1",
@@ -325,7 +325,7 @@
       },
       {
         "stepnumber": "5",
-        "title": "Ensure to check for the most restrctive fare rule in the policy ",
+        "title": "[important:\"Ensure to check for the most restrctive fare rule in the policy \"]",
         "amadeus": [
           {
             "contentnumber": "1",
@@ -421,7 +421,7 @@
       },
       {
         "stepnumber": "11",
-        "title": "Identify first the number of pricing units and fare components to understand the penalty application",
+        "title": "[important:\"Identify first the number of pricing units and fare components to understand the penalty application\"]",
         "amadeus": [
           {
             "contentnumber": "1",
@@ -453,7 +453,7 @@
       },
       {
         "stepnumber": "13",
-        "title": "!!! Calculate the cancellation fees and make sure that the BASE FARE of the ticket is higher than our cancellation fees",
+        "title": "[important:\"!!! Calculate the cancellation fees and make sure that the BASE FARE of the ticket is higher than our cancellation fees\"]",
         "amadeus": [
           {
             "contentnumber": "1",
@@ -501,7 +501,7 @@
       },
       {
         "stepnumber": "16",
-        "title": "!!! DO IR and double check",
+        "title": "[important:\"!!! DO IR and double check\"]",
         "amadeus": [
           {
             "contentnumber": "1",
@@ -533,7 +533,7 @@
       },
       {
         "stepnumber": "18",
-        "title": "!!! ALWAYS REVIEW IF WE \"NEED TO ESCALATE TO BO\"",
+        "title": "[important:\"!!! ALWAYS REVIEW (IF WE NEED TO ESCALATE TO BO)\"]",
         "amadeus": [
           {
             "contentnumber": "1",
@@ -549,7 +549,7 @@
       },
       {
         "stepnumber": "19",
-        "title": "!!! DOUBLE CHECK IN 2DOCS & FARE RULES FOR THE INFORMATION IF WE NEED TO ESCALATE IT",
+        "title": "[important:\"!!! DOUBLE CHECK IN 2DOCS & FARE RULES FOR THE INFORMATION IF WE NEED TO ESCALATE IT\"]",
         "amadeus": [
           {
             "contentnumber": "1",
@@ -565,7 +565,7 @@
       },
       {
         "stepnumber": "20",
-        "title": "!!! USE \" ESCALATE TO BO\" in REFUND TAB(REFUND BEFORE DEPARTURE)",
+        "title": "[important:\"!!! USE \" ESCALATE TO BO\" in REFUND TAB(REFUND BEFORE DEPARTURE)\"]",
         "amadeus": [
           {
             "contentnumber": "1",
