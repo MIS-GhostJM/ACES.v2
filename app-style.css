@@ -516,8 +516,7 @@ body {
     padding-right: 10px;
     padding-bottom: 2px;
     display: flex;
-    gap: 0.25rem;
-    margin-bottom: 5px;
+    gap: 0.5rem;
     background: #3a5c5a;
     border-bottom: 8px solid #2c3e50;
     top:50.2px;
@@ -573,29 +572,28 @@ body {
     align-items: center;
     margin-bottom: 5px;
     background: #3498db;
-    padding: 10px;
+    padding: 5px;
     border: 2px solid #3498db;
     border-radius: 8px;
-    font-size: 14px;
 }
 
 .checklist-header h3 {
-    font-size: 1rem;
+    font-size: 14px;
     color: #ffffff;
-    margin: 0;
+    font-weight: 600;
 }
 
 .reset-checklist {
     background-color: #e7881c;
     border: 1px solid #e7881c;
     border-radius: 4px;
-    padding: 6px 12px;
+    padding: 3px 8px;
     cursor: pointer;
     transition: all 0.2s ease;
     display: flex;
     align-items: center;
-    gap: 6px;
     color: #ffffff;
+    font-size: 12px;
 }
 
 .reset-checklist:hover {
@@ -721,8 +719,6 @@ tr[data-step-number="1"] .step-title,
 .check-list-nav-container {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #eee;
     padding-bottom: 10px;
 }
 
