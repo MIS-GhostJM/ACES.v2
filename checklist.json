@@ -245,5 +245,340 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Manual Cancel",
+    "created": "2025-03-03T14:41:41.743Z",
+    "updated": "2025-03-03T14:51:23.545Z",
+    "steps": [
+      {
+        "stepnumber": "1",
+        "title": "!!! DO NOT FORGET TO ADD GHOSTLINE",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "stepnumber": "2",
+        "title": "Check Edvin 2 or 3 Document for any cancellation restrictions",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "stepnumber": "3",
+        "title": "Check if the travel date of the customer is closely to the no-show policy of YY",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "stepnumber": "4",
+        "title": "Open the ticket mask",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"RTF/RTTN\"]"
+          },
+          {
+            "contentnumber": "2",
+            "content": "[Command:\"TWD/L1\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"*T\"]"
+          },
+          {
+            "contentnumber": "2",
+            "content": "[Command:\"WETR*2\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "5",
+        "title": "Ensure to check for the most restrctive fare rule in the policy ",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "stepnumber": "6",
+        "title": "Check the fare rule in specific GDS one by one",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "stepnumber": "7",
+        "title": "1st option: SMARTFLOW and GRAPHICAL MODE",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "Use Smartflow FQP"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "Use Graphical Mode"
+          }
+        ]
+      },
+      {
+        "stepnumber": "8",
+        "title": "2nd option: Backdate pricing",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"FXX/(segment #)/R,UP,(DOI)\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"WPB*(DOI) and use WPRD*PE or WPDF\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "9",
+        "title": "3rd option to display fare rules",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"FQD(CityPair)/R,UP,(DOI)/D(T Date)/A(YY)/C(COS)\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"FQ(DOI)(CityPair)(Tdate)¥Q(FBC)-YY\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "10",
+        "title": "4th option to display fare rules",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"RD(DOI)(CityPair)(Tdate)(FBC)-(YY)*PE\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "11",
+        "title": "Identify first the number of pricing units and fare components to understand the penalty application",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "stepnumber": "12",
+        "title": "To check for pricing unit / fare component",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "Use FQP in Smartflow and do FQN1*"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "WPB*(DOI) & do WPDF"
+          }
+        ]
+      },
+      {
+        "stepnumber": "13",
+        "title": "!!! Calculate the cancellation fees and make sure that the BASE FARE of the ticket is higher than our cancellation fees",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "stepnumber": "14",
+        "title": "Delete all  segments",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"XE(*Line Number)\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"X(*Line Number)\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "15",
+        "title": "Save",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"RFAB & ER\""
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"6AB & ER\""
+          }
+        ]
+      },
+      {
+        "stepnumber": "16",
+        "title": "!!! DO IR and double check",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "stepnumber": "17",
+        "title": "Proceed with Modify Order Key in Edvin",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "stepnumber": "18",
+        "title": "!!! ALWAYS REVIEW IF WE \"NEED TO ESCALATE TO BO\"",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "stepnumber": "19",
+        "title": "!!! DOUBLE CHECK IN 2DOCS & FARE RULES FOR THE INFORMATION IF WE NEED TO ESCALATE IT",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "stepnumber": "20",
+        "title": "!!! USE \" ESCALATE TO BO\" in REFUND TAB(REFUND BEFORE DEPARTURE)",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ]
+      }
+    ]
   }
 ]
