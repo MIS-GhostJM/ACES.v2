@@ -12,8 +12,7 @@
     <div class="app-container">
         <div class="head-banner">
             <div class="head-logo">
-                <h3><i class="fa-solid fa-comments"></i> A C E S</h3>
-                <h4>Automated Chat Enhancement Script</h4>
+                <img src="https://mis-ghostjm.github.io/ACES.v2/Aceslogo.png" alt="Aceslogo">
             </div>
             <div class="searchbar-group">
                 <select id="channel-selection">
@@ -245,8 +244,13 @@
                 <!--Checklis Page-->
                 <div class="sub-page" id="check-list-page">
                     <div class="check-list-nav-container">
-                        <button id="Automated Void-nav" class="nav-btn active">Automated Void</button>
-                        <button id="Automated Exchange-nav" class="nav-btn">Automated Exchange</button>
+                        <button id="Automated Void-nav" class="listnav-btn active">Automated Void</button>
+                        <button id="Automated Exchange-nav" class="listnav-btn">Automated Exchange</button>
+                        <button id="Automated Cancel-nav" class="listnav-btn">Automated Exchange</button>
+                        <button id="Manual Void-nav" class="listnav-btn">Manual Void</button>
+                        <button id="Manual Partial Exchange-nav" class="listnav-btn">Manual Partial Exchange</button>
+                        <button id="Manual Unused Exchange-nav" class="listnav-btn">Manual Unused Exchange</button>
+                        <button id="Manual Cancel-nav" class="listnav-btn">Manual Cancel</button>
                     </div>
 
                     <div class="checklist-canvas"></div>
@@ -258,5 +262,6 @@
     <script src="copy-functions.js" defer></script>
     <script src="sync-inputs.js" defer></script>
     <script src="errands-page.js"></script>
+    <script src="checklistcontroll.js"></script>
 </body>
 </html>
