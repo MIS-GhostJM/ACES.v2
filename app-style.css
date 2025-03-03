@@ -93,7 +93,32 @@ body {
     color: var(--white);
     width: 200px;
 }
+.search-clear-btn {
+    position: absolute;
+    right: 45px; /* Position it just before the search button */
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    display: none; /* Hidden by default */
+    z-index: 10;
+    padding: 5px;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
 
+.search-clear-btn:hover {
+    color: #333;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Ensure the parent container has position: relative for proper positioning */
+.searchbar-group {
+    position: relative;
+}
 #search-input::placeholder {
     color: rgba(255, 255, 255, 0.7);
 }
