@@ -66,10 +66,12 @@ document.addEventListener('DOMContentLoaded', () => {
             stepsHeader.textContent = 'Steps';
             
             const amadeusHeader = document.createElement('th');
-            amadeusHeader.textContent = 'Amadeus';
+            // Add Amadeus logo and text
+            amadeusHeader.innerHTML = '<img src="https://mis-ghostjm.github.io/ACES.v2/amadlogo.png" alt="Amadeus" style="height: 20px; vertical-align: middle; margin-right: 5px;">';
             
             const sabreHeader = document.createElement('th');
-            sabreHeader.textContent = 'Sabre';
+            // Add Sabre logo and text
+            sabreHeader.innerHTML = '<img src="https://mis-ghostjm.github.io/ACES.v2/sabrelogo.png" alt="Sabre" style="height: 20px; vertical-align: middle; margin-right: 5px;">';
             
             headerRow.appendChild(checkboxHeader);
             headerRow.appendChild(stepsHeader);
@@ -99,28 +101,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 checkbox.classList.add('step-checkbox');
                 checkbox.dataset.stepIndex = index;
                 
-                // Only enable the first checkbox initially
-                if (index > 0) {
-                    checkbox.disabled = true;
-                }
+                // Removed checkbox restriction - all checkboxes are now enabled
                 
                 checkbox.addEventListener('change', function() {
-                    handleCheckboxChange(this, row, tbody);
+                    handleCheckboxChange(this, row);
                 });
                 checkboxCell.appendChild(checkbox);
                 
-                // Add title cell
+                // Add title cell with formatted text
                 const titleCell = document.createElement('td');
                 titleCell.classList.add('step-title');
-                titleCell.textContent = step.title;
+                
+                // Process the title to handle [important:"text"] format
+                const formattedTitle = formatStepTitle(step.title);
+                titleCell.innerHTML = formattedTitle;
                 
                 // Make the title cell clickable to toggle checkbox
                 titleCell.addEventListener('click', function() {
-                    // Only respond to click if checkbox is not disabled
-                    if (!checkbox.disabled) {
-                        checkbox.checked = !checkbox.checked;
-                        handleCheckboxChange(checkbox, row, tbody);
-                    }
+                    checkbox.checked = !checkbox.checked;
+                    handleCheckboxChange(checkbox, row);
                 });
                 
                 // Add Amadeus cell
@@ -184,34 +183,40 @@ document.addEventListener('DOMContentLoaded', () => {
             checklistCanvas.appendChild(moduleDiv);
         });
 
-        // Add CSS for the command cells
-        addCommandCellStyles();
+        // Add CSS for the command cells and important text
+        addCustomStyles();
     }
 
-    // Function to handle checkbox change
-    function handleCheckboxChange(checkbox, row, tbody) {
-        row.classList.toggle('completed-step', checkbox.checked);
+    // Function to format step title - handle [important:"text"] format
+    function formatStepTitle(title) {
+        if (!title) return '';
         
-        // Get current step index
-        const currentIndex = parseInt(checkbox.dataset.stepIndex);
-        const checkboxes = tbody.querySelectorAll('.step-checkbox');
-        
-        if (checkbox.checked) {
-            // Enable the next checkbox if there is one
-            if (currentIndex + 1 < checkboxes.length) {
-                checkboxes[currentIndex + 1].disabled = false;
-            }
-        } else {
-            // If unchecking, disable and uncheck all subsequent steps
-            for (let i = currentIndex + 1; i < checkboxes.length; i++) {
-                checkboxes[i].disabled = true;
-                if (checkboxes[i].checked) {
-                    checkboxes[i].checked = false;
-                    const stepRow = checkboxes[i].closest('tr');
-                    stepRow.classList.remove('completed-step');
+        // Check if the title contains the [important:"..."] pattern
+        if (title.includes('[important:')) {
+            // If the entire title is an [important:"..."] tag, extract just the quoted text
+            if (title.startsWith('[important:') && title.endsWith(']')) {
+                const regex = /\[important:"([^"]+)"\]/;
+                const match = title.match(regex);
+                if (match && match[1]) {
+                    return `<span class="important-text">${match[1]}</span>`;
                 }
+            } else {
+                // If there are multiple parts, process each one
+                // Replace [important:"text"] with just the emphasized "text" part
+                return title.replace(/\[important:"([^"]+)"\]/g, (match, importantText) => {
+                    return `<span class="important-text">${importantText}</span>`;
+                });
             }
         }
+        
+        // Return the title as is if no [important:"..."] tag is found
+        return title;
+    }
+
+    // Function to handle checkbox change (simplified - no sequential requirement)
+    function handleCheckboxChange(checkbox, row) {
+        // Just toggle the completed state of the row based on checkbox state
+        row.classList.toggle('completed-step', checkbox.checked);
     }
 
     // Function to process command text
@@ -270,8 +275,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 1500);
     }
 
-    // Add CSS styles for command cells
-    function addCommandCellStyles() {
+    // Add CSS styles for command cells and important text
+    function addCustomStyles() {
         const style = document.createElement('style');
         style.textContent = `
             .command-cell {
@@ -295,14 +300,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 pointer-events: none;
             }
             tr.completed-step {
-                background-color:rgb(37, 150, 8);
+                background-color: rgb(37, 150, 8);
             }
             .step-title {
                 cursor: pointer;
             }
-            input[type="checkbox"]:disabled + .step-title {
-                cursor: not-allowed;
-                opacity: 0.7;
+            .important-text {
+                color: #ff0000;
+                font-weight: bold;
             }
         `;
         document.head.appendChild(style);
@@ -345,10 +350,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function resetCheckboxes(moduleDiv) {
         const checkboxes = moduleDiv.querySelectorAll('.step-checkbox');
-        checkboxes.forEach((checkbox, index) => {
+        checkboxes.forEach((checkbox) => {
             checkbox.checked = false;
-            // Reset disabled state - only first checkbox is enabled
-            checkbox.disabled = index !== 0;
             
             const row = checkbox.closest('tr');
             row.classList.remove('completed-step');
