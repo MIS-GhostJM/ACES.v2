@@ -249,7 +249,7 @@
   {
     "id": "Manual Cancel",
     "created": "2025-03-03T14:41:41.743Z",
-    "updated": "2025-03-03T16:06:26.561Z",
+    "updated": "2025-03-03T16:42:35.803Z",
     "steps": [
       {
         "stepnumber": "1",
@@ -549,7 +549,7 @@
       },
       {
         "stepnumber": "19",
-        "title": "[important:\"!!! DOUBLE CHECK IN 2DOCS & FARE RULES FOR THE INFORMATION IF WE NEED TO ESCALATE IT\"]",
+        "title": "[important:\"!!! DOUBLE CHECK IN 2DOCS & FARE RULES FOR THE INFORMATION IF WE NEED TO ESCALATE IT\"]\\",
         "amadeus": [
           {
             "contentnumber": "1",
@@ -565,7 +565,7 @@
       },
       {
         "stepnumber": "20",
-        "title": "[important:\"!!! USE \" ESCALATE TO BO\" in REFUND TAB(REFUND BEFORE DEPARTURE)\"]",
+        "title": "[important:\"!!! USE 'ESCALATE TO BO' in REFUND TAB(REFUND BEFORE DEPARTURE)\"]",
         "amadeus": [
           {
             "contentnumber": "1",
