@@ -517,7 +517,7 @@ body {
     padding-bottom: 2px;
     display: flex;
     gap: 0.25rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 5px;
     background: #3a5c5a;
     border-bottom: 8px solid #2c3e50;
     top:50.2px;
@@ -638,8 +638,8 @@ body {
 }
 
 .checklist-table tr:hover {
-    background: #cfcd3a;
-    color: #000000;
+    background-color: #cfcd3a;
+    color: #d9ff00;
 }
 
 .checkbox-column {
