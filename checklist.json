@@ -1,93 +1,249 @@
 [
-    {
-      "id": "Manual Void",
-      "created": "2025-02-26T09:57:39.188Z",
-      "updated": "2025-02-26T09:57:39.188Z",
-      "steps":
-      [{
-        "stepnumber":"1",
-        "title":"!!! DO NOT FORGET TO ADD GHOSTLINE",
-        "amadeus":
-        [{
-            "contentnumber":"1",
-            "content":""
-        }],
-        "sabre":
-        [{
-            "contentnumber":"1",
-            "content":""
-        }]
+  {
+    "id": "Manual Void",
+    "created": "2025-02-26T09:57:39.188Z",
+    "updated": "2025-03-03T13:48:19.074Z",
+    "steps": [
+      {
+        "stepnumber": "1",
+        "title": "!!! DO NOT FORGET TO ADD GHOSTLINE",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
       },
       {
-        "stepnumber":"2",
-        "title":"Check Edvin 2 or 3 document tab for any restriction",
-        "amadeus":
-        [{
-            "contentnumber":"1",
-            "content":""
-        }],
-        "sabre":
-        [{
-            "contentnumber":"1",
-            "content":""
-        }]
+        "stepnumber": "2",
+        "title": "Check Edvin 2 or 3 document tab for any restriction",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
       },
       {
-        "stepnumber":"3",
-        "title":"Always check for NO-SHOW policy of YY",
-        "amadeus":
-        [{
-            "contentnumber":"1",
-            "content":""
-        }],
-        "sabre":
-        [{
-            "contentnumber":"1",
-            "content":""
-        }]
+        "stepnumber": "3",
+        "title": "Always check for NO-SHOW policy of YY",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
       },
       {
-        "stepnumber":"4",
-        "title":"NOTE: Voiding ticket is only possible if the ticket was issued same day",
-        "amadeus":
-        [{
-            "contentnumber":"1",
-            "content":""
-        }],
-        "sabre":
-        [{
-            "contentnumber":"1",
-            "content":""
-        }]
+        "stepnumber": "4",
+        "title": "NOTE: Voiding ticket is only possible if the ticket was issued same day",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
       },
       {
-        "stepnumber":"5",
-        "title":"Open the ticket mask of all passenger/s",
-        "amadeus":
-        [{
-            "contentnumber":"1",
-            "content":"RTTN / RTF"
-        }],
-        "sabre":
-        [{
-            "contentnumber":"1",
-            "content":"*T"
-        }]
+        "stepnumber": "5",
+        "title": "Open the ticket mask of all passenger/s",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"RTTN / RTF\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"*T\"]"
+          }
+        ]
       },
       {
-        "stepnumber":"6",
-        "title":"Ticket status must be on O or A",
-        "amadeus":
-        [{
-            "contentnumber":"1",
-            "content":"TWD/L(line#)"
-        }],
-        "sabre":
-        [{
-            "contentnumber":"1",
-            "content":"WETR*(tkt. line #)"
-        }]
+        "stepnumber": "6",
+        "title": "Ticket status must be on O or A",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"TWD/L(line#)\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"WETR*(tkt. line #)\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "7",
+        "title": "Check if the airline is allowing void",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"HEETTYY\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"WETP*YY\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "8",
+        "title": "Check the current time in the respective office ID/PCC",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"DD(OID)\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"W/*(PCC)\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "9",
+        "title": "Compare the local time both in issuing PCC and in your timeline(SABRE)",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"T*(3 letter country code)\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "10",
+        "title": "Void all tickets",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"TRDC/ALL\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"WV(tkt. line#)\"](TWICE)"
+          }
+        ]
+      },
+      {
+        "stepnumber": "11",
+        "title": "Note for SABRE: WV command action must be done twice to confirm it",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "stepnumber": "12",
+        "title": "Void all tickets",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"XE(segment#)\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"X(segment#)\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "13",
+        "title": "Save",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"RFAB & ER\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"6AB & ER\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "14",
+        "title": "!!! Do IR and double check the booking ",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "stepnumber": "15",
+        "title": "Proceed with Modify Order key in Edvin & select VOID",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": ""
+          }
+        ]
       }
     ]
-    }
+  }
 ]
