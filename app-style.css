@@ -517,7 +517,7 @@ body {
     padding-bottom: 2px;
     display: flex;
     gap: 0.25rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
     background: #3a5c5a;
     border-bottom: 8px solid #2c3e50;
     top:50.2px;
@@ -551,7 +551,7 @@ body {
 /* Checklist Styles */
 .checklist-canvas {
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     background-color: linear-gradient(135deg, #2c3e50, #3498db);
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -571,15 +571,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     background: #3498db;
-    padding: 5px;
+    padding: 10px;
     border: 2px solid #3498db;
     border-radius: 8px;
+    font-size: 14px;
 }
 
 .checklist-header h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #ffffff;
     margin: 0;
 }
@@ -609,7 +610,7 @@ body {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
-    background-color: rgb(103, 104, 98);
+    background-color: linear-gradient(to right, #3b88d4, #21c0e7);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: hidden;
@@ -619,10 +620,10 @@ body {
 .checklist-table th {
     background-color: #4682B4;
     color: white;
-    padding: 12px 15px;
-    font-size: 14px;
+    padding: 6px 10px;
+    font-size: 12px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     border: 2px solid #000000;
     border-collapse: collapse;
 }
@@ -633,10 +634,11 @@ body {
     border: 1px solid #000000;
     text-align: center;
     border-collapse: collapse;
+    background: linear-gradient(to right, #076152, #045164);
 }
 
 .checklist-table tr:hover {
-    background-color: #cfcd3a;
+    background: #cfcd3a;
     color: #000000;
 }
 
@@ -665,12 +667,12 @@ tr[data-step-number="1"] .step-title,
     font-weight: bold;
 }
 
-.completed-step {
-    background-color: #e8f4e5;
+.completed-step .important-text {
+    color: #28a808;
 }
 
 .completed-step td {
-    color: #000000;
+    color: #4bb306a6;
     text-decoration: line-through;
 }
 
