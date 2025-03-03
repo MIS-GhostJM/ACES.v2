@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Create modules for each checklist type
         checklists.forEach((checklist, index) => {
             // Only set the first one (Automated Void) as active by default
-            const isActive = checklist.id === 'Automated Void';
+            const isActive = checklist.id === 'Manual Void';
             
             // Create the module container
             const moduleDiv = document.createElement('div');
@@ -318,7 +318,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Set Automated Void as active by default
         navButtons.forEach(button => {
-            button.classList.toggle('active', button.id === 'Automated Void-nav');
+            button.classList.toggle('active', button.id === 'Manual Void-nav');
         });
         
         navButtons.forEach(button => {
