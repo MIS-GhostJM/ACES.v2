@@ -155,6 +155,13 @@ document.addEventListener('DOMContentLoaded', function () {
             margin-right: 10px;
             font-size: 18px;
         }
+        
+        .archive-header {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
     `;
     document.head.appendChild(style);
 
@@ -233,6 +240,33 @@ document.addEventListener('DOMContentLoaded', function () {
                 );
             });
         }
+        
+        // Add new buttons to archive header
+        addArchiveActionButtons();
+    }
+    
+    // Add Excel download and Copy All buttons to archive header
+    function addArchiveActionButtons() {
+        const archiveHeader = document.querySelector('.archive-header');
+        if (!archiveHeader) return;
+        
+        // Create download Excel button
+        const downloadExcelBtn = document.createElement('button');
+        downloadExcelBtn.id = 'download-excel-btn';
+        downloadExcelBtn.className = 'archive-action-btn';
+        downloadExcelBtn.innerHTML = '<i class="fa-solid fa-file-excel"></i> Download Excel';
+        downloadExcelBtn.addEventListener('click', downloadArchivedAsExcel);
+        
+        // Create copy all button
+        const copyAllBtn = document.createElement('button');
+        copyAllBtn.id = 'copy-all-btn';
+        copyAllBtn.className = 'archive-action-btn';
+        copyAllBtn.innerHTML = '<i class="fa-solid fa-copy"></i> Copy All';
+        copyAllBtn.addEventListener('click', copyAllArchived);
+        
+        // Add buttons to header
+        archiveHeader.appendChild(downloadExcelBtn);
+        archiveHeader.appendChild(copyAllBtn);
     }
 
     // Create dialog elements
@@ -481,6 +515,99 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem('archivedErrands', JSON.stringify([]));
         updateArchiveDisplay();
         showToast('All archived errands have been cleared', 'fa-trash-can', 3000);
+    }
+    
+    // Download archived errands as Excel file
+    function downloadArchivedAsExcel() {
+        const archivedErrands = JSON.parse(localStorage.getItem('archivedErrands')) || [];
+        
+        if (archivedErrands.length === 0) {
+            showAlertDialog('No Data', 'There are no archived errands to download.', 'fa-info-circle');
+            return;
+        }
+        
+        // Create CSV content
+        let csvContent = 'Interaction ID,Customer Name,DPA,Relationship,Query,Resolution,YY RL/Ticket,Ghostline,Validated By,Notes,Archived Date\n';
+        
+        archivedErrands.forEach(errand => {
+            // Properly escape fields that might contain commas
+            const escapeCsvField = (field) => {
+                if (field === undefined || field === null) return '';
+                const str = String(field);
+                if (str.includes(',') || str.includes('"') || str.includes('\n')) {
+                    return `"${str.replace(/"/g, '""')}"`;
+                }
+                return str;
+            };
+            
+            csvContent += [
+                escapeCsvField(errand.interactionId),
+                escapeCsvField(errand.customerName),
+                escapeCsvField(errand.dpa),
+                escapeCsvField(errand.relationship),
+                escapeCsvField(errand.query),
+                escapeCsvField(errand.resolution),
+                escapeCsvField(errand.yyrl),
+                escapeCsvField(errand.ghostline),
+                escapeCsvField(errand.validator),
+                escapeCsvField(errand.notes),
+                escapeCsvField(errand.archivedDate)
+            ].join(',') + '\n';
+        });
+        
+        // Create a blob and download link
+        const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.setAttribute('href', url);
+        link.setAttribute('download', `archived_errands_${new Date().toISOString().slice(0,10)}.csv`);
+        link.style.visibility = 'hidden';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        
+        showToast('Excel file downloaded successfully!', 'fa-file-excel', 3000);
+    }
+    
+    // Copy all archived errands to clipboard
+    function copyAllArchived() {
+        const archivedErrands = JSON.parse(localStorage.getItem('archivedErrands')) || [];
+        
+        if (archivedErrands.length === 0) {
+            showAlertDialog('No Data', 'There are no archived errands to copy.', 'fa-info-circle');
+            return;
+        }
+        
+        let clipboardText = '';
+        
+        archivedErrands.forEach((errand, index) => {
+            if (index > 0) {
+                clipboardText += '\n' + '-'.repeat(50) + '\n\n';
+            }
+            
+            clipboardText += `Interaction ID: ${errand.interactionId || 'N/A'}\n`;
+            clipboardText += `Customer Name: ${errand.customerName || 'N/A'}\n`;
+            clipboardText += `DPA: ${errand.dpa || 'N/A'}\n`;
+            clipboardText += `Relationship: ${errand.relationship || 'N/A'}\n`;
+            clipboardText += `Query: ${errand.query || 'N/A'}\n`;
+            clipboardText += `Resolution: ${errand.resolution || 'N/A'}\n`;
+            clipboardText += `YY RL/Ticket No.: ${errand.yyrl || 'N/A'}\n`;
+            clipboardText += `Ghostline: ${errand.ghostline || 'N/A'}\n`;
+            clipboardText += `Validated by: ${errand.validator || 'N/A'}\n`;
+            
+            if (errand.notes && errand.notes.trim() !== '') {
+                clipboardText += `Notes:\n${errand.notes}\n`;
+            }
+            
+            clipboardText += `Archived: ${errand.archivedDate}\n`;
+        });
+        
+        navigator.clipboard.writeText(clipboardText).then(() => {
+            showToast(`Copied ${archivedErrands.length} archived errands to clipboard`, 'fa-copy', 3000);
+        }).catch(err => {
+            console.error('Failed to copy text: ', err);
+            showAlertDialog('Copy Failed', 'Failed to copy to clipboard. The data may be too large.', 'fa-exclamation-triangle');
+        });
     }
 
     // Before unload warning
