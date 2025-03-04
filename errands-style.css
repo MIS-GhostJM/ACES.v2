@@ -192,13 +192,13 @@
     border-radius: 12px;
 }
 
-.archive-action-btn {
+#clear-archive-btn {
     padding: 8px 12px;
     background: #e74c3c;
     color: white;
     border: none;
     border-radius: 6px;
-    font-size: 13px;
+    font-size: 11px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -206,9 +206,47 @@
     transition: var(--transition);
 }
 
-.archive-action-btn:hover {
+#clear-archive-btn:hover {
     background: #c0392b;
 }
+
+#download-excel-btn {
+    padding: 8px 12px;
+    background: #1a9103;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 11px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: var(--transition);
+}
+
+#download-excel-btn:hover {
+    background: #91f038;
+}
+
+#copy-all-btn {
+    padding: 8px 12px;
+    background: #09b4c0;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 11px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: var(--transition);
+}
+
+#copy-all-btn:hover {
+    background: #45b8fa;
+}
+
+
 
 .archived-table-container {
     background: white;
