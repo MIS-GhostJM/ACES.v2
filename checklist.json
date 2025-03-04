@@ -249,7 +249,7 @@
   {
     "id": "Manual Cancel",
     "created": "2025-03-03T14:41:41.743Z",
-    "updated": "2025-03-03T16:54:07.853Z",
+    "updated": "2025-03-04T07:58:05.364Z",
     "steps": [
       {
         "stepnumber": "1",
@@ -257,13 +257,13 @@
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ]
       },
@@ -273,13 +273,13 @@
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ]
       },
@@ -289,13 +289,13 @@
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ]
       },
@@ -329,13 +329,13 @@
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ]
       },
@@ -345,13 +345,13 @@
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ]
       },
@@ -425,13 +425,13 @@
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ]
       },
@@ -457,13 +457,13 @@
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ]
       },
@@ -505,13 +505,13 @@
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ]
       },
@@ -521,13 +521,13 @@
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ]
       },
@@ -537,29 +537,29 @@
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ]
       },
       {
         "stepnumber": "19",
-        "title": "[important:\"!!! DOUBLE CHECK IN 2DOCS & FARE RULES FOR THE INFORMATION IF WE NEED TO ESCALATE IT\"]",
+        "title": "[important:\"!!! DOUBLE CHECK IN 2DOCS & FARE RULES FOR THE INFORMATION IF WE NEED TO ESCALATE IT\"]\\",
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ]
       },
@@ -569,13 +569,13 @@
         "amadeus": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ],
         "sabre": [
           {
             "contentnumber": "1",
-            "content": ""
+            "content": "--"
           }
         ]
       }
