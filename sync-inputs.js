@@ -1,10 +1,28 @@
 document.addEventListener('DOMContentLoaded', () => {
     const scriptCanvas = document.querySelector('.script-canvas');
     const scriptNavContainer = document.querySelector('.script-nav-container');
-    const jsonFilePath = 'https://mis-ghostjm.github.io/ACES.v2/scripts-list.json';
+    const jsonFilePath = 'https://mis-ghostjm.github.io/Scripts-beta-test/scripts.json';
     const customerInput = document.getElementById('customer');
     const agentInput = document.getElementById('user');
     let stateManager;
+
+    // Configure timestamp settings - easily adjustable
+    const timestampConfig = {
+        timeframe: {
+            days: 7,  // Changed from 24 hours to 7 days
+            getMilliseconds: function() {
+                return this.days * 24 * 60 * 60 * 1000;
+            }
+        },
+        labels: {
+            new: 'New',
+            updated: 'Updated'
+        },
+        styles: {
+            newColor: '#2ecc71',
+            updatedColor: '#3498db'
+        }
+    };
 
     fetch(jsonFilePath)
         .then(response => response.json())
@@ -151,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     contentContainer.innerHTML = convertToEditable(card.content);
                     cardDiv.appendChild(contentContainer);
                     
-                    // Check if card is new or updated within last 24 hours
+                    // Check if card is new or updated using the timestamp configuration
                     addTimestampBanner(cardDiv);
                     
                     if (typeof CardModule !== 'undefined' && stateManager) {
@@ -172,8 +190,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!createdTimestamp && !updatedTimestamp) return;
         
         const now = new Date();
-        const isNew = createdTimestamp && isWithin24Hours(createdTimestamp, now);
-        const isUpdated = updatedTimestamp && isWithin24Hours(updatedTimestamp, now);
+        const isNew = createdTimestamp && isWithinTimeframe(createdTimestamp, now);
+        const isUpdated = updatedTimestamp && isWithinTimeframe(updatedTimestamp, now);
         
         if (isNew || isUpdated) {
             const bannerDiv = document.createElement('div');
@@ -182,10 +200,10 @@ document.addEventListener('DOMContentLoaded', () => {
             // Priority to "New" if both conditions are true
             if (isNew) {
                 bannerDiv.classList.add('new-banner');
-                bannerDiv.textContent = 'New';
+                bannerDiv.textContent = timestampConfig.labels.new;
             } else {
                 bannerDiv.classList.add('updated-banner');
-                bannerDiv.textContent = 'Updated';
+                bannerDiv.textContent = timestampConfig.labels.updated;
             }
             
             // Insert banner as first child of card
@@ -223,18 +241,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
     
-    function isWithin24Hours(timestamp, currentTime) {
+    // Updated function to use the configurable timeframe
+    function isWithinTimeframe(timestamp, currentTime) {
         // Parse the timestamp (expected format: ISO string or similar date format)
         const date = new Date(timestamp);
         
         // Calculate the difference in milliseconds
         const diffMs = currentTime - date;
         
-        // Convert to hours
-        const diffHours = diffMs / (1000 * 60 * 60);
-        
-        // Return true if less than 24 hours
-        return diffHours < 24;
+        // Compare with the configured timeframe in milliseconds
+        return diffMs < timestampConfig.timeframe.getMilliseconds();
     }
     
     function addBannerStyles() {
@@ -258,11 +274,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 
                 .new-banner {
-                    background-color: #2ecc71;
+                    background-color: ${timestampConfig.styles.newColor};
                 }
                 
                 .updated-banner {
-                    background-color: #3498db;
+                    background-color: ${timestampConfig.styles.updatedColor};
                 }
                 
                 .card-module {
