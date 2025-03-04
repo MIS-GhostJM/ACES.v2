@@ -156,12 +156,6 @@ document.addEventListener('DOMContentLoaded', function () {
             font-size: 18px;
         }
         
-        .archive-header {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
     `;
     document.head.appendChild(style);
 
@@ -247,26 +241,22 @@ document.addEventListener('DOMContentLoaded', function () {
     
     // Add Excel download and Copy All buttons to archive header
     function addArchiveActionButtons() {
-        const archiveHeader = document.querySelector('.archive-header');
+        const archiveHeader = document.querySelector('.archive-actions');
         if (!archiveHeader) return;
         
-        // Create download Excel button
-        const downloadExcelBtn = document.createElement('button');
-        downloadExcelBtn.id = 'download-excel-btn';
-        downloadExcelBtn.className = 'archive-action-btn';
-        downloadExcelBtn.innerHTML = '<i class="fa-solid fa-file-excel"></i> Download Excel';
-        downloadExcelBtn.addEventListener('click', downloadArchivedAsExcel);
+        // Get references to existing buttons instead of creating new ones
+        const downloadExcelBtn = document.getElementById('download-excel-btn');
+        const copyAllBtn = document.getElementById('copy-all-btn');
         
-        // Create copy all button
-        const copyAllBtn = document.createElement('button');
-        copyAllBtn.id = 'copy-all-btn';
-        copyAllBtn.className = 'archive-action-btn';
-        copyAllBtn.innerHTML = '<i class="fa-solid fa-copy"></i> Copy All';
-        copyAllBtn.addEventListener('click', copyAllArchived);
+        // Add event listeners to the existing buttons
+        if (downloadExcelBtn) {
+            downloadExcelBtn.addEventListener('click', downloadArchivedAsExcel);
+        }
         
-        // Add buttons to header
-        archiveHeader.appendChild(downloadExcelBtn);
-        archiveHeader.appendChild(copyAllBtn);
+        if (copyAllBtn) {
+            copyAllBtn.addEventListener('click', copyAllArchived);
+        }
+        
     }
 
     // Create dialog elements
@@ -527,7 +517,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         
         // Create CSV content
-        let csvContent = 'Interaction ID,Customer Name,DPA,Relationship,Query,Resolution,YY RL/Ticket,Ghostline,Validated By,Notes,Archived Date\n';
+        let csvContent = 'Interaction ID,Archived Date,Customer Name,DPA,Relationship,Query,Resolution,YY RL/Ticket,Ghostline,Validated By,Notes\n';
         
         archivedErrands.forEach(errand => {
             // Properly escape fields that might contain commas
@@ -542,6 +532,7 @@ document.addEventListener('DOMContentLoaded', function () {
             
             csvContent += [
                 escapeCsvField(errand.interactionId),
+                escapeCsvField(errand.archivedDate),
                 escapeCsvField(errand.customerName),
                 escapeCsvField(errand.dpa),
                 escapeCsvField(errand.relationship),
@@ -550,8 +541,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 escapeCsvField(errand.yyrl),
                 escapeCsvField(errand.ghostline),
                 escapeCsvField(errand.validator),
-                escapeCsvField(errand.notes),
-                escapeCsvField(errand.archivedDate)
+                escapeCsvField(errand.notes)
             ].join(',') + '\n';
         });
         
@@ -582,10 +572,10 @@ document.addEventListener('DOMContentLoaded', function () {
         
         archivedErrands.forEach((errand, index) => {
             if (index > 0) {
-                clipboardText += '\n' + '-'.repeat(50) + '\n\n';
+                clipboardText += '\n' + '*-'.repeat(20) +'*'+ '\n\n';
             }
             
-            clipboardText += `Interaction ID: ${errand.interactionId || 'N/A'}\n`;
+            clipboardText += `Interaction ID:\n${errand.interactionId || 'N/A'}\n`;
             clipboardText += `Customer Name: ${errand.customerName || 'N/A'}\n`;
             clipboardText += `DPA: ${errand.dpa || 'N/A'}\n`;
             clipboardText += `Relationship: ${errand.relationship || 'N/A'}\n`;
@@ -596,7 +586,7 @@ document.addEventListener('DOMContentLoaded', function () {
             clipboardText += `Validated by: ${errand.validator || 'N/A'}\n`;
             
             if (errand.notes && errand.notes.trim() !== '') {
-                clipboardText += `Notes:\n${errand.notes}\n`;
+                clipboardText += `Notes:\n-- ${errand.notes}\n\n`;
             }
             
             clipboardText += `Archived: ${errand.archivedDate}\n`;
