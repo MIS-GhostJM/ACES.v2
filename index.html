@@ -200,9 +200,17 @@
                     <div class="archived-errands-section">
                         <div class="archive-header">
                             <h3>Archived Errands</h3>
-                            <button id="clear-archive-btn" class="archive-action-btn">
-                                <i class="fa-solid fa-trash-can"></i> Clear Archive
-                            </button>
+                            <div class="archive-actions">
+                                <button id="copy-all-btn" class="archive-action-btn">
+                                    <i class="fa-solid fa-copy"></i> Copy All
+                                </button>
+                                <button id="download-excel-btn" class="archive-action-btn">
+                                    <i class="fa-solid fa-file-excel"></i> Download Excel
+                                </button>
+                                <button id="clear-archive-btn" class="archive-action-btn">
+                                    <i class="fa-solid fa-trash-can"></i> Clear Archive
+                                </button>
+                            </div>
                         </div>
                         <div class="archived-table-container">
                             <table id="archived-errands-table">
@@ -244,10 +252,10 @@
                 <!--Checklis Page-->
                 <div class="sub-page" id="check-list-page">
                     <div class="check-list-nav-container">
-                        <button id="Automated Void-nav" class="listnav-btn active">Automated Void</button>
+                        <button id="Automated Void-nav" class="listnav-btn">Automated Void</button>
                         <button id="Automated Exchange-nav" class="listnav-btn">Automated Exchange</button>
                         <button id="Automated Cancel-nav" class="listnav-btn">Automated Exchange</button>
-                        <button id="Manual Void-nav" class="listnav-btn">Manual Void</button>
+                        <button id="Manual Void-nav" class="listnav-btn active">Manual Void</button>
                         <button id="Manual Partial Exchange-nav" class="listnav-btn">Manual Partial Exchange</button>
                         <button id="Manual Unused Exchange-nav" class="listnav-btn">Manual Unused Exchange</button>
                         <button id="Manual Cancel-nav" class="listnav-btn">Manual Cancel</button>
@@ -262,6 +270,6 @@
     <script src="copy-functions.js" defer></script>
     <script src="sync-inputs.js" defer></script>
     <script src="errands-page.js"></script>
-    <script src="checklistcontroll.js"></script>
+    <script src="checklistcontroll.js" defer></script>
 </body>
 </html>
