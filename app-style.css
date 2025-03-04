@@ -670,12 +670,10 @@ tr[data-step-number="1"] .step-title,
 }
 
 .completed-step td {
-    text-decoration: line-through;
     background: #28a808;
 }
 
 .completed-step .step-title {
-    text-decoration: line-through;
     background: #28a808;
 }
 
