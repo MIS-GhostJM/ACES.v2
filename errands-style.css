@@ -176,20 +176,34 @@
 }
 
 .archive-header {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-left: 15px;
     align-items: center;
     margin-bottom: 15px;
     border-radius: 12px;
-    padding: 5px;
     background: #0f3964;
 }
+
 
 .archive-header h3 {
     font-size: 16px;
     font-weight: 700;
     color: #ffffff;
     border-radius: 12px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.archive-actions {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 16px;
+    display: flex;
+    padding: 2px;
 }
 
 #clear-archive-btn {
