@@ -1,7 +1,6 @@
 // Update the existing checklistcontroll.js with enhanced functionality
 document.addEventListener('DOMContentLoaded', () => {
     const checklistCanvas = document.querySelector('.checklist-canvas');
-    const checklistNavContainer = document.querySelector('.check-list-nav-container');
     const jsonFilePath = 'https://mis-ghostjm.github.io/ACES.v2/checklist.json';
 
     // Fetch the checklist data
@@ -284,15 +283,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 position: relative;
             }
             .command-cell:hover {
-                color:rgb(248, 236, 132);
+                color:rgb(0, 0, 0);
             }
             .command-cell:active {
-                color:rgb(176, 184, 68);
+                color:rgb(0, 0, 0);
             }
             .copy-feedback {
                 position: fixed;
-                background-color: rgba(0, 0, 0, 0.8);
-                color: white;
+                background-color: rgba(255, 255, 255, 0.8);
+                color: rgb(0, 0, 0);
                 padding: 5px 10px;
                 border-radius: 4px;
                 font-size: 12px;
@@ -300,7 +299,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 pointer-events: none;
             }
             tr.completed-step {
-                background-color: rgb(37, 150, 8);
+                background: rgb(37, 150, 8);
             }
             .step-title {
                 cursor: pointer;
