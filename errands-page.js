@@ -410,14 +410,21 @@ document.addEventListener('DOMContentLoaded', function () {
     function copyFormData(formIndex) {
         const form = document.querySelector(`.form-container:nth-child(${formIndex})`);
         let copiedData = '';
-
+    
+        // Copy text inputs
         form.querySelectorAll("input[type='text']").forEach(input => {
             if (input.value.trim()) {
                 const label = form.querySelector(`label[for='${input.id}']`).textContent.trim();
                 copiedData += `${label}: ${input.value}\n`;
             }
         });
-
+    
+        // Copy notes textarea
+        const notesTextarea = form.querySelector('textarea[name="notes"]');
+        if (notesTextarea && notesTextarea.value.trim()) {
+            copiedData += `Notes:\n--${notesTextarea.value.trim()}\n`;
+        }
+    
         if (copiedData) {
             navigator.clipboard.writeText(copiedData).then(() => {
                 showToast('Data copied to clipboard!', 'fa-copy', 2000);
