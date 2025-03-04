@@ -230,7 +230,7 @@
     "description": "To use when the customer doesn't respond for 2 minutes. Send it and wait for another 3 min.",
     "cards": [
       {
-        "content": " ETG/B.com UK To use when the customer doesn't respond for 2 minutes. Send it and wait for another 3 min.  Hi, I wanted to check in to see if you're still with us. Please reply so I can continue assisting you. If I don't hear from you in the next 3 minutes, the chat will close due to inactivity.<br><br>Don't worry - you can always reach out again whenever you’re ready. We’re here to help!",
+        "content": "Hi, I wanted to check in to see if you're still with us. Please reply so I can continue assisting you. If I don't hear from you in the next 3 minutes, the chat will close due to inactivity.<br><br>Don't worry - you can always reach out again whenever you’re ready. We’re here to help!",
         "created": "2025-02-26T09:57:39.188Z",
         "updated": "2025-02-26T09:57:39.188Z"
       }
@@ -277,7 +277,7 @@
         "updated": "2025-02-26T09:57:39.188Z"
       },
       {
-        "content": "Thank you for contacting us. Have a nice day!.",
+        "content": "Thank you for reaching out. Have a wonderful day!.",
         "created": "2025-02-26T09:57:39.188Z",
         "updated": "2025-02-26T09:57:39.188Z"
       }
@@ -294,22 +294,6 @@
     "cards": [
       {
         "content": "We apologize for the inconvenience, but we're unable to assist you at this moment. Your satisfaction is important to us, and we're continuously striving to improve our service. Please feel free to reach out in the future for any assistance. This chat will now close.",
-        "created": "2025-02-26T09:57:39.188Z",
-        "updated": "2025-02-26T09:57:39.188Z"
-      }
-    ],
-    "tags": [],
-    "created": "2025-02-24",
-    "updated": "2025-02-26T09:57:39.188Z"
-  },
-  {
-    "id": "Closing",
-    "category": "chat",
-    "title": "To use when the customer doesn't respond for 2 minutes. Send it and wait for another 3 minutes",
-    "description": "",
-    "cards": [
-      {
-        "content": "I didn't receive any response, and I want to make sure we're still connected. Let me know by responding to the chat. Otherwise, this chat will close in 3 minutes.",
         "created": "2025-02-26T09:57:39.188Z",
         "updated": "2025-02-26T09:57:39.188Z"
       }
