@@ -192,20 +192,10 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Check if the title contains the [important:"..."] pattern
         if (title.includes('[important:')) {
-            // If the entire title is an [important:"..."] tag, extract just the quoted text
-            if (title.startsWith('[important:') && title.endsWith(']')) {
-                const regex = /\[important:"([^"]+)"\]/;
-                const match = title.match(regex);
-                if (match && match[1]) {
-                    return `<span class="important-text">${match[1]}</span>`;
-                }
-            } else {
-                // If there are multiple parts, process each one
-                // Replace [important:"text"] with just the emphasized "text" part
-                return title.replace(/\[important:"([^"]+)"\]/g, (match, importantText) => {
-                    return `<span class="important-text">${importantText}</span>`;
-                });
-            }
+            // Replace all [important:"text"] with emphasized version
+            return title.replace(/\[important:"([^"]+)"\]/g, (match, importantText) => {
+                return `<span class="important-text">${importantText}</span>`;
+            });
         }
         
         // Return the title as is if no [important:"..."] tag is found
@@ -220,17 +210,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Function to process command text
     function processCommandText(text) {
-        if (!text.includes('[Command:')) {
-            return text;
+        // First, handle important text
+        if (text.includes('[important:')) {
+            text = text.replace(/\[important:"([^"]+)"\]/g, (match, importantText) => {
+                return `<span class="important-text">${importantText}</span>`;
+            });
+        }
+    
+        // Then handle command text
+        if (text.includes('[Command:')) {
+            const regex = /\[Command:"([^"]+)"\]/g;
+            return text.replace(regex, (match, commandText) => {
+                return commandText;
+            });
         }
         
-        // Regex to find [Command:"text"] pattern
-        const regex = /\[Command:"([^"]+)"\]/g;
-        
-        // Replace [Command:"text"] with just the "text" part
-        return text.replace(regex, (match, commandText) => {
-            return commandText;
-        });
+        return text;
     }
 
     // Function to copy command text to clipboard
