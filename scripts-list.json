@@ -1918,5 +1918,2969 @@
     "tags": [],
     "created": "2025-02-24",
     "updated": "2025-02-26T09:57:39.188Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Chat Opening (asking to wait) ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Hi,  {Cx Name}, my name is  {Agent Name}. Please give me a moment to review your request.",
+        "created": "2025-03-04T16:05:50.833Z",
+        "updated": "2025-03-04T16:08:37.993Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:08:39.545Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Chat Opening (asking to state the request) ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Hi, {Cx Name}, my name is {Agent Name}. How may I help you with your booking?",
+        "created": "2025-03-04T16:08:39.546Z",
+        "updated": "2025-03-04T16:09:15.083Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:09:16.570Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Chat Opening due to long wait time (more than 5 minutes) Request stated ETG/B.com UK",
+    "description": "The customer has gone through the workflow and is waiting to be connected to the agent",
+    "cards": [
+      {
+        "content": "Hi {Cx Name}, this is {Agent Name}.    Thank you for your patience as we handle a high volume of requests. I'll review your case details and be with you shortly!",
+        "created": "2025-03-04T16:09:16.570Z",
+        "updated": "2025-03-04T16:09:56.955Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:10:00.609Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Chat Opening after connecting with the chat BOT (but no resolution) ETG UK",
+    "description": "The customer has gone through our chatbot however his query was not resolved and is now connected to the agent",
+    "cards": [
+      {
+        "content": "Hi {Cx Name}, this is {Agent Name} from [BRAND] Support.   I noticed our chatbot couldn't fully assist you—my apologies for the inconvenience, and thank you for your patience!  I'll review your case details and be with you shortly!",
+        "created": "2025-03-04T16:10:00.610Z",
+        "updated": "2025-03-04T16:10:46.009Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:10:52.193Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Order not found (request to spell provider's URL) ETG UK",
+    "description": "When the customer provides an order number which is related to other OTAs/provider's booking",
+    "cards": [
+      {
+        "content": "Thanks for providing the order number! It looks like this one isn't from our site. Kindly provide the correct spelling of the email address linked to your confirmation email. If that is unavailable, please spell out the URL {website address} where you purchased your ticket. ",
+        "created": "2025-03-04T16:10:52.193Z",
+        "updated": "2025-03-04T16:11:29.001Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:11:31.298Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Question before closing ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Is there anything else I can assist you with today?",
+        "created": "2025-03-04T16:11:31.298Z",
+        "updated": "2025-03-04T16:12:20.126Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:12:21.577Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Close chat ETG/B.com UK",
+    "description": "When the customer responds \"no\" to a question \"Is there anything else I can help you with?\"",
+    "cards": [
+      {
+        "content": "Thank you for reaching out. Have a wonderful day!",
+        "created": "2025-03-04T16:12:21.578Z",
+        "updated": "2025-03-04T16:12:41.759Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:12:43.778Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Chat Closing When customer irate or unhappy ETG/B.com UK",
+    "description": "The customer is already unhappy with our service we need to use this script instead of a standard closing script",
+    "cards": [
+      {
+        "content": "We apologize for the inconvenience but we're unable to assist you at this moment. Your satisfaction is important to us, and we're continuously striving to improve our service. Please feel free to reach out in the future for any assistance. This chat will now close.",
+        "created": "2025-03-04T16:12:43.778Z",
+        "updated": "2025-03-04T16:13:06.750Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:13:23.993Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Customer doesn't respond 1st Warning ETG/B.com UK",
+    "description": "To use when the customer doesn't respond for 2 minutes. Send it and wait for another 3 min.",
+    "cards": [
+      {
+        "content": "Hi, I wanted to check in to see if you're still with us. Please reply so I can continue assisting you. If I don't hear from you in the next 3 minutes, the chat will close due to inactivity.   Don't worry - you can always reach out again whenever you’re ready. We’re here to help!",
+        "created": "2025-03-04T16:13:23.994Z",
+        "updated": "2025-03-04T16:13:58.495Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:14:01.657Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Customer doesn't respond - prior to closing the chat  ETG/B.com UK. ",
+    "description": "To use prior to disconnecting the interaction",
+    "cards": [
+      {
+        "content": "I will now close the chat. Please reach out again at your convenience!",
+        "created": "2025-03-04T16:14:01.658Z",
+        "updated": "2025-03-04T16:14:25.439Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:14:26.594Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Close chat after no response for 5 min ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I still haven't received a response, and it seems that you are no longer connected. This chat will now be closed.  If you need further assistance, please start a new chat. Thank you.",
+        "created": "2025-03-04T16:14:26.595Z",
+        "updated": "2025-03-04T16:14:43.598Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:14:45.154Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Hold ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Please give me a moment to review your information. I will be back shortly.",
+        "created": "2025-03-04T16:14:45.154Z",
+        "updated": "2025-03-04T16:15:02.924Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:15:06.530Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Refresh Hold ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thank you for waiting. I will need a few more minutes to work on your request.",
+        "created": "2025-03-04T16:15:06.531Z",
+        "updated": "2025-03-04T16:15:24.575Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:15:26.673Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Consequent refresh hold (This should be the last hold during your interaction) ETG/B.com",
+    "description": "For this last hold, you should not mention specific minutes, however, you must get back to the chat within 5 minutes to avoid \"dead air\"",
+    "cards": [
+      {
+        "content": "I am still working on your request and am almost there. I just need a few more minutes to wrap this up. I appreciate your patience while I make sure everything is handled properly.",
+        "created": "2025-03-04T16:15:26.674Z",
+        "updated": "2025-03-04T16:15:55.741Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:15:56.642Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Proceed request ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thank you. Please give me a moment to process your request.",
+        "created": "2025-03-04T16:15:56.643Z",
+        "updated": "2025-03-04T16:16:22.459Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:16:23.554Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry ETG/B.com UK",
+    "description": "If the customer mentions the recent data breach/suspicious activity detected/security incident email",
+    "cards": [
+      {
+        "content": "I understand your concerns about the recent suspicious activity. Please allow me a moment to share the information we have and assist you further.",
+        "created": "2025-03-04T16:16:23.554Z",
+        "updated": "2025-03-04T16:16:48.223Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:16:49.946Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - types of personal info were accessed ETG/B.com UK",
+    "description": "What specific types of personal information were potentially accessed?",
+    "cards": [
+      {
+        "content": "The potentially affected information includes various categories of personal data related to our customers. I can confirm that no payment information was compromised. I can confirm that no payment information was compromised. It is important to note that there is no evidence or indication of any actual impact on any customer, nor that any data was taken. We have informed the relevant authorities, as it is our responsibility, even though there is no indication that customer data has actually been exploited in any way as part of such suspicious activity.",
+        "created": "2025-03-04T16:16:49.947Z",
+        "updated": "2025-03-04T16:17:13.984Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:17:16.442Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Inquiry about system vulnerabilities ETG/B.com UK",
+    "description": "How did the attacker get access to your system/exploit the system vulnerabilities?",
+    "cards": [
+      {
+        "content": "The attacker found a way to exploit certain system vulnerabilities to access data. Specific technical details cannot be disclosed for security reasons. Again, it is only a suspicious activity, and there is no certainty that data was actually taken.",
+        "created": "2025-03-04T16:17:16.443Z",
+        "updated": "2025-03-04T16:17:37.328Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:17:47.658Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Support for impacted individuals ETG/B.com UK",
+    "description": "What advice or support is being offered to potentially impacted individuals?",
+    "cards": [
+      {
+        "content": "While we currently have no evidence or indication of any actual impact on you, we recommend remaining vigilant against phishing attacks and other online fraud attempts. Here are some key practices to stay safe: 1. Be cautious with unexpected calls or messages, and do not click on links from untrusted sources. 2. Remember that neither [Brand] nor any airline will ask for additional financial information through email. Contact us to verify any suspicious communication. 3. Be wary of payment requests that are unexpected. Genuine requests will come through a secure payment link or phone after security clearance. 4. Do not enter financial information on non-secure websites, and do not share passwords or security codes over the phone.  We advise customers to monitor any suspicious activity and report any concerns to our support team. Additional support measures will be communicated as needed. It is important to remember that there are no signs of misuse of any potentially compromised data, at this point.",
+        "created": "2025-03-04T16:17:47.659Z",
+        "updated": "2025-03-04T16:18:13.516Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:20:01.842Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Wish to raise GDPR or data protection driven action ETG/B.com UK",
+    "description": "What should I do if I want to take any GDPR or other data protection-driven action, like exercising any of the privacy rights (as described under <brand> Privacy Policy available online) i.e., extracting my data or knowing what data the company holds about me?",
+    "cards": [
+      {
+        "content": "If you would like to exercise any of your privacy rights, such as accessing or learning what data we hold about you, please submit a request through the data subjects form that is available as a link, in the Privacy Policy of the [Brand], under \"Your rights\" section.  If you have any doubts, please contact the privacy team at privacy@etraveligroup.com and they will assist you through the process and ensure that your request is fully handled in line with GDPR and other data protection laws, as applicable.",
+        "created": "2025-03-04T16:20:01.844Z",
+        "updated": "2025-03-04T16:20:31.361Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:20:35.466Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Request to erase the customer data ETG/B.com UK",
+    "description": "Do I have the right to have all my data erased according to GDPR?",
+    "cards": [
+      {
+        "content": "If you wish to request the deletion of your personal data, please submit a request through the data subjects form that is available as a link, in the Privacy Policy of the [Brand], under \"Your rights\" section.  If you have any doubts, please contact the privacy team at privacy@etraveligroup.com. They will support you throughout the process and ensure that everything is done in accordance with data protection legislation.",
+        "created": "2025-03-04T16:20:35.467Z",
+        "updated": "2025-03-04T16:20:56.739Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:21:06.826Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - When was the breach discovered? ETG/B.com UK",
+    "description": "When was the breach discovered?",
+    "cards": [
+      {
+        "content": "The breach was discovered on May 15, 2024. It was contained and closed the following day, on May 16, 2024. We reported the breach to the relevant authorities within the required timeframe.",
+        "created": "2025-03-04T16:21:06.827Z",
+        "updated": "2025-03-04T16:21:30.625Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:21:33.626Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Enquiring the evidence of misuse of the data ETG/B.com UK",
+    "description": "Has there been any evidence of misuse of the compromised data?",
+    "cards": [
+      {
+        "content": "At this stage, there are no signs of misuse of any potentially compromised data. We continue to monitor the situation closely, and it remains uncertain if any data was taken.",
+        "created": "2025-03-04T16:21:33.628Z",
+        "updated": "2025-03-04T16:22:08.095Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:22:20.250Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Action Taken on the Breach Occurrence  ETG/B.com UK",
+    "description": "What immediate steps were taken upon discovering the breach?",
+    "cards": [
+      {
+        "content": "Upon discovering the suspicious activity, we immediately took steps to contain, assess, and remediate the situation. This included blocking the attacker’s IP addresses and implementing a system hotfix to prevent further access.",
+        "created": "2025-03-04T16:22:20.252Z",
+        "updated": "2025-03-04T16:22:42.284Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:22:47.418Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Inquiring about security measures for future incidents ETG/B.com UK",
+    "description": "Have any further security measures been implemented to prevent future incidents?",
+    "cards": [
+      {
+        "content": "We take your security seriously, and we have implemented several measures to prevent future incidents. This includes system upgrades, added extra access security such as two-factor authentication, and improved monitoring and anomaly detection to prevent future incidents. Our team is committed to ongoing efforts to maintain the integrity of our systems and keep your data safe.",
+        "created": "2025-03-04T16:22:47.420Z",
+        "updated": "2025-03-04T16:23:09.456Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:23:12.938Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Inquiring if relevant bodies have been notified ETG/B.com UK",
+    "description": "Have relevant regulatory bodies been notified of the breach?",
+    "cards": [
+      {
+        "content": "Yes, we have notified the appropriate regulatory bodies within the required timeframe and are complying with all relevant data protection regulations regarding this suspicious activity.",
+        "created": "2025-03-04T16:23:12.940Z",
+        "updated": "2025-03-04T16:23:34.492Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:23:37.634Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Assurance of Data Security ETG/B.com UK",
+    "description": "How can customers be assured that their data is now secure?",
+    "cards": [
+      {
+        "content": "We have taken immediate actions to secure our systems, including blocking unauthorized access and implementing additional security measures. Our team continuously monitors and enhances our security protocols to ensure the highest level of data protection. We are committed to maintaining the highest standards to protect our customers' data and to addressing any vulnerabilities proactively.",
+        "created": "2025-03-04T16:23:37.636Z",
+        "updated": "2025-03-04T16:23:59.073Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:24:03.035Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Actions taken to strengthen data security  ETG/B.com UK",
+    "description": "What long-term measures are being implemented to strengthen data security?",
+    "cards": [
+      {
+        "content": "To strengthen data security, we are conducting ongoing audits, reviewing infrastructure, and continuously improving security protocols. We remain committed to safeguarding your data and upholding the highest protection standards.",
+        "created": "2025-03-04T16:24:03.036Z",
+        "updated": "2025-03-04T16:24:39.067Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:24:58.250Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry- Inquiring about ongoing investigation ETG/B.com UK",
+    "description": "Is there an ongoing investigation?",
+    "cards": [
+      {
+        "content": "Yes, a thorough investigation is ongoing. We will provide updates to the potentially affected customers as necessary.",
+        "created": "2025-03-04T16:24:58.251Z",
+        "updated": "2025-03-04T16:25:18.412Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:25:22.235Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Possibility of changes/refund request to impacted pax orders by fraudsters ETG/B.com UK",
+    "description": "Is there any chance that fraudsters can make changes to impacted customers' reservations and/or request a refund? ",
+    "cards": [
+      {
+        "content": "No, as we have added additional access security for our customer services. Any customer login now requires two-factor authentication. It is only the person who has access to the email address registered with the order that could make changes to reservations. Likewise, there is no risk in relation to refund payments, as for all refund requests, the payment is performed to the original form of payment provided.",
+        "created": "2025-03-04T16:25:22.236Z",
+        "updated": "2025-03-04T16:25:46.061Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:25:49.315Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Impact on accommodation, car rental made via B.COM ETG/B.com UK",
+    "description": "Are other reservations {e.g. accommodation, car rental etc.} made via the Booking.com platform impacted from such a security incident?",
+    "cards": [
+      {
+        "content": "No, as such a security incident concerns Etraveli Group AB, of which [BRAND] is part.  If you booked any other travel services through the Booking.com platform for your trip, any personal data that may have been collected for those bookings has not been affected.",
+        "created": "2025-03-04T16:25:49.316Z",
+        "updated": "2025-03-04T16:26:20.671Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:26:23.859Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - CLOSING -  ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thank you for your understanding and cooperation. If you have any further questions or concerns, please do not hesitate to ask. Your security is our top priority.",
+        "created": "2025-03-04T16:26:23.860Z",
+        "updated": "2025-03-04T16:26:39.169Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:26:41.275Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Supervisor escalation ETG/B.com UK",
+    "description": "Supervisor call within 24 h",
+    "cards": [
+      {
+        "content": "I understand your frustration, {Cx Name}. Let me ask one of our supervisors to help you. Would it be okay if they contact you within the next 24 hours?",
+        "created": "2025-03-04T16:26:41.277Z",
+        "updated": "2025-03-04T16:27:17.980Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:27:20.619Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Phone number request ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Could you please share your preferred number to contact you?",
+        "created": "2025-03-04T16:27:20.620Z",
+        "updated": "2025-03-04T16:27:43.068Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:27:44.379Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Supervisor escalation confirmation ETG/B.com UK",
+    "description": "When the customer agrees to a supervisor call within 24H ",
+    "cards": [
+      {
+        "content": "Thank you,  {Cx Name}. One of our supervisors will contact you at your preferred number within 24 hours.",
+        "created": "2025-03-04T16:27:44.381Z",
+        "updated": "2025-03-04T16:28:21.084Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:28:24.195Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Supervisor escalation N2 ETG/B.com UK",
+    "description": "When the customer doesn't want a supervisor call is offered. Choose one depending on the scenario",
+    "cards": [
+      {
+        "content": "I understand this situation is frustrating, however, I'm not able to assist you further at the moment.",
+        "created": "2025-03-04T16:28:24.197Z",
+        "updated": "2025-03-04T16:28:47.010Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:28:48.195Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Supervisor request ETG/B.com UK",
+    "description": "When the customer asks for a supervisor straight away",
+    "cards": [
+      {
+        "content": "I understand you'd like to speak to a supervisor, <{Cx Name}. Please allow me a moment and I'll do my best to assist you.",
+        "created": "2025-03-04T16:28:48.197Z",
+        "updated": "2025-03-04T16:29:20.381Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:29:24.619Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Escalate Internal Support ETG/B.com UK",
+    "description": "When the request is given to be placed on support",
+    "cards": [
+      {
+        "content": "I will need to forward your request to our internal support team, as it cannot be handled via chat. They will get back to you as soon as possible.",
+        "created": "2025-03-04T16:29:24.621Z",
+        "updated": "2025-03-04T16:29:44.239Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:29:45.251Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Escalate Internal Support- Payment not processed on airline's site ETG/B.com UK",
+    "description": "When the payment link/MOTO cannot go through the airline's website\t\n",
+    "cards": [
+      {
+        "content": "After reviewing the airline's website, it seems the payment process wasn't completed. Our team will handle the necessary steps to complete the payment. If we need any additional information from you, we will reach out directly. Once everything is resolved, you'll receive a confirmation email.",
+        "created": "2025-03-04T16:29:45.253Z",
+        "updated": "2025-03-04T16:30:08.337Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:30:11.187Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "CHG request - not permitted/non-ref  ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "We are required to follow the airline's rules for your ticket(s). Unfortunately, in this case, the rules state that this ticket is non-refundable and cannot be changed.",
+        "created": "2025-03-04T16:30:11.189Z",
+        "updated": "2025-03-04T16:30:26.640Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:30:28.363Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "CHG request - not permitted too late to rebook ETG/B.com UK",
+    "description": "When rebooking is only permitted up to XX days before departure and the time passed\t",
+    "cards": [
+      {
+        "content": "I see that your flight with [airline name] is just [number] days/hours away. Unfortunately, the rebooking window has passed, as the airline only allows changes up to [XX] days before departure. At this point, if you would like, I will gladly assist you with checking the cancellation policy.",
+        "created": "2025-03-04T16:30:28.365Z",
+        "updated": "2025-03-04T16:30:48.972Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:30:53.579Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "CHG request - permitted ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "The airline permits changes for a fee of XXX per person.  I’d be happy to help you make the change; however, our service fee of XXX per person will apply for this service.  Currently, the total charge for rebooking, including the tax and/or fare difference, is XXX.   Your new flight details:  XXXXXXXXXXXXXXXXXXXXX   Would you like to proceed with rebooking your ticket(s) to the above alternative option?",
+        "created": "2025-03-04T16:30:53.581Z",
+        "updated": "2025-03-04T16:31:12.076Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:31:18.108Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "CHG request -multiple dates provided by the customer ETG UK",
+    "description": "When the customer provides multiple dates to check for pricing \t",
+    "cards": [
+      {
+        "content": "I can provide you with up to 3 new travel options at a time. Which 3 dates would you like me to look into? Please note that you can find more options by checking the cost and flight availability in the “Manage Trip” section under “My Bookings.”   If this feature isn't available for your ticket, please visit the airline's website to explore availability and pricing. Feel free to reach out if you need further support.",
+        "created": "2025-03-04T16:31:18.109Z",
+        "updated": "2025-03-04T16:31:45.300Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:31:48.699Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "No changes made ETG/B.com UK",
+    "description": " Pax doesn't want to rebook\n Pax doesn't  want to cancel",
+    "cards": [
+      {
+        "content": "No problem. Please note that I have not made any changes to your booking.  If you decide to make this change, contact us again no later than [deadline]. After this date, changes may not be allowed or additional airline fees may apply.",
+        "created": "2025-03-04T16:31:48.701Z",
+        "updated": "2025-03-04T16:32:16.081Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:32:19.315Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "New itinerary not updated in the app ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "No worries, in our system, we can see that your flight has already been updated and confirmed. While our website may not be updated, we can easily send you the new information via email. Additionally, feel free to check your new flight directly on the airline website. Would you like me to send you the new information via email now?",
+        "created": "2025-03-04T16:32:19.317Z",
+        "updated": "2025-03-04T16:32:38.371Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:32:45.995Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "When a customer ticket is non-refundable, we offer rebooking as an alternative ETG",
+    "description": "",
+    "cards": [
+      {
+        "content": "I understand this might not be the news you were hoping for. While the ticket is non-refundable, [Airline] permits changes to your flight. Would you like me to explore the cost and available options for rebooking to a different date or route?",
+        "created": "2025-03-04T16:32:45.997Z",
+        "updated": "2025-03-04T16:33:00.464Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:33:03.740Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "After we received the payment our customer asked when they would receive the new ticket ETG",
+    "description": "",
+    "cards": [
+      {
+        "content": "Great news – your payment has been received! We’re now processing the changes, and our ticketing team will send your updated ticket to your email shortly. You can expect to receive it as soon as possible. If there’s anything you need in the meantime, feel free to reach out. ",
+        "created": "2025-03-04T16:33:03.742Z",
+        "updated": "2025-03-04T16:33:22.675Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:33:23.579Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Rebooking - Eligible as per Fare Rules for Death/Medical Reasons ETG/B.COM UK",
+    "description": "Rebooking Eligible as per Fare Rules for Death/Medical Reasons",
+    "cards": [
+      {
+        "content": "I confirm your request to rebook the flights for {Cx Name} to <New Date>. Please note that approval from the airline is required for a free-of-charge rebooking. In the event of rejection by the airline, you have the option to proceed with a paid rebooking, covering the airline's change fee, agency fee, and any fare difference.   If you prefer us to initiate the request for a free-of-charge rebooking, we'll send you an email with further instructions. You'll be asked to provide your consent and attach relevant documents in English or the airline's official language. To expedite the process, please give your consent and submit the documents within 5 days.",
+        "created": "2025-03-04T16:33:23.582Z",
+        "updated": "2025-03-04T16:33:57.358Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:34:00.004Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "ATC CXL - fare rules ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Under the airline’s policy, cancellations carry a fee of XXX per person, and {BRAND} applies a service fee of XXX per person. If you choose to cancel now, your refund will be [amount] [currency]. Would you like me to go ahead and process the cancellation and refund request for you?",
+        "created": "2025-03-04T16:34:00.006Z",
+        "updated": "2025-03-04T16:34:26.411Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:34:34.363Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "ATC-CXL - non-ref tax ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I understand this might not be ideal, but under airline policies, the ticket – including any additional services {like baggage, seats, or meals] – is non-refundable. The good news is that a portion of the taxes may be eligible for a refund. If you cancel now, a service fee of XXX will be deducted, and you will receive [amount] [currency] as a refund. Would you like me to proceed with the cancellation and tax refund request?",
+        "created": "2025-03-04T16:34:34.365Z",
+        "updated": "2025-03-04T16:35:01.693Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:35:14.211Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "ATC- CXL - conf ETG  UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thanks for confirming, {Cx Name}. I'll be happy to handle the cancellation for you. The refund amount is XXX. While most refunds take 10-15 business days to process, you can monitor the status anytime on the \"My Bookings\" page.  You'll receive a cancellation confirmation email shortly, followed by another email when your refund has been processed.  We aim to process refunds within 6 days of receiving the funds from the airline, and we promptly forward all requests as soon as you confirm the cancellation. While most airlines complete their part within 5 business days, the full process—including our issuance of the refund, may take up to 10-15 business days.  Please keep in mind that once we've issued the refund, the final processing time may vary depending on your payment provider or bank. Thank you for your patience, and please don't hesitate to reach out if you have further questions.",
+        "created": "2025-03-04T16:35:14.213Z",
+        "updated": "2025-03-04T16:36:17.246Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:36:21.612Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "CXL - fare rules ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I understand you're considering canceling your booking. Please note that the airline charges a cancellation fee of XX [currency} per person, and our service fee of XX {currency}  per person will also apply. Additionally, some taxes and add-on products are non-refundable.   If you'd like, I can proceed with finalizing your cancellation. Would you like me to go ahead and process it for you?",
+        "created": "2025-03-04T16:36:21.614Z",
+        "updated": "2025-03-04T16:37:00.237Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:37:12.940Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "CXL - conf ETG/B.com UK",
+    "description": "When the customer confirms cancellation of the booking",
+    "cards": [
+      {
+        "content": "Certainly,  [Cx Name]!  I will proceed with canceling your booking now. After we receive the refund from the airline, it usually takes about 6 days to process on our end. While airlines generally process refunds within 5 business days, the entire process from cancellation to payout may take 10-15 business days. Please remember that we don't control your payment provider or bank's processing time after we refund to your account. You can track the progress of your refund in 'My Bookings' on our website or app.  I will now cancel your booking. The cancellation confirmation will be sent to your email within the hour, and you will also receive a notification once your refund is finalized.",
+        "created": "2025-03-04T16:37:12.943Z",
+        "updated": "2025-03-04T16:38:00.669Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:38:04.964Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "CXL - non ref tax ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "According to the airline's rules, the flight ticket, including any add-on products such as baggage, seats, or other fees, is non-refundable. However, a refund of certain taxes is possible through the airline.  Please be aware that our service fee of XXX per person will be deducted from your refund amount. Would you like us to cancel your booking and contact the airline to request a refund on your behalf?",
+        "created": "2025-03-04T16:38:04.967Z",
+        "updated": "2025-03-04T16:38:30.673Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:38:31.452Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "CXL - non ref ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "According to the airline's policy, the ticket and any add-on products (such as baggage, seats, or meals) are non-refundable. I understand this may be frustrating and appreciate your patience. If you're interested, I can check if there's a possibility to reschedule your flight instead. Would you like me to explore this option for you?  Choose one option after checking fare rules for rebooking:  Changes Permitted:  Good news! Your ticket allows for changes. We'd be happy to assist you in rebooking your trip to a different date so you don’t lose your ticket. Would you like me to explore the option of changing your flight, or would you still prefer to cancel your booking?  Changes Not Permitted: Unfortunately, changes are not permitted under the ticket rules. If you have external travel insurance, I can cancel your reservation and send you a confirmation email to use for any potential claims with your insurance provider. Would you like me to proceed with the cancellation and provide the confirmation?",
+        "created": "2025-03-04T16:38:31.454Z",
+        "updated": "2025-03-04T16:38:48.787Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:38:52.084Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "SC / FM CXL request ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Based on the airline's rules, a refund request is possible. Please note that some taxes and add-ons may not be refundable as per airline policies and our Terms and Conditions. If you’d like us to assist by contacting the airline on your behalf, please note that a service fee of XXX per person will be deducted from your refund. We are happy to support you in navigating this. Would you like us to go ahead and cancel your order and initiate the refund process with the airline on your behalf? We are here to make it as smooth as possible for you.",
+        "created": "2025-03-04T16:38:52.086Z",
+        "updated": "2025-03-04T16:39:07.250Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:39:16.036Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "CXL- fare rules/partially used tickets ETG",
+    "description": "When the ticket is partially used",
+    "cards": [
+      {
+        "content": "I know changing travel plans can be challenging. If you decide to cancel, there’s an airline fee of XXX [currency] and our handling fee of XXX [currency]  per person. Please note, some taxes and services may not be refundable, and refund eligibility depends on the part of the ticket already used. Would you like us to reach out to the airline to cancel your booking? Let me know how you would like to proceed so I can make things easier for you.",
+        "created": "2025-03-04T16:39:16.039Z",
+        "updated": "2025-03-04T16:39:56.063Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:40:00.036Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "CXL- Refund - Eligible as per Fare Rules for Death/Medical Reasons",
+    "description": "Cancellation Refund: Eligible as per Fare Rules for Death/Medical Reasons",
+    "cards": [
+      {
+        "content": "Thank you, Mr./Mrs [Cx Compete Name].  I can confirm that the airline allows refunds without penalties for serious unforeseen events, provided that the necessary documentation is submitted.  To proceed, we will first need to cancel your booking and initiate the claim process. If your request is approved by the airline, the refund will be issued to your original payment method.  Please note that this process requires thorough documentation and could take longer than usual. Rest assured, we will keep you updated at every step to ensure that this experience is as transparent and straightforward as possible.  If you have any questions or need further assistance, please don’t hesitate to reach out.",
+        "created": "2025-03-04T16:40:00.038Z",
+        "updated": "2025-03-04T16:40:57.310Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:41:02.132Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "CXL- Refund - Not Eligible as per Fare Rules for Death/Medical Reasons, Customer Still Insists on Refund",
+    "description": "Cancellation Refund: Not Eligible as per Fare Rules for Death/Medical Reasons, Customer Still Insists on Refund",
+    "cards": [
+      {
+        "content": "Thank you [Cx Complete Name].  Unfortunately, based on the airline's guidelines, refunds for serious unforeseen events are not typically provided.   If the customer still insists on a refund, use the below script:  If you’d still like to proceed with a refund application, we can cancel your booking and initiate the claim process.  Please note that the refund will depend on the airline’s approval, and if approved, the amount will be returned to your original payment method. If the refund is not approved, it will be processed according to the airline's cancellation policy.  This process requires thorough documentation and could take longer than usual. If you have any questions or need further assistance, please don’t hesitate to reach out.",
+        "created": "2025-03-04T16:41:02.134Z",
+        "updated": "2025-03-04T16:42:01.452Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:42:04.660Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "CXL- Refund - Eligible as per Fare Rules for Visa rejection",
+    "description": "Cancellation Refund: Eligible as per Fare Rules for Visa rejection",
+    "cards": [
+      {
+        "content": "I can confirm that the airline allows refunds without penalties in cases of visa rejection, provided that the necessary documentation is submitted. To proceed, we will first need to cancel your booking and initiate the claim process.   If your request is approved by the airline, the refund will be issued to your original payment method. Please note that this process requires thorough documentation and could take longer than usual.  If you have any questions or need further assistance, please don’t hesitate to reach out.",
+        "created": "2025-03-04T16:42:04.663Z",
+        "updated": "2025-03-04T16:42:27.093Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:42:28.788Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "CXL- Refund - Not Eligible as per Fare Rules for Visa rejection, Customer Still Insists on Refund",
+    "description": "Cancellation Refund: Not Eligible as per Fare Rules for Visa rejection, Customer Still Insists on Refund",
+    "cards": [
+      {
+        "content": "Unfortunately, based on the airline's guidelines, refunds in cases of visa rejection are not typically provided.    If the customer still insists on a refund, use the below script:  If you’d still like to proceed with a refund application, we can cancel your booking and initiate the claim process.   Please note that the refund will depend on the airline’s approval, and if approved, the amount will be returned to your original payment method. If the refund is not approved, it will be processed according to the airline's cancellation policy.  This process requires thorough documentation and could take longer than usual. If you have any questions or need further assistance, please don’t hesitate to reach out.",
+        "created": "2025-03-04T16:42:28.790Z",
+        "updated": "2025-03-04T16:42:55.490Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:42:58.628Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "When we inform the customer about cancellation with Cancellation Protection ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thank you for your patience, Mr./Mrs. [Cx Name]. I'm pleased to inform you that since you have opted for our Cancellation Protection, we can assist with your cancellation for health-related reasons. To proceed, we will need a medical certificate, which you can print out here: https://flights-de.gotogate.com/rf/cancellation-protection  We will need to receive your medical certificate no later than 5 working days after cancellation.   Once you've completed the certificate, simply submit it via the link in the email we will send to you within 5 business days. This email will include all the details to ensure the certificate meets our requirements.  Kindly note that we do not refund the Cancellation Protection Fee or any other charges [fees, Support Package, etc.]. For more information, you can refer to our Terms and Conditions here: https://flights-de.gotogate.com/terms-conditions.  Does that sound good to you? Let me know if you would like to proceed.",
+        "created": "2025-03-04T16:42:58.631Z",
+        "updated": "2025-03-04T16:43:55.324Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:43:59.452Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Chat request -Sending payment link ETG/B.com UK",
+    "description": "When sending payment link to the customer",
+    "cards": [
+      {
+        "content": "Thank you! I've just sent you a payment link in this chat. Please right-click on the link, open it in a separate tab without closing this window, and complete the payment within 5 minutes. If you do not respond within this time, the chat will disconnect. If you don’t see the link, can't open it or have any questions, please let me know and I will be happy to help.",
+        "created": "2025-03-04T16:43:59.455Z",
+        "updated": "2025-03-04T16:44:27.873Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:44:29.733Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Payment confirmation for (Baggage/Seating/Special equipment) ETG/B.com UK",
+    "description": "Payment successfully received for [Baggage/Seating/Special equipment]",
+    "cards": [
+      {
+        "content": "Thank you for your payment. Within 24 hours, you’ll receive an email confirming your [Baggage/Seating/Special equipment], linked to your airline reference number. If you don't see the confirmation in your inbox, please check your spam folder.",
+        "created": "2025-03-04T16:44:29.736Z",
+        "updated": "2025-03-04T16:45:08.813Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:45:12.116Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Objection on service fee ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Our service fee covers your case handling, including all necessary communication and administrative work with the airline. As your travel agency, we’re committed to managing all paperwork and follow-up to ensure that the process is handled smoothly. Please feel free to reach out if you have any additional questions regarding this matter.",
+        "created": "2025-03-04T16:45:12.119Z",
+        "updated": "2025-03-04T16:45:31.314Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:45:32.588Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Customer denies when referred to the airline ETG/B.COM UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "As your travel agency, we're here to make your booking experience as smooth as possible and assist with your travel needs. While we can help with most inquiries, like itinerary changes and general questions, there are some cases where you'll need to contact the airline directly. This is due to airline policies that require their intervention. Rest assured, we’ll continue to support you in any way we can to ensure your trip goes smoothly.",
+        "created": "2025-03-04T16:45:32.591Z",
+        "updated": "2025-03-04T16:45:51.632Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:45:52.604Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "On support waiting for YY reply ETG/B.com UK",
+    "description": "The case is already on support and we are waiting for YY reply",
+    "cards": [
+      {
+        "content": "Our team is still waiting for a response from the airline. We will get back to you as soon as we have an update.",
+        "created": "2025-03-04T16:45:52.607Z",
+        "updated": "2025-03-04T16:46:11.650Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:46:12.492Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Optimized ticket ETG/B.com UK",
+    "description": "When a customer booked ONE way and received a Return ticket ",
+    "cards": [
+      {
+        "content": "I apologize for any confusion this may have caused. Due to a technical error, your one-way ticket was issued as a round-trip. I can assure you that your tickets are valid and there will be no additional charges.   If the return flight aligns with your travel plans, feel free to use it. Otherwise, there's no need to cancel it if you don’t intend to use it.",
+        "created": "2025-03-04T16:46:12.495Z",
+        "updated": "2025-03-04T16:46:37.585Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:46:39.428Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Complaint due to extended refund time frame ETG/B.com UK ",
+    "description": "When the refund process takes more than 15 business days\t",
+    "cards": [
+      {
+        "content": "I understand it’s frustrating when things take longer than expected. The process can sometimes take longer due to the airline's timelines, but we are actively working with them to get this sorted. In the meantime, you can track the status of your refund on the \"My Bookings\" page. As soon as the refund is processed, we will send you an email. ",
+        "created": "2025-03-04T16:46:39.432Z",
+        "updated": "2025-03-04T16:47:25.858Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:47:28.356Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Refund delay from YY (Auth pending) ETG UK",
+    "description": "Auth pending from the airline/delay is not from our side To be used after the customer was informed that we haven't received the refund from the airline yet",
+    "cards": [
+      {
+        "content": "I understand it’s frustrating when things take longer than expected. [Brand Name] is an intermediary of flight tickets, so we cannot confirm the refund amount or processing time. The process can sometimes take longer due to the airline's timelines, but we are actively working with them to get this sorted. In the meantime, you can track the status of your refund on the \"My Bookings\" page. As soon as the refund is processed, we will send you an email. Thanks so much for your patience and understanding!",
+        "created": "2025-03-04T16:47:28.360Z",
+        "updated": "2025-03-04T16:47:56.945Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:47:57.996Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Refund delay from our side ETG/B.com UK",
+    "description": "The refund delay is from our side\nTo be used after the customer was informed that the refund is on a queue for payout from our side",
+    "cards": [
+      {
+        "content": "We understand how important it is to receive your refund promptly - it is currently in the queue, and we're doing everything we can to process it as quickly as possible.   Thank you for your patience and understanding - we truly appreciate it.",
+        "created": "2025-03-04T16:47:58.000Z",
+        "updated": "2025-03-04T16:48:20.962Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:48:23.988Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Refund status disconnect ETG/B.com UK",
+    "description": "Disconnect when the customer inquires on the refund status and we have given all possible information",
+    "cards": [
+      {
+        "content": "I truly understand how important your refund status is to you and apologize for the wait. At this moment, we have shared all the information available. For live updates, you can always check the \"My Bookings\" page on our website.  Though we are unable to provide further details right now, please rest assured our team is working diligently to process your refund as soon as possible. We sincerely regret any inconvenience this may have caused.  To ensure we can assist other customers in a timely manner, we will need to close this chat for now. However, if you have further queries, please don’t hesitate to reach out. Thank you for your patience and understanding.",
+        "created": "2025-03-04T16:48:23.992Z",
+        "updated": "2025-03-04T16:48:45.811Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:48:46.820Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": " When the customer uses abusive language ETG/B.com UK",
+    "description": "The first warning when the customer is using abusive language",
+    "cards": [
+      {
+        "content": "I understand your frustration [Cx Name],  and I want to assure you that I’m here to help. To provide the best support, I kindly request that we maintain a respectful tone during our conversation. This will help us work together towards a solution. If this respect cannot be upheld, I may have to end the chat.",
+        "created": "2025-03-04T16:48:46.823Z",
+        "updated": "2025-03-04T16:49:25.292Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:49:30.236Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Closing when the customer uses abusive language ETG/B.com UK",
+    "description": "When the customer continues using abusive language even after our 1st warning",
+    "cards": [
+      {
+        "content": "As you refuse to keep a respectful tone during our conversation, I will now end this chat.",
+        "created": "2025-03-04T16:49:30.240Z",
+        "updated": "2025-03-04T16:49:50.654Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:49:51.988Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "FL transfer to SC ETG/B.com UK",
+    "description": "Wrong department",
+    "cards": [
+      {
+        "content": "Your request needs to be handled by a different team, specialized in schedule changes. Please hold while I connect you to an agent from this team.",
+        "created": "2025-03-04T16:49:51.992Z",
+        "updated": "2025-03-04T16:50:30.002Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:50:34.941Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Telephone line closure / RU market ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "We know this may be an adjustment for you, and we appreciate your understanding. In response to the recent pause in sales and lower passenger volumes in Russia, we've moved our support operations to chat. Our team is available 24/7 to assist you in Russian, and we remain dedicated to offering the highest level of service. Thank you for your patience as we navigate this change together.",
+        "created": "2025-03-04T16:50:34.944Z",
+        "updated": "2025-03-04T16:50:47.790Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:50:48.589Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Czech Airlines partial refund ETG/B.com UK",
+    "description": "When the customer asks why the refunded amount is partial and why the refund case is closed",
+    "cards": [
+      {
+        "content": "The refund you received is connected to your booking with Czech Airlines. Recently, the carrier underwent a reorganization process in the Municipal Law Court of Prague to avoid bankruptcy. The financial plan has been approved, and the airline is now actively processing refund requests. However, they have only refunded bookings partially, without covering for the entire cost of the ticket(s).  Based on the information provided by the airline, this is the final and total refund that we should expect for your booking. Therefore we have closed your refund case after completing the payout. We have refunded you the full amount received from the airline without charging any fees from our side.  We understand that this may be less than ideal, but as an intermediary, we can only refund what we receive from the airline and are not liable for any service that was not provided by the carrier. If you have any questions about the refunded amount, we kindly ask you to address them directly to the airline, as we do not have any further information about this matter. Thank you for your understanding.",
+        "created": "2025-03-04T16:50:48.593Z",
+        "updated": "2025-03-04T16:51:11.940Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:51:12.685Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Redirect to CR/bag/seat claim ETG/B.com  UK",
+    "description": "When a customer wants to raise a claim that requires compensation (both claims handled by CR and FL)",
+    "cards": [
+      {
+        "content": "We understand your want to file an official claim and we are here to assist you further.  Once this chat is concluded, I will send a separate email to the address associated with your booking. The email will contain a specific form that needs to be submitted within two months following the completion of your trip.  Please ensure to check both your inbox and spam folder for the message.  Once you have submitted your claim, our dedicated team will reach out to you directly to address your concerns.",
+        "created": "2025-03-04T16:51:12.688Z",
+        "updated": "2025-03-04T16:51:33.792Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:51:34.997Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Baggage delay ETG/B.com UK",
+    "description": "How to handle a persistent customer because baggage hasn't been added yet",
+    "cards": [
+      {
+        "content": "I can confirm that you have included extra baggage in your trip, as indicated on your receipt. In most cases, services are added automatically, but with some airlines manual processing is required. Your request has been placed in our queue, and we typically handle such requests within 2 days. However, be aware that certain airlines may have specific timeframes for adding services to bookings, which might slightly extend the processing time. Rest assured, our dedicated team will promptly handle this for you.  Please note that your baggage will be added to your trip. Your receipt also serves as proof of your purchase.",
+        "created": "2025-03-04T16:51:35.000Z",
+        "updated": "2025-03-04T16:52:15.699Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:52:17.789Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "KR complaint  7 day right to regret ETG ",
+    "description": "For KR market and customers complaining regarding KR law right to regret for 7 days which ETG does not offer",
+    "cards": [
+      {
+        "content": "I completely understand your frustration, and I sincerely apologize for the distress this has caused. We strive to be transparent about all relevant information, which is available not only in our Terms and Conditions but also during the booking process and on the \"My Bookings\" page. As a travel intermediary, we are required to follow the airline policies, and we encourage our customers to review these policies before finalizing their bookings.   I want to support you through this process. If you'd like, I can assist with your request for a change or cancellation based on your ticket's rules. Would you like me to proceed?   Please know that I'm here to support you, and will do everything I can to help within the guidelines we follow.",
+        "created": "2025-03-04T16:52:42.961Z",
+        "updated": "2025-03-04T16:53:04.035Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:53:07.317Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "When the customer fails to proceed with payment during the booking process ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I’m really sorry to hear you’re having trouble with the payment process. Let’s try a few things that might help.   First, please try clearing your cookies and cache, then attempt the payment again. If that doesn’t work, try using a different browser or device. Trying another card or payment method may also help. If you're still having issues, it might be a good idea to contact your bank or feel free to send us a screenshot at [email], and our team will be happy to help!",
+        "created": "2025-03-04T16:53:07.321Z",
+        "updated": "2025-03-04T16:53:22.018Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:53:23.717Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Fare hike during rebooking process ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I understand that a price change can be a bit unexpected, and I apologize for any frustration this has caused. The price difference is due to the airline’s real-time updates, which adjust ticket prices based on availability. As a result, prices can fluctuate, sometimes even hourly or daily. While I know this can be disappointing, please know this change is beyond our control. I'm here to assist you in any way I can!",
+        "created": "2025-03-04T16:53:23.721Z",
+        "updated": "2025-03-04T16:53:38.976Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:53:43.365Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Timed out less than 72 hours ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I’m really sorry for the inconvenience you're experiencing. It looks like your payment is on hold, but it should be released to your account within 72 hours. If you haven't received it by then, feel free to contact us, and we’ll be happy to assist you in resolving this issue.   In the meantime, if you notice any unusual activity on your account, I recommend contacting your bank for further details.   I’m here for any questions you may have, and I truly appreciate your understanding during this process.",
+        "created": "2025-03-04T16:53:43.368Z",
+        "updated": "2025-03-04T16:54:00.661Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:54:27.636Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": " CC2C explanation ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I understand that seeing two charges can be confusing, but please rest assured there is no need to worry. Sometimes, the payment is split into two separate transactions: one charge from us and one directly from the airline. As a result, the amount charged might differ slightly due to currency fluctuations. Additionally, some airlines may display prices and fees in a currency different from what is shown on our website.  For more details, feel free to review our Terms & Conditions, available on our website. If you need any more information or assistance, just let me know. ",
+        "created": "2025-03-04T16:54:27.640Z",
+        "updated": "2025-03-04T16:54:44.623Z"
+      },
+      {
+        "content": "If the passenger insists on knowing the breakdown:  We want to ensure you are fully informed: our payment page clearly indicates that the payable amount may be charged in a different currency.  Any currency conversion fees from your service provider or bank could influence the final price you see.",
+        "created": "2025-03-04T16:54:45.364Z",
+        "updated": "2025-03-04T16:54:50.853Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:54:51.981Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "When the customer asks if VISA is needed ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I completely understand wanting to be sure about travel requirements like visas. Since rules vary by country and change frequently, I recommend contacting the airline or checking with your local embassy for the most up-to-date and accurate information. This way, you’ll have peace of mind and be fully prepared for your trip. If there's anything else I can help you with, please let me know!",
+        "created": "2025-03-04T16:54:51.985Z",
+        "updated": "2025-03-04T16:55:15.555Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:55:16.765Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "When the customer wants to add passport details ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thank you for reaching out. To add your passport details and update your booking, could you please provide the following information:  - Passport's issuing country - Passport number - Your nationality - Expiration date - First and last name as shown on the passport - Date of birth - Gender  Please ensure that the name, date, and other details provided match exactly as they appear on your passport. Even a small mistake could lead to issues at the airport, and we want to help you avoid such inconvenience.  Once I have this information, I will make sure your booking is updated promptly.",
+        "created": "2025-03-04T16:55:16.769Z",
+        "updated": "2025-03-04T16:55:38.243Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:55:42.622Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "When the customer asks for compensation for EU Regulation ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I completely understand how this situation has impacted you, and I’m sorry for the trouble it’s caused. For EU Regulation compensation requests, the best step is to contact the airline directly to submit your claim. To help you, here is a link with more details on EU Regulation rights: [link from T&C, paragraph XXX]. If you need the airline's contact information or help understanding the next steps, please let me know",
+        "created": "2025-03-04T16:55:42.625Z",
+        "updated": "2025-03-04T16:56:02.930Z"
+      },
+      {
+        "content": "Condition: Customer refuses and insists we do it:  I totally understand how frustrating this can be, but don’t worry - it’s actually an easy process. EU regulations require that the compensation request come directly from you to the airline. Here’s a link with all the details: [link from T&C, paragraph XXX]. Please let me know if you need any assistance in getting in touch with the airline or understanding the next steps.",
+        "created": "2025-03-04T16:56:06.140Z",
+        "updated": "2025-03-04T16:56:11.379Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T16:56:15.317Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "The customer has questions about currency conversion rate ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I completely understand how frustrating unexpected charges like this can be. After reviewing, it appears that the additional charge is a currency conversion fee applied by your bank. Some banks charge this fee when paying in a foreign currency. Since this is outside our control, I recommend contacting your bank for more details. Please let me know if there’s anything else I can assist you with!",
+        "created": "2025-03-04T16:56:15.321Z",
+        "updated": "2025-03-04T17:01:15.987Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T17:01:16.926Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "When the customer asks for check-in or a boarding pass ETG UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I’m happy to help you with the check-in process! It’s quick and simple.  To check in, simply go to [website] and enter your reservation code: [reservation code] and last name: [Cx Name], along with any other details they may ask for. Once logged in, just follow the on-screen instructions to obtain your boarding pass. If you run into any issues, let me know, and I’ll be glad to help. Safe travels and enjoy your trip!",
+        "created": "2025-03-04T17:01:16.931Z",
+        "updated": "2025-03-04T17:01:48.064Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T17:01:53.582Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Fuel surcharge info ETG UK (Only for Japan Market)",
+    "description": "When customers would like to know about Fuel Surcharge info in our booking flow.",
+    "cards": [
+      {
+        "content": "A fuel surcharge is an additional fee imposed by airlines to cover specific operating costs related to fuel. It's separate from your base fare and taxes but included in your total ticket price. It's calculated based on factors such as route distance, aircraft type, fuel consumption rate, and prevailing fuel prices. Since it covers specific operating costs, it's typically non-refundable.",
+        "created": "2025-03-04T17:01:53.587Z",
+        "updated": "2025-03-04T17:02:14.192Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T17:02:15.063Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "NACO REQ FOR CC2C ORDERS - EXPLAINING CUSTOMER ABOUT CC2C ETG/B.com UK",
+    "description": "Why should I pay again for a new ticket? / Educate the customer about the CC2C payment method and why full payment is necessary",
+    "cards": [
+      {
+        "content": "I understand that correcting the name on your ticket can be a bit confusing, and I appreciate your patience as I guide you through this. Since your payment was made directly to the airline, bypassing our usual process, we need to follow a specific approach to correct the name on your ticket.  To resolve this, we need to issue a new ticket with the correct name, which involves the following payments:  New ticket price: XXXXX <currency> Airline fee: XXXXX <currency> Our name correction fee: XXXXX <currency>  Once we receive your payment, we will promptly begin processing your new ticket. Please be assured that you will receive a refund for the original ticket to your original payment method.  I understand this may not be the most straightforward process, but we are here to guide you through it. If you have any concerns or would like further clarification, feel free to let us know. We want to ensure that everything is handled smoothly and to your satisfaction.",
+        "created": "2025-03-04T17:02:15.068Z",
+        "updated": "2025-03-04T17:02:36.662Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T17:02:43.991Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "When the customer asks about Cancellation Guarantee ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Condition 1: No Add-On Product.   I'd be happy to walk you through our Cancellation Guarantee Extra. If you cancel at least 24 hours before departure, you will receive a voucher covering 90% of the value of your flight ticket. Additional products such as baggage or the support package will not be included. The voucher code is generated by us and will be sent within 7 business days after we confirm your cancellation. It will be valid for 12 months and can be used for future bookings exclusively on our website [website]. ",
+        "created": "2025-03-04T17:02:43.996Z",
+        "updated": "2025-03-04T17:03:04.695Z"
+      },
+      {
+        "content": "Condition 2: With Add-On Product.  I see you have add-on products associated with your booking, so I want to clarify that the voucher from our Cancellation Guarantee will cover 90% of the value of your flight ticket. Additional items, such as baggage or support packages, will not be included. The voucher will be sent within 7 business days after your cancellation is confirmed and will be valid for 12 months, redeemable exclusively on our website [website].  Would you like to proceed with the cancellation and receive the voucher, or keep your booking as it is? Please let me know how I can best assist you.",
+        "created": "2025-03-04T17:03:05.496Z",
+        "updated": "2025-03-04T17:03:11.058Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T17:03:14.264Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "When the customer asks about the Cancel For Any Reasons (CFAR) product ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Condition 1: Customer wants to use the CFAR product.   Thank you for reaching out. I see that you purchased our Cancel For Any Reason (CFAR) protection and are requesting to cancel more than 24 hours before departure. That’s great news! With this protection, we can cancel your reservation, and your refund will be processed and sent within 48 hours. Would you like me to go ahead and confirm your cancellation and start the refund process? ",
+        "created": "2025-03-04T17:03:14.268Z",
+        "updated": "2025-03-04T17:03:49.493Z"
+      },
+      {
+        "content": "Condition 2: Customer asking about CFAR.  I am happy to explain how our Cancel For Any Reason (CFAR) protection works! With CFAR, you can cancel your reservation up to 24 hours before departure, and we will process your refund within 48 hours, giving you peace of mind and flexibility with your plans. Just a quick note: while this product ensures a seamless cancellation process, its cost is non-refundable. Does this sound like what you’re looking for?",
+        "created": "2025-03-04T17:03:50.088Z",
+        "updated": "2025-03-04T17:03:56.465Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T17:03:57.721Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "When the customer asks about check-in product (PassNFly) ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thank you for your interest in our Automatic Check-in product! When you purchase this service, you will receive a separate email from PassnFly asking for your travel document details. Make sure to fill out this information as soon as you can so that we can complete the check-in process on your behalf. After that, you are all set - just relax and wait for your boarding pass, which will arrive in your inbox up to 6 hours before departure. If any issues come up with your travel documents, don’t worry - you will be notified right away with instructions on what to do next. We want to make your travel experience as smooth as possible.",
+        "created": "2025-03-04T17:03:57.725Z",
+        "updated": "2025-03-04T18:58:04.452Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T18:58:05.938Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "When the customer asks about Cancellation with XCover policy ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "XCover is different from our brand, [our Brand]. You'll need to contact XCover to get more information. But I can still help! Here is the website: Xcover.com/login. Also, I know they've sent you a separate email to the same address as we've sent our confirmation email. You'll want to read that email for login details and other information. ",
+        "created": "2025-03-04T18:58:05.942Z",
+        "updated": "2025-03-04T18:58:22.759Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T18:58:23.730Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "If the flight is delayed or overbooked and the customer asks for Airhelp+ ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "If your flight has been delayed, canceled, or overbooked, you may be entitled to compensation with the assistance of Airhelp+. This service operates separately from [our Brand], so for detailed information, please visit Airhelp’s website: https://www.airhelp.com/. They should have also sent an email to your inbox with login details - look for it in the same email account where you received our booking confirmation. If you need help finding that email or understanding the next steps, let me know and I will guide you.",
+        "created": "2025-03-04T18:58:23.734Z",
+        "updated": "2025-03-04T18:58:46.419Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T18:58:47.657Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "When the customer asks about Flexible Ticket ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I'm happy to provide more details about our Flexible Ticket product! With this option, you can the time or date of your flight with the same airline, without incurring any change fees. However, please note that fare and tax differences will still apply. You can use this product up to 24 hours before your original flight, and it even applies if you've already flown one leg of your journey. Just a quick heads-up, any upgrades to more expensive tickets, as well as changes to destinations, names, or passenger types, may incur additional costs.  Please let me know if you'd like more information or help with your booking - I'm here to help!",
+        "created": "2025-03-04T18:58:47.662Z",
+        "updated": "2025-03-04T18:59:04.584Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T18:59:05.418Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Inform the customer about RyanAir verification issues ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "RyanAir recently introduced a verification process for selected bookings. This process is managed by RyanAir. As you know, RyanAir is different from our brand,  [BRAND]. But I can help! First, you'll just need to visit the RyanAir website: https://onlineform.ryanair.com/us/en/customer-verification. Then, insert your booking information below:  Booking Reference: [Booking Reference] First Name: [Customer First Name] Last Name: [Customer Last Name]  Finally, follow the on-screen instructions and you will get access to your reservation.",
+        "created": "2025-03-04T18:59:05.422Z",
+        "updated": "2025-03-04T18:59:30.490Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T19:00:36.930Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "New itinerary not updated in the app ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "No worries, in our system, we can see that your flight has already been updated and confirmed. While our website may not be updated, we can easily send you the new information via email. Additionally, feel free to check your new flight directly on the airline website. Would you like me to send you the new information via email now?",
+        "created": "2025-03-04T19:00:36.933Z",
+        "updated": "2025-03-04T19:00:56.536Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T19:00:57.378Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "Inform the customer about Alias Email  ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Yes, we do use travel email addresses to send reservations. We do this for safety. The travel email blocks ads and keeps spam out of your mailbox. But don't worry, you can still contact us to make changes along the way.",
+        "created": "2025-03-04T19:00:57.382Z",
+        "updated": "2025-03-04T19:01:14.260Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T19:01:15.970Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Chat Opening (asking to wait) ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Hi, [Cx Name], this is [Agent name]. I will take a quick look at your request and be with you shortly. Thanks for your patience!",
+        "created": "2025-03-04T19:01:15.975Z",
+        "updated": "2025-03-04T19:33:14.319Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T19:33:17.398Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Chat Opening (asking to state the request) ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Hi, [cx. Name], my name is [Agent Name]. How may I help you with your booking?",
+        "created": "2025-03-04T19:33:17.403Z",
+        "updated": "2025-03-04T19:47:55.735Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T19:47:58.013Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Chat Opening due to long wait time (more than 5 minutes) Request stated ETG/B.com UK",
+    "description": "The customer has gone through the workflow and is waiting to be connected to the agent",
+    "cards": [
+      {
+        "content": "Hi [Cx Name], this is[Agent Name].   Thank you for your patience as we handle a high volume of requests. I'll review your case details and be with you shortly!",
+        "created": "2025-03-04T19:47:58.018Z",
+        "updated": "2025-03-04T19:49:59.797Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T19:50:02.174Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Question before closing ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Is there anything else I can assist you with today?",
+        "created": "2025-03-04T19:50:02.181Z",
+        "updated": "2025-03-04T19:50:32.263Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T19:50:33.470Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Close chat ETG/B.com UK",
+    "description": "When the customer responds \"no\" to a question \"Is there anything else I can help you with?\"",
+    "cards": [
+      {
+        "content": "Thank you for reaching out. Have a wonderful day!",
+        "created": "2025-03-04T19:50:33.474Z",
+        "updated": "2025-03-04T19:50:56.679Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T19:51:08.934Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Chat Closing When customer irate or unhappy ETG/B.com UK",
+    "description": "The customer is already unhappy with our service: we need to use this script instead of a standard closing script.",
+    "cards": [
+      {
+        "content": "We apologize for the inconvenience but we're unable to assist you at this moment. Your satisfaction is important to us, and we're continuously striving to improve our service. Please feel free to reach out in the future for any assistance. This chat will now close.",
+        "created": "2025-03-04T19:51:08.938Z",
+        "updated": "2025-03-04T20:02:41.617Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:02:45.267Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Customer doesn't respond 1st Warning ETG/B.com UK",
+    "description": "To use when the customer doesn't respond for 2 minutes. Send it and wait for another 3 min.",
+    "cards": [
+      {
+        "content": "i, I wanted to check in to see if you're still with us. Please reply so I can continue assisting you. If I don't hear from you in the next 3 minutes, the chat will close due to inactivity.   Don't worry - you can always reach out again whenever you’re ready. We’re here to help!",
+        "created": "2025-03-04T20:02:45.271Z",
+        "updated": "2025-03-04T20:03:10.113Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:03:10.979Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Customer doesn't respond - prior to closing the chat  ETG/B.com UK",
+    "description": "To use prior to disconnecting the interaction.",
+    "cards": [
+      {
+        "content": "I will now close the chat. Please reach out again at your convenience!",
+        "created": "2025-03-04T20:03:10.984Z",
+        "updated": "2025-03-04T20:03:36.077Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:03:39.155Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Close chat after no response for 5 min ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I still haven't received a response, and it seems that you are no longer connected. This chat will now be closed.  If you need further assistance, please start a new chat. Thank you.",
+        "created": "2025-03-04T20:03:39.160Z",
+        "updated": "2025-03-04T20:03:58.049Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:03:58.891Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Hold ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Please give me a moment to review your information. I will be back shortly.",
+        "created": "2025-03-04T20:03:58.896Z",
+        "updated": "2025-03-04T20:04:15.214Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:04:16.883Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Refresh Hold ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thank you for waiting. But I will need a few more minutes to work on your request.",
+        "created": "2025-03-04T20:04:16.889Z",
+        "updated": "2025-03-04T20:04:34.529Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:04:35.404Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Consequent refresh hold (This should be the last hold during your interaction) ETG/B.com UK",
+    "description": "For this last hold, you should not mention specific minutes, however, you must get back to the chat within 5 minutes to avoid \"dead air\"",
+    "cards": [
+      {
+        "content": "I am still working on your request and am almost there. I just need a few more minutes to wrap this up. I appreciate your patience while I make sure everything is handled properly.",
+        "created": "2025-03-04T20:04:35.409Z",
+        "updated": "2025-03-04T20:05:07.614Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:05:09.324Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Proceed request ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thank you. Please give me a moment to process your request.",
+        "created": "2025-03-04T20:05:09.329Z",
+        "updated": "2025-03-04T20:05:25.997Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:05:26.588Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "upervisor escalation ETG/B.com UK",
+    "description": "Supervisor call within 24 h",
+    "cards": [
+      {
+        "content": "I understand your frustration, [Cx Nme]. Let me ask one of our supervisors to help you. Would it be okay if they contact you within the next 24 hours?",
+        "created": "2025-03-04T20:05:26.592Z",
+        "updated": "2025-03-04T20:06:42.270Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:06:45.612Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Phone number request ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Could you please share your preferred number to contact you?",
+        "created": "2025-03-04T20:06:45.618Z",
+        "updated": "2025-03-04T20:07:04.285Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:07:04.972Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Supervisor escalation confirmation ETG/B.com UK",
+    "description": "When the customer agrees to a supervisor call within 24 hours ",
+    "cards": [
+      {
+        "content": "Thank you,  [Cx Name]. One of our supervisors will contact you at your preferred number within 24 hours.",
+        "created": "2025-03-04T20:07:04.977Z",
+        "updated": "2025-03-04T20:07:36.030Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:07:47.028Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Supervisor escalation N2 ETG/B.com UK",
+    "description": "When the customer declines the offered supervisor call. Choose one depending on the scenario",
+    "cards": [
+      {
+        "content": "I understand this situation is frustrating, however, I'm not able to assist you further at the moment.",
+        "created": "2025-03-04T20:07:47.033Z",
+        "updated": "2025-03-04T20:08:10.530Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:08:13.077Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Supervisor request ETG/B.com UK",
+    "description": "When the customer is asking for a supervisor straight away",
+    "cards": [
+      {
+        "content": "I understand you'd like to speak to a supervisor, <[Cx Name]. Please allow me a moment and I'll do my best to assist you.",
+        "created": "2025-03-04T20:08:13.081Z",
+        "updated": "2025-03-04T20:08:46.798Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:08:48.902Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Escalate Internal Support ETG/B.com UK",
+    "description": "When the request has to be placed on support",
+    "cards": [
+      {
+        "content": "I will need to forward your request to our internal support team, as it cannot be handled via chat. They will get back to you as soon as possible.",
+        "created": "2025-03-04T20:08:48.908Z",
+        "updated": "2025-03-04T20:09:12.239Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:09:13.621Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Escalate Internal Support - Payment not processed on airline's site ETG/B.com UK",
+    "description": "When the payment link/MOTO cannot go through the airline's website",
+    "cards": [
+      {
+        "content": "After reviewing the airline's website, it seems the payment process wasn't completed. Our team will handle the necessary steps to complete the payment. If we need any additional information from you, we will reach out directly. Once everything is resolved, you'll receive a confirmation email.",
+        "created": "2025-03-04T20:09:13.626Z",
+        "updated": "2025-03-04T20:09:34.687Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:09:38.341Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "CHG request - not permitted/non-ref.  ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "We are required to follow the airline's rules for your ticket(s). Unfortunately, in this case, the rules state that this ticket is non-refundable and cannot be changed. ",
+        "created": "2025-03-04T20:09:38.346Z",
+        "updated": "2025-03-04T20:09:54.179Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:09:55.213Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "CHG request - not permitted too late to rebook ETG/B.com UK",
+    "description": "When rebooking is only permitted up to XX days before departure and the time passed",
+    "cards": [
+      {
+        "content": "I see that your flight with [airline name] is just [XX] days/hours away. Unfortunately, the rebooking window has passed, as the airline only allows changes up to [XX] days before departure. At this point, if you would like, I will gladly assist you with checking the cancellation policy.",
+        "created": "2025-03-04T20:09:55.219Z",
+        "updated": "2025-03-04T20:10:17.347Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:10:22.022Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "CHG request - permitted B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "The airline permits changes for a fee of XXX per person.  I’d be happy to help you make the change.  Currently, the total charge for rebooking, including the tax and/or fare difference, is XXX.  Your new flight details:  XXXXXXXXXXXXXXXXXXXXX  Would you like to proceed with rebooking your ticket(s) to the above alternative option?",
+        "created": "2025-03-04T20:10:22.028Z",
+        "updated": "2025-03-04T20:13:14.324Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:13:18.311Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "No changes made ETG/B.com UK",
+    "description": "  Pax doesn't want to rebook\n  Pax doesn't  want to cancel",
+    "cards": [
+      {
+        "content": "No problem. Please note that I have not made any changes to your booking.  If you decide to make this change, contact us again no later than [deadline]. After this date, changes may not be allowed or additional airline fees may apply.",
+        "created": "2025-03-04T20:13:18.317Z",
+        "updated": "2025-03-04T20:13:38.592Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:13:41.206Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Rebooking - Eligible as per Fare Rules for Death/Medical Reasons ETG/B.COM UK",
+    "description": "Rebooking Eligible as per Fare Rules for Death/Medical Reasons",
+    "cards": [
+      {
+        "content": "I confirm your request to rebook the flights for [Passenger’s First/Last Name] to [New Date]. Please note that approval from the airline is required for a free-of-charge rebooking. In the event of rejection by the airline, you have the option to proceed with a paid rebooking, covering the airline's change fee, agency fee, and any fare difference.   If you prefer us to initiate the request for a free-of-charge rebooking, we'll send you an email with further instructions. You'll be asked to provide your consent and attach relevant documents in English or the airline's official language. To expedite the process, please give your consent and submit the documents within 5 days.",
+        "created": "2025-03-04T20:13:41.212Z",
+        "updated": "2025-03-04T20:14:31.985Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:14:34.767Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "ATC- CXL - fare rules  B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I’d be happy to take care of this for you, [Cx Name].  The amount of XXXX will be returned to your original form of payment. We kindly ask that you check the \"My Bookings\" page on our website to monitor the progress of your refund.   I will now cancel your booking and send the cancellation confirmation to your email. You will also receive an email when your refund has been processed.   Our current average handling time for refunds after receiving funds from the airline is 6 days. We promptly submit claims to the airline(s) upon receiving your request.  While most airlines process refunds in under 5 business days, the entire process can take 10-15 business days from the time you confirm cancellation until we process the payout.  Please note that we have no control over the processing time by your payment provider or bank after refunding your account.",
+        "created": "2025-03-04T20:14:34.773Z",
+        "updated": "2025-03-04T20:15:03.025Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:15:07.103Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "ATC- CXL - non-ref tax B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "According to the airline rules, the ticket, including any add-on products (such as baggage, seats, meals) or fees, is non-refundable. However, part of the taxes can be refunded through the airline.   If you cancel your booking now, the refundable amount you will receive is [amount] [currency].   Would you like me to cancel your booking and contact the airline to refund the taxes? ",
+        "created": "2025-03-04T20:15:07.108Z",
+        "updated": "2025-03-04T20:15:27.349Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:15:32.439Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "ATC -CXL - conf B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I’d be happy to take care of this for you,  [Cx Name].   Please note that the handling time for your refund depends on the airline. We are unable to give you an exact time frame, but we will do our best to get your refund to you as soon as possible.   The amount of XXXX will be returned to your original form of payment.   I will now cancel your booking and send the cancellation confirmation to your email. You will also receive an email when your refund has been processed.",
+        "created": "2025-03-04T20:15:32.445Z",
+        "updated": "2025-03-04T20:16:06.817Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:16:09.519Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "CXL - fare rules  B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "The airline allows cancellation for a fee of XXX per person. Please note that, according to the airline rules and our terms and conditions, some taxes and add-on products may not be refundable. Would you like me to cancel your booking and contact the airline for a refund?",
+        "created": "2025-03-04T20:16:09.525Z",
+        "updated": "2025-03-04T20:16:23.671Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:16:24.376Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "CXL - conf ETG/B.com UK",
+    "description": "When the customer confirms cancellation of the booking",
+    "cards": [
+      {
+        "content": "Certainly,  [Cx Name]! I will proceed with canceling your booking now. After we receive the refund from the airline, it usually takes about 6 days to process on our end. While airlines generally process refunds within 5 business days, the entire process from cancellation to payout may take 10-15 business days. Please remember that we don't control your payment provider or bank's processing time after we refund to your account. You can track the progress of your refund in 'My Bookings' on our website or app.  I will now cancel your booking. The cancellation confirmation will be sent to your email within the hour, and you will also receive a notification once your refund is finalized.",
+        "created": "2025-03-04T20:16:24.382Z",
+        "updated": "2025-03-04T20:17:02.274Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:17:03.904Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "CXL - non-ref tax B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "According to the airline rules, the ticket, including any add-on products (such as baggage, seats, meals) or fees, is non-refundable. However, part of the taxes can be refunded through the airline.  Would you like me to cancel your booking and contact the airline to refund the taxes?",
+        "created": "2025-03-04T20:17:03.910Z",
+        "updated": "2025-03-04T20:17:21.237Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:17:25.152Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "CXL - non ref ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "According to the airline's policy, the ticket and any add-on products (such as baggage, seats, or meals) are non-refundable. I understand this may be frustrating and appreciate your patience. If you're interested, I can check if there's a possibility to reschedule your flight instead. Would you like me to explore this option for you?  Choose one option after checking fare rules for rebooking:  Changes Permitted:  Good news! Your ticket allows for changes. We'd be happy to assist you in rebooking your trip to a different date so you don’t lose your ticket. Would you like me to explore the option of changing your flight, or would you still prefer to cancel your booking?  Changes Not Permitted: Unfortunately, changes are not permitted under the ticket rules. If you have external travel insurance, I can cancel your reservation and send you a confirmation email to use for any potential claims with your insurance provider. Would you like me to proceed with the cancellation and provide the confirmation?",
+        "created": "2025-03-04T20:17:25.158Z",
+        "updated": "2025-03-04T20:17:48.950Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:17:49.905Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "SC/FM CXL request B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "According to the airline’s rules, you may request a refund for your booking. Please note that some taxes and add-on products may not be refundable. Would you like me to cancel your order and contact the airline for a refund?",
+        "created": "2025-03-04T20:17:49.910Z",
+        "updated": "2025-03-04T20:18:04.977Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:18:05.832Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "CXL- fare rules/partially used tickets B.com",
+    "description": "When the ticket is partially used\t",
+    "cards": [
+      {
+        "content": "The airline allows cancellations for a fee of XXX per person. Please note that certain taxes and add-ons may not be refundable under the airline’s policies and our Terms and Conditions.  Additionally, the refund eligibility of your booking will depend on the value of the unused portion of the ticket. Would you like me to proceed with canceling your booking and contacting the airline regarding a refund?",
+        "created": "2025-03-04T20:18:05.837Z",
+        "updated": "2025-03-04T20:18:32.086Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:18:39.792Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "CXL - Refund - Eligible as per Fare Rules for Death/Medical Reasons",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thank you  [Cx Name].  I can confirm that the airline allows refunds without penalties for serious unforeseen events, provided that the necessary documentation is submitted.  To proceed, we will first need to cancel your booking and initiate the claim process. If your request is approved by the airline, the refund will be issued to your original payment method.  Please note that this process requires thorough documentation and could take longer than usual. Rest assured, we will keep you updated at every step to ensure that this experience is as transparent and straightforward as possible.  If you have any questions or need further assistance, please don’t hesitate to reach out.",
+        "created": "2025-03-04T20:18:39.798Z",
+        "updated": "2025-03-04T20:19:13.218Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:19:15.969Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "CXL- Refund - Not Eligible as per Fare Rules for Death/Medical Reasons, Customer Still Insists on Refund",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thank you [Cx Name].  Unfortunately, based on the airline's guidelines, refunds for serious unforeseen events are not typically provided.    If the customer still insists on a refund, use the below script:  If you’d still like to proceed with a refund application, we can cancel your booking and initiate the claim process.  Please note that the refund will depend on the airline’s approval, and if approved, the amount will be returned to your original payment method. If the refund is not approved, it will be processed according to the airline's cancellation policy.  This process requires thorough documentation and could take longer than usual. If you have any questions or need further assistance, please don’t hesitate to reach out.",
+        "created": "2025-03-04T20:19:15.975Z",
+        "updated": "2025-03-04T20:19:40.866Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:19:44.273Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "CXL - Refund - Eligible as per Fare Rules for Visa rejection",
+    "description": "",
+    "cards": [
+      {
+        "content": "I can confirm that the airline allows refunds without penalties in cases of visa rejection, provided that the necessary documentation is submitted. To proceed, we will first need to cancel your booking and initiate the claim process.   If your request is approved by the airline, the refund will be issued to your original payment method. Please note that this process requires thorough documentation and could take longer than usual. If you have any questions or need further assistance, please don’t hesitate to reach out.",
+        "created": "2025-03-04T20:19:44.280Z",
+        "updated": "2025-03-04T20:20:01.538Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:20:04.480Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "CXL - Refund - Not Eligible as per Fare Rules for Visa rejection, Customer Still Insists on Refund",
+    "description": "",
+    "cards": [
+      {
+        "content": "Unfortunately, based on the airline's guidelines, refunds in cases of visa rejection are not typically provided.     If the customer still insists on a refund, use the below script: If you’d still like to proceed with a refund application, we can cancel your booking and initiate the claim process.   Please note that the refund will depend on the airline’s approval, and if approved, the amount will be returned to your original payment method. If the refund is not approved, it will be processed according to the airline's cancellation policy. This process requires thorough documentation and could take longer than usual. If you have any questions or need further assistance, please don’t hesitate to reach out.",
+        "created": "2025-03-04T20:20:04.487Z",
+        "updated": "2025-03-04T20:20:22.962Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:20:23.809Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Chat request -Sending payment link ETG/B.com UK",
+    "description": "When sending a payment link to the customer",
+    "cards": [
+      {
+        "content": "Thank you! I've just sent you a payment link in this chat. Please right-click on the link, open it in a separate tab without closing this window, and complete the payment within 5 minutes. If you do not respond within this time, the chat will disconnect. If you don’t see the link, can't open it or have any questions, please let me know and I will be happy to help.",
+        "created": "2025-03-04T20:20:23.815Z",
+        "updated": "2025-03-04T20:20:49.651Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:20:50.625Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Payment confirmation for (Baggage/Seating/Special equipment) ETG/B.com UK",
+    "description": "Payment successfully received for (Baggage/Seating/Special equipment)",
+    "cards": [
+      {
+        "content": "Thank you for your payment. Within 24 hours, you’ll receive an email confirming your (Baggage/Seating/Special equipment), linked to your airline reference number. If you don't see the confirmation in your inbox, please check your spam folder.",
+        "created": "2025-03-04T20:20:50.631Z",
+        "updated": "2025-03-04T20:21:09.702Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:21:15.137Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Customer denies when referred to the airline ETG/B.COM UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "As your travel agency, we're here to make your booking experience as smooth as possible and assist with your travel needs. While we can help with most inquiries, like itinerary changes and general questions, there are some cases where you'll need to contact the airline directly. This is due to airline policies that require their intervention. Rest assured, we’ll continue to support you in any way we can to ensure your trip goes smoothly.",
+        "created": "2025-03-04T20:21:15.143Z",
+        "updated": "2025-03-04T20:21:30.983Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:21:32.129Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Czech Airlines partial refund ETG/B.com UK",
+    "description": "When the customer asks why the refunded amount is partial and why the refund case is closed.",
+    "cards": [
+      {
+        "content": "The refund you received is connected to your booking with Czech Airlines. Recently, the carrier underwent a reorganization process in the Municipal Law Court of Prague to avoid bankruptcy. The financial plan has been approved, and the airline is now actively processing refund requests. However, they have only refunded bookings partially, without covering for the entire cost of the ticket(s).  Based on the information provided by the airline, this is the final and total refund that we should expect for your booking. Therefore we have closed your refund case after completing the payout. We have refunded you the full amount received from the airline without charging any fees from our side.  We understand that this may be less than ideal, but as an intermediary, we can only refund what we receive from the airline and are not liable for any service that was not provided by the carrier. If you have any questions about the refunded amount, we kindly ask you to address them directly to the airline, as we do not have any further information about this matter. Thank you for your understanding.",
+        "created": "2025-03-04T20:21:32.136Z",
+        "updated": "2025-03-04T20:21:55.607Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:21:56.578Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "On support waiting for YY reply ETG/B.com UK",
+    "description": "The case is already on support and we are waiting for YY reply",
+    "cards": [
+      {
+        "content": "Our team is still waiting for a response from the airline. We will get back to you as soon as we have an update.",
+        "created": "2025-03-04T20:21:56.584Z",
+        "updated": "2025-03-04T20:22:21.383Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:22:23.609Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Optimized ticket ETG/B.com UK",
+    "description": "When the customer booked ONE way and received a Return ticket ",
+    "cards": [
+      {
+        "content": "I apologize for any confusion this may have caused. Due to a technical error, your one-way ticket was issued as a round-trip. I can assure you that your tickets are valid and there will be no additional charges.   If the return flight aligns with your travel plans, feel free to use it. Otherwise, there's no need to cancel it if you don’t intend to use it.",
+        "created": "2025-03-04T20:22:23.616Z",
+        "updated": "2025-03-04T20:22:50.322Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:22:53.257Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Complaint due to extended refund time frame ETG/B.com UK    ",
+    "description": "When the refund process takes more than 15 business days",
+    "cards": [
+      {
+        "content": "I completely understand how concerning it can be when your refund is taking longer than expected. Once we receive approval from the airline, we process refunds within 6 days. However, sometimes delays can happen due to factors beyond our control, like how quickly your bank processes the refund after we have sent it. We are actively working on this with the airline and your payment provider. We really appreciate your patience, and we want to assure you your refund is on its way. If you have any questions or need further assistance, feel free to reach out to us.",
+        "created": "2025-03-04T20:22:53.263Z",
+        "updated": "2025-03-04T20:23:11.958Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:23:14.578Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Refund delay from YY (Auth pending) B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "I understand it’s frustrating when things take longer than expected. The process can sometimes take longer due to the airline's timelines, but we are actively working with them to get this sorted. In the meantime, you can track the status of your refund on the \"My Bookings\" page. As soon as the refund is processed, we will send you an email. ",
+        "created": "2025-03-04T20:23:14.585Z",
+        "updated": "2025-03-04T20:23:31.273Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:23:34.466Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Refund delay from our side ETG/B.com UK",
+    "description": "The refund delay is from our side\nTo be used after the customer was informed that the refund is on a queue for payout from our side",
+    "cards": [
+      {
+        "content": "We understand how important it is to receive your refund promptly - it is currently in the queue, and we're doing everything we can to process it as quickly as possible.   Thank you for your patience and understanding - we truly appreciate it.",
+        "created": "2025-03-04T20:23:34.471Z",
+        "updated": "2025-03-04T20:24:03.201Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:24:06.817Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Refund status disconnect ETG/B.com UK",
+    "description": "Disconnect when the customer inquires on the refund status and we have given all possible information",
+    "cards": [
+      {
+        "content": "I truly understand how important your refund status is to you and apologize for the wait. At this moment, we have shared all the information available. For live updates, you can always check the \"My Bookings\" page on our website.  Though we are unable to provide further details right now, please rest assured our team is working diligently to process your refund as soon as possible. We sincerely regret any inconvenience this may have caused.  To ensure we can assist other customers in a timely manner, we will need to close this chat for now. However, if you have further queries, please don’t hesitate to reach out. Thank you for your patience and understanding.",
+        "created": "2025-03-04T20:24:06.823Z",
+        "updated": "2025-03-04T20:24:31.574Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:24:32.866Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "When the customer uses abusive language ETG/B.com UK",
+    "description": "The first warning when the customer is using abusive language",
+    "cards": [
+      {
+        "content": "I understand your frustration [Cx Name],  and I want to assure you that I’m here to help. To provide the best support, I kindly request that we maintain a respectful tone during our conversation. This will help us work together towards a solution. If this respect cannot be upheld, I may have to end the chat.",
+        "created": "2025-03-04T20:24:32.871Z",
+        "updated": "2025-03-04T20:25:02.177Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:25:05.634Z"
+  },
+  {
+    "id": "ETG Scripts",
+    "category": "chat",
+    "title": "KR inquiry 7-day right to regret ETG ",
+    "description": "For KR market and customers inquiring regarding KR law right to regret for 7 days which ETG does not offer",
+    "cards": [
+      {
+        "content": "I understand it's not ideal, but under the airline's policy, the ticket – along with any additional services (like baggage, seats, or meals) – is non-refundable. The good news is that some of the taxes may be eligible for a refund.   If you'd like, we can assist you with this process. Please note that our service fee of XXX per person will apply. If you proceed with the cancellation now, your total refund would amount to [amount] [currency]. Would you like me to initiate the cancellation and request the tax refund on your behalf?",
+        "created": "2025-03-04T16:52:17.792Z",
+        "updated": "2025-03-04T20:25:37.874Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:25:49.371Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Closing when the customer uses abusive language ETG/B.com UK",
+    "description": "When the customer continues using abusive language even after our 1st warning",
+    "cards": [
+      {
+        "content": "As you refuse to keep a respectful tone during our conversation, I will now end this chat.",
+        "created": "2025-03-04T20:25:49.377Z",
+        "updated": "2025-03-04T20:26:35.591Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:26:36.642Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "FL transfer to SC ETG/B.com UK",
+    "description": "Wrong department ",
+    "cards": [
+      {
+        "content": "Your request needs to be handled by a different team, specialized in schedule changes. Please hold while I connect you to an agent from this team.",
+        "created": "2025-03-04T20:26:36.649Z",
+        "updated": "2025-03-04T20:26:59.925Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:27:00.714Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Redirect to CR/bag/seat claim ETG/B.com  UK",
+    "description": "When a customer wants to raise a claim that requires compensation (both claims handled by CR and FL)",
+    "cards": [
+      {
+        "content": "We understand your want to file an official claim and we are here to assist you further.  Once this chat is concluded, I will send a separate email to the address associated with your booking. The email will contain a specific form that needs to be submitted within two months following the completion of your trip.  Please ensure to check both your inbox and spam folder for the message.  Once you have submitted your claim, our dedicated team will reach out to you directly to address your concerns.",
+        "created": "2025-03-04T20:27:00.720Z",
+        "updated": "2025-03-04T20:27:20.296Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:27:21.163Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Non-flight related query B.com UK",
+    "description": "When a customer inquires about nonflight service (accommodation/car rentals etc.)",
+    "cards": [
+      {
+        "content": "We are not able to support you for {topics: accommodations, rental cars}. To get help, please contact the relevant support team directly. You can find their details through this link.  If you have questions about your flight booking, we are happy to help.",
+        "created": "2025-03-04T20:27:21.168Z",
+        "updated": "2025-03-04T20:27:52.857Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:27:55.963Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": " Baggage delay ETG/B.com UK",
+    "description": "How to handle a persistent customer because baggage hasn't been added yet",
+    "cards": [
+      {
+        "content": "I can confirm that you have included extra baggage in your trip, as indicated on your receipt. In most cases, services are added automatically, but with some airlines manual processing is required. Your request has been placed in our queue, and we typically handle such requests within 2 days. However, be aware that certain airlines may have specific timeframes for adding services to bookings, which might slightly extend the processing time. Rest assured, our dedicated team will promptly handle this for you.  Please note that your baggage will be added to your trip. Your receipt also serves as proof of your purchase.",
+        "created": "2025-03-04T20:27:55.970Z",
+        "updated": "2025-03-04T20:29:23.016Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:29:23.811Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Handling Fraudulent Reservation B.com UK",
+    "description": "Handling a persistent caller with a fraudulent reservation",
+    "cards": [
+      {
+        "content": "I'm unable to accommodate any requests for this order due to system limitations unless it is related to a refund. If there's anything else I can assist you with or if you have any questions about another order, feel free to let me know.",
+        "created": "2025-03-04T20:29:23.818Z",
+        "updated": "2025-03-04T20:29:47.965Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:29:49.203Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Fuel surcharge info ETG UK (Only for Japan Market)",
+    "description": "When customers would like to know about Fuel Surcharge info in our booking flow.",
+    "cards": [
+      {
+        "content": "A fuel surcharge is an additional fee imposed by airlines to cover specific operating costs related to fuel. It's separate from your base fare and taxes but included in your total ticket price. It's calculated based on factors such as route distance, aircraft type, fuel consumption rate, and prevailing fuel prices. Since it covers specific operating costs, it's typically non-refundable.",
+        "created": "2025-03-04T20:29:49.210Z",
+        "updated": "2025-03-04T20:30:10.468Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:30:11.379Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry ETG/B.com UK",
+    "description": "If the customer mentions the recent data breach/suspicious activity detected/security incident email",
+    "cards": [
+      {
+        "content": "I understand your concerns about the recent suspicious activity. Please allow me a moment to share the information we have and assist you further.",
+        "created": "2025-03-04T20:30:11.386Z",
+        "updated": "2025-03-04T20:30:34.392Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:30:35.428Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - the type of personal info was accessed ETG/B.com UK",
+    "description": "What specific types of personal information were potentially accessed?",
+    "cards": [
+      {
+        "content": "The potentially affected information includes various categories of personal data related to our customers. I can confirm that no payment information was compromised. I can confirm that no payment information was compromised. It is important to note that there is no evidence or indication of any actual impact on any customer, nor that any data was taken. We have informed the relevant authorities, as it is our responsibility, even though there is no indication that customer data has actually been exploited in any way as part of such suspicious activity.",
+        "created": "2025-03-04T20:30:35.435Z",
+        "updated": "2025-03-04T20:30:55.722Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:30:57.876Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Inquiry about system vulnerabilities ETG/B.com UK",
+    "description": "How did the attacker get access to your system/exploit the system vulnerabilities?",
+    "cards": [
+      {
+        "content": "The attacker found a way to exploit certain system vulnerabilities to access data. Specific technical details cannot be disclosed for security reasons. Again, it is only a suspicious activity, and there is no certainty that data was actually taken.",
+        "created": "2025-03-04T20:30:57.883Z",
+        "updated": "2025-03-04T20:31:18.550Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:31:20.676Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Support for impacted individuals ETG/B.com UK",
+    "description": "What advice or support is being offered to potentially impacted individuals?",
+    "cards": [
+      {
+        "content": "While we currently have no evidence or indication of any actual impact on you, we recommend remaining vigilant against phishing attacks and other online fraud attempts. Here are some key practices to stay safe: 1. Be cautious with unexpected calls or messages, and do not click on links from untrusted sources. 2. Remember that neither [Brand] nor any airline will ask for additional financial information through email. Contact us to verify any suspicious communication. 3. Be wary of payment requests that are unexpected. Genuine requests will come through a secure payment link or phone after security clearance. 4. Do not enter financial information on non-secure websites, and do not share passwords or security codes over the phone.  We advise customers to monitor any suspicious activity and report any concerns to our support team. Additional support measures will be communicated as needed. It is important to remember that there are no signs of misuse of any potentially compromised data, at this point.",
+        "created": "2025-03-04T20:31:20.683Z",
+        "updated": "2025-03-04T20:31:41.974Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:31:43.804Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Wish to raise GDPR or data protection-driven action ETG/B.com UK",
+    "description": "What should I do if I want to take any GDPR or other data protection-driven action, like exercising any of the privacy rights (as described under <brand> Privacy Policy available online) i.e., extracting my data or knowing what data the company holds about me?",
+    "cards": [
+      {
+        "content": "If you would like to exercise any of your privacy rights, such as accessing or learning what data we hold about you, please submit a request through the data subjects form that is available as a link, in the Privacy Policy of the [Brand], under \"Your rights\" section.  If you have any doubts, please contact the privacy team at privacy@etraveligroup.com and they will assist you through the process and ensure that your request is fully handled in line with GDPR and other data protection laws, as applicable.",
+        "created": "2025-03-04T20:31:43.810Z",
+        "updated": "2025-03-04T20:32:08.456Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:32:09.212Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Request to erase the customer data ETG/B.com UK",
+    "description": "Do I have the right to have all my data erased according to GDPR?",
+    "cards": [
+      {
+        "content": "If you wish to request the deletion of your personal data, please submit a request through the data subjects form that is available as a link, in the Privacy Policy of the [Brand], under \"Your rights\" section.  If you have any doubts, please contact the privacy team at privacy@etraveligroup.com. They will support you throughout the process and ensure that everything is done in accordance with data protection legislation.",
+        "created": "2025-03-04T20:32:09.219Z",
+        "updated": "2025-03-04T20:32:31.516Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:32:32.068Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - When was the breach discovered ETG/B.com UK",
+    "description": "When was the breach discovered?",
+    "cards": [
+      {
+        "content": "The breach was discovered on May 15, 2024. It was contained and closed the following day, on May 16, 2024. We reported the breach to the relevant authorities within the required timeframe.",
+        "created": "2025-03-04T20:32:32.076Z",
+        "updated": "2025-03-04T20:32:52.086Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:32:55.692Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Enquiring the evidence of misuse of the data ETG/B.com UK",
+    "description": "Has there been any evidence of misuse of the compromised data?",
+    "cards": [
+      {
+        "content": "At this stage, there are no signs of misuse of any potentially compromised data. We continue to monitor the situation closely, and it remains uncertain if any data was taken.",
+        "created": "2025-03-04T20:32:55.698Z",
+        "updated": "2025-03-04T20:41:31.383Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:41:32.430Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry -Action Taken on the Breach Occurrence  ETG/B.com UK",
+    "description": "What immediate steps were taken upon discovering the breach?",
+    "cards": [
+      {
+        "content": "Upon discovering the suspicious activity, we immediately took steps to contain, assess, and remediate the situation. This included blocking the attacker’s IP addresses and implementing a system hotfix to prevent further access.",
+        "created": "2025-03-04T20:41:32.439Z",
+        "updated": "2025-03-04T20:41:52.472Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:41:58.582Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Inquiring about security measures for future incidents ETG/B.com UK",
+    "description": "Have any further security measures been implemented to prevent future incidents?",
+    "cards": [
+      {
+        "content": "We take your security seriously, and we have implemented several measures to prevent future incidents. This includes system upgrades, added extra access security such as two-factor authentication, and improved monitoring and anomaly detection to prevent future incidents. Our team is committed to ongoing efforts to maintain the integrity of our systems and keep your data safe.",
+        "created": "2025-03-04T20:41:58.589Z",
+        "updated": "2025-03-04T20:47:00.928Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:47:01.935Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Inquiring if relevant bodies have been notified ETG/B.com UK",
+    "description": "Have relevant regulatory bodies been notified of the breach?",
+    "cards": [
+      {
+        "content": "Yes, we have notified the appropriate regulatory bodies within the required timeframe and are complying with all relevant data protection regulations regarding this suspicious activity.",
+        "created": "2025-03-04T20:47:01.942Z",
+        "updated": "2025-03-04T20:47:20.269Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:47:35.455Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Assurance of Data Security ETG/B.com UK",
+    "description": "How can customers be assured that their data is now secure?",
+    "cards": [
+      {
+        "content": "We have taken immediate actions to secure our systems, including blocking unauthorized access and implementing additional security measures. Our team continuously monitors and enhances our security protocols to ensure the highest level of data protection. We are committed to maintaining the highest standards to protect our customers' data and to addressing any vulnerabilities proactively.",
+        "created": "2025-03-04T20:47:35.462Z",
+        "updated": "2025-03-04T20:47:55.840Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:47:58.983Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Actions taken to strengthen data security ETG/B.com UK",
+    "description": "What long-term measures are being implemented to strengthen data security?",
+    "cards": [
+      {
+        "content": "To strengthen data security, we are conducting ongoing audits, reviewing infrastructure, and continuously improving security protocols. We remain committed to safeguarding your data and upholding the highest protection standards.",
+        "created": "2025-03-04T20:47:58.991Z",
+        "updated": "2025-03-04T20:48:20.189Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:48:30.943Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry- Inquiring about ongoing investigation ETG/B.com UK",
+    "description": "Is there an ongoing investigation?",
+    "cards": [
+      {
+        "content": "Yes, a thorough investigation is ongoing. We will provide updates to the potentially affected customers as necessary.",
+        "created": "2025-03-04T20:48:30.950Z",
+        "updated": "2025-03-04T20:48:53.049Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:48:57.464Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Possibility of changes/refund request to impacted pax orders by fraudsters ETG/B.com UK",
+    "description": "Is there any chance that fraudsters can make changes to impacted customers' reservations and/or request a refund? ",
+    "cards": [
+      {
+        "content": "No, as we have added additional access security for our customer services. Any customer login now requires two-factor authentication. It is only the person who has access to the email address registered with the order that could make changes to reservations. Likewise, there is no risk in relation to refund payments, as for all refund requests, the payment is performed to the original form of payment provided.",
+        "created": "2025-03-04T20:48:57.470Z",
+        "updated": "2025-03-04T20:49:18.234Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:49:19.135Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - Impact on accommodation, car rental made via BCOM ETG/B.com UK",
+    "description": "Are other reservations (e.g. accommodation, car rental, etc.) made via the Booking.com platform impacted by such a security incident?",
+    "cards": [
+      {
+        "content": "No, as such a security incident concerns Etraveli Group AB, of which [BRAND] is part.  If you booked any other travel services through the Booking.com platform for your trip, any personal data that may have been collected for those bookings has not been affected.",
+        "created": "2025-03-04T20:49:19.142Z",
+        "updated": "2025-03-04T20:49:39.799Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:49:40.840Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Data breach inquiry - CLOSING - ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Thank you for your understanding and cooperation. If you have any further questions or concerns, please do not hesitate to ask. Your security is our top priority.",
+        "created": "2025-03-04T20:49:40.847Z",
+        "updated": "2025-03-04T20:49:56.559Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:49:57.432Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "NACO REQ FOR CC2C ORDERS - EXPLAINING CUSTOMER ABOUT CC2C/ B.com UK",
+    "description": "Why should I pay again for a new ticket? / Educate the customer about the CC2C payment method and why full payment is necessary.",
+    "cards": [
+      {
+        "content": "I understand that correcting the name on your ticket can be a bit confusing, and I appreciate your patience as I guide you through this. Since your payment was made directly to the airline, bypassing our usual process, we need to follow a specific approach to correct the name on your ticket.  To resolve this, we need to issue a new ticket with the correct name, which involves the following payments:  New ticket price: XXXXX <currency> Airline fee: XXXXX <currency>  Once we receive your payment, we will promptly begin processing your new ticket. Please be assured that you will receive a refund for the original ticket to your original payment method.  I understand this may not be the most straightforward process, but we are here to guide you through it. If you have any concerns or would like further clarification, feel free to let us know. We want to ensure that everything is handled smoothly and to your satisfaction.",
+        "created": "2025-03-04T20:49:57.438Z",
+        "updated": "2025-03-04T20:50:23.823Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:50:24.904Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Cancellation Guarantee ETG/B.com UK",
+    "description": "When the customer asks about Cancellation Guarantee product",
+    "cards": [
+      {
+        "content": "Select one of the two conditions:  Condition 1: No Add-On Product.  I'd be happy to walk you through our Cancellation Guarantee Extra. If you cancel at least 24 hours before departure, you will receive a voucher covering 90% of the value of your flight ticket. Additional products such as baggage or the support package will not be included. The voucher code is generated by us and will be sent within 7 business days after we confirm your cancellation. It will be valid for 12 months and can be used for future bookings exclusively on our website [website].   Condition 2: With Add-On Product.  I see you have add-on products associated with your booking, so I want to clarify that the voucher from our Cancellation Guarantee will cover 90% of the value of your flight ticket. Additional items, such as baggage or support packages, will not be included. The voucher will be sent within 7 business days after your cancellation is confirmed and will be valid for 12 months, redeemable exclusively on our website [website].  Would you like to proceed with the cancellation and receive the voucher, or keep your booking as it is? Please let me know how I can best assist you.",
+        "created": "2025-03-04T20:50:24.912Z",
+        "updated": "2025-03-04T20:50:49.338Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:50:58.113Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Cancel For Any Reasons (CFAR) product ETG/B.com UK",
+    "description": "When the customer asks about the CFAR product",
+    "cards": [
+      {
+        "content": "Select one of the two conditions:  Condition 1: Customer wants to use the CFAR product. Thank you for reaching out. I see that you purchased our Cancel For Any Reason (CFAR) protection and are requesting to cancel more than 24 hours before departure. That’s great news! With this protection, we can cancel your reservation, and your refund will be processed and sent within 48 hours. Would you like me to go ahead and confirm your cancellation and start the refund process?   Condition 2: Customer asking about CFAR product. I am happy to explain how our Cancel For Any Reason (CFAR) protection works! With CFAR, you can cancel your reservation up to 24 hours before departure, and we will process your refund within 48 hours, giving you peace of mind and flexibility with your plans. Just a quick note: while this product ensures a seamless cancellation process, its cost is non-refundable. Does this sound like what you’re looking for?",
+        "created": "2025-03-04T20:50:58.119Z",
+        "updated": "2025-03-04T20:51:48.286Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:51:51.592Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Chek-in (PassNFly) Product ETG/B.com UK",
+    "description": "When the customer asks about the check-in product",
+    "cards": [
+      {
+        "content": "Thank you for your interest in our Automatic Check-in product! When you purchase this service, you will receive a separate email from PassnFly asking for your travel document details. Make sure to fill out this information as soon as you can so that we can complete the check-in process on your behalf. After that, you are all set - just relax and wait for your boarding pass, which will arrive in your inbox up to 6 hours before departure. If any issues come up with your travel documents, don’t worry - you will be notified right away with instructions on what to do next. We want to make your travel experience as smooth as possible.",
+        "created": "2025-03-04T20:51:51.598Z",
+        "updated": "2025-03-04T20:52:11.599Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:52:12.712Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Cancellation with XCover ETG/B.com UK",
+    "description": "When the customer asks about Cancellation with the XCover policy",
+    "cards": [
+      {
+        "content": "XCover is different from our brand, [our Brand]. You'll need to contact XCover to get more information. But I can still help! Here is the website: Xcover.com/login. Also, I know they've sent you a separate email to the same address as we've sent our confirmation email. You'll want to read that email for login details and other information. ",
+        "created": "2025-03-04T20:52:12.719Z",
+        "updated": "2025-03-04T20:52:44.382Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T20:52:56.825Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Airhelp+ ETG/B.com UK",
+    "description": "When the flight is delayed or overbooked and the customer asks about the Airhelp+ product",
+    "cards": [
+      {
+        "content": "If your flight has been delayed, canceled, or overbooked, you may be entitled to compensation with the assistance of Airhelp+. This service operates separately from [our Brand], so for detailed information, please visit Airhelp’s website: https://www.airhelp.com/. They should have also sent an email to your inbox with login details - look for it in the same email account where you received our booking confirmation. If you need help finding that email or understanding the next steps, let me know and I will guide you.",
+        "created": "2025-03-04T20:52:56.832Z",
+        "updated": "2025-03-04T21:08:44.993Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T21:08:46.091Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Flexible Ticket ETG/B.com UK",
+    "description": "When the customer asks about the Flexible ticket",
+    "cards": [
+      {
+        "content": "I'm happy to provide more details about our Flexible Ticket product! With this option, you can the time or date of your flight with the same airline, without incurring any change fees. However, please note that fare and tax differences will still apply. You can use this product up to 24 hours before your original flight, and it even applies if you've already flown one leg of your journey. Just a quick heads-up, any upgrades to more expensive tickets, as well as changes to destinations, names, or passenger types, may incur additional costs.  Please let me know if you'd like more information or help with your booking - I'm here to help!",
+        "created": "2025-03-04T21:08:46.101Z",
+        "updated": "2025-03-04T21:09:04.449Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T21:09:05.595Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Inform the customer about RyanAir verification issues ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "RyanAir recently introduced a verification process for selected bookings. This process is managed by RyanAir. As you know, RyanAir is different from our brand,  [BRAND]. But I can help! First, you'll just need to visit the RyanAir website: https://onlineform.ryanair.com/us/en/customer-verification. Then, insert your booking information below:  Booking Reference: [Booking Reference] First Name: [Customer First Name] Last Name: [Customer Last Name]  Finally, follow the on-screen instructions and you will get access to your reservation.",
+        "created": "2025-03-04T21:09:05.603Z",
+        "updated": "2025-03-04T21:09:23.665Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T21:09:53.123Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "New itinerary is not updated in the app ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "No worries, in our system, we can see that your flight has already been updated and confirmed. While our website may not be updated, we can easily send you the new information via email. Additionally, feel free to check your new flight directly on the airline website. Would you like me to send you the new information via email now?",
+        "created": "2025-03-04T21:09:53.130Z",
+        "updated": "2025-03-04T21:10:08.514Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T21:10:09.428Z"
+  },
+  {
+    "id": "B.COM Scripts",
+    "category": "chat",
+    "title": "Inform the customer about Alias Email ETG/B.com UK",
+    "description": "",
+    "cards": [
+      {
+        "content": "Yes, we do use travel email addresses to send reservations. We do this for safety. The travel email blocks ads and keeps spam out of your mailbox. But don't worry, you can still contact us to make changes along the way.",
+        "created": "2025-03-04T21:10:09.435Z",
+        "updated": "2025-03-04T21:10:26.321Z"
+      }
+    ],
+    "tags": [],
+    "created": "2025-03-04",
+    "updated": "2025-03-04T21:10:28.387Z"
   }
 ]
