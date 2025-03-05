@@ -1530,5 +1530,514 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Automated Exchange",
+    "created": "2025-03-05T09:30:57.939Z",
+    "updated": "2025-03-05T10:57:27.565Z",
+    "steps": [
+      {
+        "stepnumber": "1",
+        "title": "[important:\"!!! DO NOT FORGET TO ADD GHOSTLINE\"]",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "2",
+        "title": "Open the ticket mask",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"RTF/RTTN\"]"
+          },
+          {
+            "contentnumber": "2",
+            "content": "[Command:\"TWD/L(#)\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"*T\"]"
+          },
+          {
+            "contentnumber": "2",
+            "content": "[Command:\"WETR*(#)\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "3",
+        "title": "Search the avaibility of the new flight/s",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"SN(traveldate)(citypair)/A(YY)\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"1(traveldate)(citypair)‡(YY)\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "4",
+        "title": "Select seats",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"SS(# of pax)(COS)(line segment #)\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"0(# of pax)(COS)(line segment #)*\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "5",
+        "title": "Retrieve the pnr",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"RTA / RTI\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"*T*I*N\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "6",
+        "title": "Price the segment that the customer intends to use",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "7",
+        "title": "1st option to price",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"FXQ/R,UP/S(segment #)\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"WFRFTR(tkt. line #)¥A(YY)¥S(segment#)¥N(# of passenger).1\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "8",
+        "title": "2nd option to price",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"FXO/R,UP/S(segment #)\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "9",
+        "title": "ATTENTION: You have to charge the [important:\"(Total Add Collollect)\"] for all the voluntary rebooking scenarios (plus our fee)",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "10",
+        "title": "[important:\"NOTE! Make sure not to downgrade the CABIN & BAGGAGE\"]",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "11",
+        "title": "[important:\"NOTE! If this error prompt message occured then agent has to go with manual exchange\"]",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "For Amadeus: [important:\"Reissue Not guaranteed\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "For Sabre: [important:\"GUARANTEE REISSUE PRICE NOT APPLIED – VERIFY FARE/TAXES/FEES\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "12",
+        "title": "Remove the unwanted segments",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"XE(segment#)\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"X(segment#)\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "13",
+        "title": "Save the new itinerary",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"RFAB & ER\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"6AB & ER\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "14",
+        "title": "To check if the price quote was saved",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"TQR / TQT\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"*PQS &*PQR(line #)\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "15",
+        "title": "[important:\"!!! DO \"IR\" and double check\"]",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "16",
+        "title": "[important:\"Please check 2 DOCS if we have to place on urgent queue if immenent travel or Sensitive airlines  -- LAST PAGE OF REBOOKING WIZARD\"]",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Automated Cancel",
+    "created": "2025-03-05T10:52:10.727Z",
+    "updated": "2025-03-05T10:56:44.141Z",
+    "steps": [
+      {
+        "stepnumber": "1",
+        "title": " Proceed to ‘Refund’ tab in Edvin and press on \"Check Claimability\" ",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "2",
+        "title": "SHOW ITEMS - click this box once Refund tab is working Click the [important:\"SHOW ITEMS\"] box once the Refund tab is Working",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "3",
+        "title": "[important:\"NOTE: BASE FARE IN POSITIVE AND TAX POSITIVE      ----- MODIFY UNDER TICKET RULES AIRLINE FEE -----\"]",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "4",
+        "title": "[important:\"NOTE: BASE FARE IN NEGATIVE AND TAX POSITIVE ----- MODIFY UNDER TICKET RULES TAXES -----\"]",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "5",
+        "title": "Proceed with Modify Order key in Edvin",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "6",
+        "title": "Send the cancellation confirmation email via Edvin as per usual routine",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "7",
+        "title": "[important:\"!!! Place on URGENT QUEUE in Refund Tab if Required as per 2DOCS  -- \"Escalate to BO\" in Refund Tab\"]",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Automated Void",
+    "created": "2025-03-05T10:56:53.800Z",
+    "updated": "2025-03-05T10:59:49.647Z",
+    "steps": [
+      {
+        "stepnumber": "1",
+        "title": "Check if the ticket is within the automatic void window (REFUND TAB)",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "2",
+        "title": "[important:\"Always check for NO-SHOW policy of YY as per 2 DOCS\"]",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "3",
+        "title": "Check if the airline is allowing void",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"HEETTYY\"]"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "[Command:\"WETP*YY\"]"
+          }
+        ]
+      },
+      {
+        "stepnumber": "4",
+        "title": "[important:\"NOTE: Voiding ticket is only possible if the ticket was issued same day\"]",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "5",
+        "title": "[important:\"NOTE: Please always check the date of issuance in the order summary\"]",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "6",
+        "title": "Proceed with Modify Order key in Edvin & select VOID",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      },
+      {
+        "stepnumber": "7",
+        "title": "Send the cancellation confirmation email via Edvin as per usual routine",
+        "amadeus": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ],
+        "sabre": [
+          {
+            "contentnumber": "1",
+            "content": "--"
+          }
+        ]
+      }
+    ]
   }
 ]
