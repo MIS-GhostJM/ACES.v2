@@ -1926,7 +1926,7 @@
     "description": "",
     "cards": [
       {
-        "content": "Hi,  {Cx Name}, my name is  {Agent Name}. Please give me a moment to review your request.",
+        "content": "Hi,  [Cx Name], my name is  [Agent Name]. Please give me a moment to review your request.",
         "created": "2025-03-04T16:05:50.833Z",
         "updated": "2025-03-04T16:08:37.993Z"
       }
@@ -1942,7 +1942,7 @@
     "description": "",
     "cards": [
       {
-        "content": "Hi, {Cx Name}, my name is {Agent Name}. How may I help you with your booking?",
+        "content": "Hi, [Cx Name], my name is [Agent Name]. How may I help you with your booking?",
         "created": "2025-03-04T16:08:39.546Z",
         "updated": "2025-03-04T16:09:15.083Z"
       }
@@ -1958,7 +1958,7 @@
     "description": "The customer has gone through the workflow and is waiting to be connected to the agent",
     "cards": [
       {
-        "content": "Hi {Cx Name}, this is {Agent Name}.    Thank you for your patience as we handle a high volume of requests. I'll review your case details and be with you shortly!",
+        "content": "Hi [Cx Name], this is [Agent Name].    Thank you for your patience as we handle a high volume of requests. I'll review your case details and be with you shortly!",
         "created": "2025-03-04T16:09:16.570Z",
         "updated": "2025-03-04T16:09:56.955Z"
       }
@@ -1974,7 +1974,7 @@
     "description": "The customer has gone through our chatbot however his query was not resolved and is now connected to the agent",
     "cards": [
       {
-        "content": "Hi {Cx Name}, this is {Agent Name} from [BRAND] Support.   I noticed our chatbot couldn't fully assist you—my apologies for the inconvenience, and thank you for your patience!  I'll review your case details and be with you shortly!",
+        "content": "Hi [Cx Name], this is [Agent Name] from [BRAND] Support.   I noticed our chatbot couldn't fully assist you—my apologies for the inconvenience, and thank you for your patience!  I'll review your case details and be with you shortly!",
         "created": "2025-03-04T16:10:00.610Z",
         "updated": "2025-03-04T16:10:46.009Z"
       }
@@ -2438,7 +2438,7 @@
     "description": "Supervisor call within 24 h",
     "cards": [
       {
-        "content": "I understand your frustration, {Cx Name}. Let me ask one of our supervisors to help you. Would it be okay if they contact you within the next 24 hours?",
+        "content": "I understand your frustration, [Cx Name]. Let me ask one of our supervisors to help you. Would it be okay if they contact you within the next 24 hours?",
         "created": "2025-03-04T16:26:41.277Z",
         "updated": "2025-03-04T16:27:17.980Z"
       }
@@ -2470,7 +2470,7 @@
     "description": "When the customer agrees to a supervisor call within 24H ",
     "cards": [
       {
-        "content": "Thank you,  {Cx Name}. One of our supervisors will contact you at your preferred number within 24 hours.",
+        "content": "Thank you,  [Cx Name]. One of our supervisors will contact you at your preferred number within 24 hours.",
         "created": "2025-03-04T16:27:44.381Z",
         "updated": "2025-03-04T16:28:21.084Z"
       }
@@ -2502,7 +2502,7 @@
     "description": "When the customer asks for a supervisor straight away",
     "cards": [
       {
-        "content": "I understand you'd like to speak to a supervisor, <{Cx Name}. Please allow me a moment and I'll do my best to assist you.",
+        "content": "I understand you'd like to speak to a supervisor, [Cx Name]. Please allow me a moment and I'll do my best to assist you.",
         "created": "2025-03-04T16:28:48.197Z",
         "updated": "2025-03-04T16:29:20.381Z"
       }
@@ -2678,7 +2678,7 @@
     "description": "Rebooking Eligible as per Fare Rules for Death/Medical Reasons",
     "cards": [
       {
-        "content": "I confirm your request to rebook the flights for {Cx Name} to <New Date>. Please note that approval from the airline is required for a free-of-charge rebooking. In the event of rejection by the airline, you have the option to proceed with a paid rebooking, covering the airline's change fee, agency fee, and any fare difference.   If you prefer us to initiate the request for a free-of-charge rebooking, we'll send you an email with further instructions. You'll be asked to provide your consent and attach relevant documents in English or the airline's official language. To expedite the process, please give your consent and submit the documents within 5 days.",
+        "content": "I confirm your request to rebook the flights for [Cx Name] to <New Date>. Please note that approval from the airline is required for a free-of-charge rebooking. In the event of rejection by the airline, you have the option to proceed with a paid rebooking, covering the airline's change fee, agency fee, and any fare difference.   If you prefer us to initiate the request for a free-of-charge rebooking, we'll send you an email with further instructions. You'll be asked to provide your consent and attach relevant documents in English or the airline's official language. To expedite the process, please give your consent and submit the documents within 5 days.",
         "created": "2025-03-04T16:33:23.582Z",
         "updated": "2025-03-04T16:33:57.358Z"
       }
@@ -2726,7 +2726,7 @@
     "description": "",
     "cards": [
       {
-        "content": "Thanks for confirming, {Cx Name}. I'll be happy to handle the cancellation for you. The refund amount is XXX. While most refunds take 10-15 business days to process, you can monitor the status anytime on the \"My Bookings\" page.  You'll receive a cancellation confirmation email shortly, followed by another email when your refund has been processed.  We aim to process refunds within 6 days of receiving the funds from the airline, and we promptly forward all requests as soon as you confirm the cancellation. While most airlines complete their part within 5 business days, the full process—including our issuance of the refund, may take up to 10-15 business days.  Please keep in mind that once we've issued the refund, the final processing time may vary depending on your payment provider or bank. Thank you for your patience, and please don't hesitate to reach out if you have further questions.",
+        "content": "Thanks for confirming, [Cx Name]. I'll be happy to handle the cancellation for you. The refund amount is XXX. While most refunds take 10-15 business days to process, you can monitor the status anytime on the \"My Bookings\" page.  You'll receive a cancellation confirmation email shortly, followed by another email when your refund has been processed.  We aim to process refunds within 6 days of receiving the funds from the airline, and we promptly forward all requests as soon as you confirm the cancellation. While most airlines complete their part within 5 business days, the full process—including our issuance of the refund, may take up to 10-15 business days.  Please keep in mind that once we've issued the refund, the final processing time may vary depending on your payment provider or bank. Thank you for your patience, and please don't hesitate to reach out if you have further questions.",
         "created": "2025-03-04T16:35:14.213Z",
         "updated": "2025-03-04T16:36:17.246Z"
       }
@@ -3818,7 +3818,7 @@
     "description": "When the customer is asking for a supervisor straight away",
     "cards": [
       {
-        "content": "I understand you'd like to speak to a supervisor, <[Cx Name]. Please allow me a moment and I'll do my best to assist you.",
+        "content": "I understand you'd like to speak to a supervisor, [Cx Name]. Please allow me a moment and I'll do my best to assist you.",
         "created": "2025-03-04T20:08:13.081Z",
         "updated": "2025-03-04T20:08:46.798Z"
       }
