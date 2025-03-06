@@ -4890,12 +4890,12 @@
     "description": "",
     "cards": [
       {
-        "content": "\"Certainly Mr. XXX. I will go ahead and check the airline policy for you.  Allow me 2 minutes while I check this.\"  (A): Don't put the customer on hold or mute. Keep him engaged in the conversation. Check the airline's policy, calculate the total penalty, and inform about the assisted fee.",
+        "content": "\"Certainly [Cx Name]. I will go ahead and check the airline policy for you.  Allow me 2 minutes while I check this.\"  (A): Don't put the customer on hold or mute. Keep him engaged in the conversation. Check the airline's policy, calculate the total penalty, and inform about the assisted fee.",
         "created": "2025-03-05T17:39:05.190Z",
         "updated": "2025-03-05T17:40:12.150Z"
       },
       {
-        "content": "\"Mr. XXX, I can see that the airline is offering you a full refund. Please note that per the airline's rules, some taxes may be non-refundable; the same applies to some fees and products.   Would you like to cancel the entire booking?  Do you want to cancel for all passengers?\"   - If YES:  \"The refund process is subject to a 30 euro handling fee.  Please note that the refund time currently is longer than usual, however, you will receive a notification via email as soon as it is processed.  May I proceed with the cancellation?\"   *If YES:  \"Sure Mr. XXX, it's all done. I have sent the cancellation confirmation to your registered email address.\"",
+        "content": "\"[Cx Name], I can see that the airline is offering you a full refund. Please note that per the airline's rules, some taxes may be non-refundable; the same applies to some fees and products.   Would you like to cancel the entire booking?  Do you want to cancel for all passengers?\"   - If YES:  \"The refund process is subject to a 30 euro handling fee.  Please note that the refund time currently is longer than usual, however, you will receive a notification via email as soon as it is processed.  May I proceed with the cancellation?\"   *If YES:  \"Sure Mr. XXX, it's all done. I have sent the cancellation confirmation to your registered email address.\"",
         "created": "2025-03-05T17:40:14.238Z",
         "updated": "2025-03-05T17:40:20.809Z"
       }
@@ -4911,7 +4911,7 @@
     "description": "",
     "cards": [
       {
-        "content": "Certainly Mr. XXX. I will go ahead and check the airline policy for you.  Allow me 2 minutes while I check this.\"  (A): Don't put the customer on hold or mute. Keep him engaged in the conversation. Check the airline's policy.",
+        "content": "Certainly [Cx Name]. I will go ahead and check the airline policy for you.  Allow me 2 minutes while I check this.\"  (A): Don't put the customer on hold or mute. Keep him engaged in the conversation. Check the airline's policy.",
         "created": "2025-03-05T17:40:26.223Z",
         "updated": "2025-03-05T17:40:45.524Z"
       },
@@ -4932,7 +4932,7 @@
     "description": "",
     "cards": [
       {
-        "content": "Certainly Mr. XXX. I will go ahead and check the airline policy for you.  Allow me 2 minutes while I check this.\"   (A): Don't put the customer on hold or mute. Keep him engaged in the conversation. Check the airline's policy, calculate the total penalty, and inform about the assisted fee.",
+        "content": "Certainly [Cx Name]. I will go ahead and check the airline policy for you.  Allow me 2 minutes while I check this.\"   (A): Don't put the customer on hold or mute. Keep him engaged in the conversation. Check the airline's policy, calculate the total penalty, and inform about the assisted fee.",
         "created": "2025-03-05T17:40:56.191Z",
         "updated": "2025-03-05T17:41:13.664Z"
       },
@@ -4969,7 +4969,7 @@
     "description": "",
     "cards": [
       {
-        "content": "\"Certainly Mr. XXX. When would you like to travel so I can check for the rebooking accordingly?   Thanks. May I place you on hold for 2 minutes while I check the availability of flights and get back to you?\"",
+        "content": "\"Certainly [Cx Name]. When would you like to travel so I can check for the rebooking accordingly?   Thanks. May I place you on hold for 2 minutes while I check the availability of flights and get back to you?\"",
         "created": "2025-03-05T17:41:47.992Z",
         "updated": "2025-03-05T17:42:36.998Z"
       },
@@ -5006,7 +5006,7 @@
     "description": "",
     "cards": [
       {
-        "content": "\"Certainly Mr. XXX. I will go ahead and check the airline policy for you. Allow me 2 minutes while I check this.\"  \"Mr. XXX, the airline's rules indicate that your ticket is non-refundable and the amount of refundable tax is lower than our service fee of XXX EUR per person. This said, you will not receive a refund nor will you be charged any additional fees. Would you like me to proceed with the cancellation to notify the airline?\"",
+        "content": "\"Certainly [Cx Name]. I will go ahead and check the airline policy for you. Allow me 2 minutes while I check this.\"  \"Mr. XXX, the airline's rules indicate that your ticket is non-refundable and the amount of refundable tax is lower than our service fee of XXX EUR per person. This said, you will not receive a refund nor will you be charged any additional fees. Would you like me to proceed with the cancellation to notify the airline?\"",
         "created": "2025-03-05T17:43:06.985Z",
         "updated": "2025-03-05T17:43:24.260Z"
       }
@@ -5512,7 +5512,7 @@
     "description": "",
     "cards": [
       {
-        "content": "\"I am sorry the last call got disconnected accidentally. Let me quickly pull up your account and go ahead with resolving your query today Mr. XXX. Please let me take your phone number in the event it happens again and I’ll call you back as soon as possible \"",
+        "content": "\"I am sorry the last call got disconnected accidentally. Let me quickly pull up your account and go ahead with resolving your query today [Cx Name]. Please let me take your phone number in the event it happens again and I’ll call you back as soon as possible \"",
         "created": "2025-03-05T18:14:28.740Z",
         "updated": "2025-03-05T18:15:04.526Z"
       },
