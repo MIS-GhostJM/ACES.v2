@@ -1793,7 +1793,7 @@
     "description": "Briefly explain that you want to help but due to some reason(specify the reason example ticket is in airlines control or instruction in Document Tab states that the customer need to contact the airline)",
     "cards": [
       {
-        "content": "I understand your concern, and I would love to assist you with your [ex: modifications in your flight from JFK to LON on 23MAR for (Passenger Name)] in your flight, however since we have limited access to your reservation, and [ex: airline has control over the ticket] thus we’re unable to proceed. You will have to reach out to the airline for this request.",
+        "content": "I understand your concern, and I would love to assist you with your [ex: modifications in your flight from JFK to LON on 23MAR for (Passenger Name)] in your flight, however since we have limited access to your reservation, and [ex: airline has control over the ticket] thus we’re unable to proceed. You will have to reach out to the airline for this request.Kindly provide to [Airline Name] the reference number [ABCDEF].",
         "created": "2025-02-26T09:57:39.188Z",
         "updated": "2025-02-26T09:57:39.188Z"
       }
