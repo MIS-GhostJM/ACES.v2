@@ -249,7 +249,7 @@
   {
     "id": "Manual Cancel",
     "created": "2025-03-03T14:41:41.743Z",
-    "updated": "2025-03-04T07:58:05.364Z",
+    "updated": "2025-03-06T09:56:19.595Z",
     "steps": [
       {
         "stepnumber": "1",
@@ -533,39 +533,7 @@
       },
       {
         "stepnumber": "18",
-        "title": "[important:\"!!! ALWAYS REVIEW (IF WE NEED TO ESCALATE TO BO)\"]",
-        "amadeus": [
-          {
-            "contentnumber": "1",
-            "content": "--"
-          }
-        ],
-        "sabre": [
-          {
-            "contentnumber": "1",
-            "content": "--"
-          }
-        ]
-      },
-      {
-        "stepnumber": "19",
-        "title": "[important:\"!!! DOUBLE CHECK IN 2DOCS & FARE RULES FOR THE INFORMATION IF WE NEED TO ESCALATE IT\"]\\",
-        "amadeus": [
-          {
-            "contentnumber": "1",
-            "content": "--"
-          }
-        ],
-        "sabre": [
-          {
-            "contentnumber": "1",
-            "content": "--"
-          }
-        ]
-      },
-      {
-        "stepnumber": "20",
-        "title": "[important:\" !!! USE (ESCALATE TO BO) in REFUND TAB(REFUND BEFORE DEPARTURE)\"]",
+        "title": "[important:\"!!! DOUBLE CHECK IN 2DOCS & FARE RULES FOR THE INFORMATION IF WE NEED TO ESCALATE IT & USE (ESCALATE TO BO) in REFUND TAB(REFUND BEFORE DEPARTURE)\"]\\",
         "amadeus": [
           {
             "contentnumber": "1",
@@ -1805,7 +1773,7 @@
   {
     "id": "Automated Cancel",
     "created": "2025-03-05T10:52:10.727Z",
-    "updated": "2025-03-05T10:56:44.141Z",
+    "updated": "2025-03-06T09:57:05.238Z",
     "steps": [
       {
         "stepnumber": "1",
@@ -1905,7 +1873,7 @@
       },
       {
         "stepnumber": "7",
-        "title": "[important:\"!!! Place on URGENT QUEUE in Refund Tab if Required as per 2DOCS  -- \"Escalate to BO\" in Refund Tab\"]",
+        "title": "[important:\"!!! Place on URGENT QUEUE in Refund Tab if Required as per 2DOCS  -- (Escalate to BO) in Refund Tab\"]",
         "amadeus": [
           {
             "contentnumber": "1",
