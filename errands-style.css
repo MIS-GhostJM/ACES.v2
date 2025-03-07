@@ -86,16 +86,16 @@
 
 .input-field {
     padding: 5px 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     border-radius: 10px;
     font-size: 12px;
     transition: var(--transition);
     width: 100%;
-    background-color: #0f3964;
-    color: #ddd;
+    background-color: #ffffff;
+    color: #000000;
 }
 .input-field::placeholder{
-    color: #ffffff;
+    color: #000000;
 }
 
 
