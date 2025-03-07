@@ -1904,7 +1904,7 @@
     "updated": "2025-02-26T09:57:39.188Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Chat Opening (asking to wait) ETG/B.com UK",
     "description": "",
@@ -1920,7 +1920,7 @@
     "updated": "2025-03-04T16:08:39.545Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Chat Opening (asking to state the request) ETG/B.com UK",
     "description": "",
@@ -1936,7 +1936,7 @@
     "updated": "2025-03-04T16:09:16.570Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Chat Opening due to long wait time (more than 5 minutes) Request stated ETG/B.com UK",
     "description": "The customer has gone through the workflow and is waiting to be connected to the agent",
@@ -1952,7 +1952,7 @@
     "updated": "2025-03-04T16:10:00.609Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Chat Opening after connecting with the chat BOT (but no resolution) ETG UK",
     "description": "The customer has gone through our chatbot however his query was not resolved and is now connected to the agent",
@@ -1968,7 +1968,7 @@
     "updated": "2025-03-04T16:10:52.193Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Order not found (request to spell provider's URL) ETG UK",
     "description": "When the customer provides an order number which is related to other OTAs/provider's booking",
@@ -1984,7 +1984,7 @@
     "updated": "2025-03-04T16:11:31.298Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Question before closing ETG/B.com UK",
     "description": "",
@@ -2000,7 +2000,7 @@
     "updated": "2025-03-04T16:12:21.577Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Close chat ETG/B.com UK",
     "description": "When the customer responds \"no\" to a question \"Is there anything else I can help you with?\"",
@@ -2016,7 +2016,7 @@
     "updated": "2025-03-04T16:12:43.778Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Chat Closing When customer irate or unhappy ETG/B.com UK",
     "description": "The customer is already unhappy with our service we need to use this script instead of a standard closing script",
@@ -2032,7 +2032,7 @@
     "updated": "2025-03-04T16:13:23.993Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Customer doesn't respond 1st Warning ETG/B.com UK",
     "description": "To use when the customer doesn't respond for 2 minutes. Send it and wait for another 3 min.",
@@ -2048,7 +2048,7 @@
     "updated": "2025-03-04T16:14:01.657Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Customer doesn't respond - prior to closing the chat  ETG/B.com UK. ",
     "description": "To use prior to disconnecting the interaction",
@@ -2064,7 +2064,7 @@
     "updated": "2025-03-04T16:14:26.594Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Close chat after no response for 5 min ETG/B.com UK",
     "description": "",
@@ -2080,7 +2080,7 @@
     "updated": "2025-03-04T16:14:45.154Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Hold ETG/B.com UK",
     "description": "",
@@ -2096,7 +2096,7 @@
     "updated": "2025-03-04T16:15:06.530Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Refresh Hold ETG/B.com UK",
     "description": "",
@@ -2112,7 +2112,7 @@
     "updated": "2025-03-04T16:15:26.673Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Consequent refresh hold (This should be the last hold during your interaction) ETG/B.com",
     "description": "For this last hold, you should not mention specific minutes, however, you must get back to the chat within 5 minutes to avoid \"dead air\"",
@@ -2128,7 +2128,7 @@
     "updated": "2025-03-04T16:15:56.642Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Proceed request ETG/B.com UK",
     "description": "",
@@ -2144,7 +2144,7 @@
     "updated": "2025-03-04T16:16:23.554Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry ETG/B.com UK",
     "description": "If the customer mentions the recent data breach/suspicious activity detected/security incident email",
@@ -2160,7 +2160,7 @@
     "updated": "2025-03-04T16:16:49.946Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry - Inquiry about system vulnerabilities ETG/B.com UK",
     "description": "How did the attacker get access to your system/exploit the system vulnerabilities?",
@@ -2176,7 +2176,7 @@
     "updated": "2025-03-04T16:17:47.658Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry - Support for impacted individuals ETG/B.com UK",
     "description": "What advice or support is being offered to potentially impacted individuals?",
@@ -2192,7 +2192,7 @@
     "updated": "2025-03-04T16:20:01.842Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry - Request to erase the customer data ETG/B.com UK",
     "description": "Do I have the right to have all my data erased according to GDPR?",
@@ -2208,7 +2208,7 @@
     "updated": "2025-03-04T16:21:06.826Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry - When was the breach discovered? ETG/B.com UK",
     "description": "When was the breach discovered?",
@@ -2224,7 +2224,7 @@
     "updated": "2025-03-04T16:21:33.626Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry - Enquiring the evidence of misuse of the data ETG/B.com UK",
     "description": "Has there been any evidence of misuse of the compromised data?",
@@ -2240,7 +2240,7 @@
     "updated": "2025-03-04T16:22:20.250Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry - Action Taken on the Breach Occurrence  ETG/B.com UK",
     "description": "What immediate steps were taken upon discovering the breach?",
@@ -2256,7 +2256,7 @@
     "updated": "2025-03-04T16:22:47.418Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry - Inquiring about security measures for future incidents ETG/B.com UK",
     "description": "Have any further security measures been implemented to prevent future incidents?",
@@ -2272,7 +2272,7 @@
     "updated": "2025-03-04T16:23:12.938Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry - Inquiring if relevant bodies have been notified ETG/B.com UK",
     "description": "Have relevant regulatory bodies been notified of the breach?",
@@ -2288,7 +2288,7 @@
     "updated": "2025-03-04T16:23:37.634Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry - Assurance of Data Security ETG/B.com UK",
     "description": "How can customers be assured that their data is now secure?",
@@ -2304,7 +2304,7 @@
     "updated": "2025-03-04T16:24:03.035Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry - Actions taken to strengthen data security  ETG/B.com UK",
     "description": "What long-term measures are being implemented to strengthen data security?",
@@ -2320,7 +2320,7 @@
     "updated": "2025-03-04T16:24:58.250Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry- Inquiring about ongoing investigation ETG/B.com UK",
     "description": "Is there an ongoing investigation?",
@@ -2336,7 +2336,7 @@
     "updated": "2025-03-04T16:25:22.235Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry - Possibility of changes/refund request to impacted pax orders by fraudsters ETG/B.com UK",
     "description": "Is there any chance that fraudsters can make changes to impacted customers' reservations and/or request a refund? ",
@@ -2352,7 +2352,7 @@
     "updated": "2025-03-04T16:25:49.315Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry - Impact on accommodation, car rental made via B.COM ETG/B.com UK",
     "description": "Are other reservations {e.g. accommodation, car rental etc.} made via the Booking.com platform impacted from such a security incident?",
@@ -2368,7 +2368,7 @@
     "updated": "2025-03-04T16:26:23.859Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry - CLOSING -  ETG/B.com UK",
     "description": "",
@@ -2384,7 +2384,7 @@
     "updated": "2025-03-04T16:26:41.275Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Supervisor escalation ETG/B.com UK",
     "description": "Supervisor call within 24 h",
@@ -2400,7 +2400,7 @@
     "updated": "2025-03-04T16:27:20.619Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Phone number request ETG/B.com UK",
     "description": "",
@@ -2416,7 +2416,7 @@
     "updated": "2025-03-04T16:27:44.379Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Supervisor escalation confirmation ETG/B.com UK",
     "description": "When the customer agrees to a supervisor call within 24H ",
@@ -2432,7 +2432,7 @@
     "updated": "2025-03-04T16:28:24.195Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Supervisor escalation N2 ETG/B.com UK",
     "description": "When the customer doesn't want a supervisor call is offered. Choose one depending on the scenario",
@@ -2448,7 +2448,7 @@
     "updated": "2025-03-04T16:28:48.195Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Supervisor request ETG/B.com UK",
     "description": "When the customer asks for a supervisor straight away",
@@ -2464,7 +2464,7 @@
     "updated": "2025-03-04T16:29:24.619Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Escalate Internal Support ETG/B.com UK",
     "description": "When the request is given to be placed on support",
@@ -2480,7 +2480,7 @@
     "updated": "2025-03-04T16:29:45.251Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Escalate Internal Support- Payment not processed on airline's site ETG/B.com UK",
     "description": "When the payment link/MOTO cannot go through the airline's website\t\n",
@@ -2496,7 +2496,7 @@
     "updated": "2025-03-04T16:30:11.187Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "CHG request - not permitted/non-ref  ETG/B.com UK",
     "description": "",
@@ -2512,7 +2512,7 @@
     "updated": "2025-03-04T16:30:28.363Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "CHG request - not permitted too late to rebook ETG/B.com UK",
     "description": "When rebooking is only permitted up to XX days before departure and the time passed\t",
@@ -2528,7 +2528,7 @@
     "updated": "2025-03-04T16:30:53.579Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "CHG request -multiple dates provided by the customer ETG UK",
     "description": "When the customer provides multiple dates to check for pricing \t",
@@ -2544,7 +2544,7 @@
     "updated": "2025-03-04T16:31:48.699Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "No changes made ETG/B.com UK",
     "description": " Pax doesn't want to rebook\n Pax doesn't  want to cancel",
@@ -2560,7 +2560,7 @@
     "updated": "2025-03-04T16:32:19.315Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "New itinerary not updated in the app ETG/B.com UK",
     "description": "",
@@ -2576,7 +2576,7 @@
     "updated": "2025-03-04T16:32:45.995Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "When a customer ticket is non-refundable, we offer rebooking as an alternative ETG",
     "description": "",
@@ -2592,7 +2592,7 @@
     "updated": "2025-03-04T16:33:03.740Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "After we received the payment our customer asked when they would receive the new ticket ETG",
     "description": "",
@@ -2608,7 +2608,7 @@
     "updated": "2025-03-04T16:33:23.579Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Rebooking - Eligible as per Fare Rules for Death/Medical Reasons ETG/B.COM UK",
     "description": "Rebooking Eligible as per Fare Rules for Death/Medical Reasons",
@@ -2624,7 +2624,7 @@
     "updated": "2025-03-04T16:34:00.004Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "ATC CXL - fare rules ETG UK",
     "description": "",
@@ -2640,7 +2640,7 @@
     "updated": "2025-03-04T16:34:34.363Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "ATC-CXL - non-ref tax ETG UK",
     "description": "",
@@ -2656,7 +2656,7 @@
     "updated": "2025-03-04T16:35:14.211Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "CXL - fare rules ETG UK",
     "description": "",
@@ -2672,7 +2672,7 @@
     "updated": "2025-03-04T16:37:12.940Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "CXL - conf ETG/B.com UK",
     "description": "When the customer confirms cancellation of the booking",
@@ -2688,7 +2688,7 @@
     "updated": "2025-03-04T16:38:04.964Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "CXL - non ref tax ETG UK",
     "description": "",
@@ -2704,7 +2704,7 @@
     "updated": "2025-03-04T16:38:31.452Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "CXL - non ref ETG/B.com UK",
     "description": "",
@@ -2720,7 +2720,7 @@
     "updated": "2025-03-04T16:38:52.084Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "SC / FM CXL request ETG UK",
     "description": "",
@@ -2736,7 +2736,7 @@
     "updated": "2025-03-04T16:39:16.036Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "CXL- fare rules/partially used tickets ETG",
     "description": "When the ticket is partially used",
@@ -2752,7 +2752,7 @@
     "updated": "2025-03-04T16:40:00.036Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "CXL- Refund - Eligible as per Fare Rules for Death/Medical Reasons",
     "description": "Cancellation Refund: Eligible as per Fare Rules for Death/Medical Reasons",
@@ -2768,7 +2768,7 @@
     "updated": "2025-03-04T16:41:02.132Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "CXL- Refund - Not Eligible as per Fare Rules for Death/Medical Reasons, Customer Still Insists on Refund",
     "description": "Cancellation Refund: Not Eligible as per Fare Rules for Death/Medical Reasons, Customer Still Insists on Refund",
@@ -2784,7 +2784,7 @@
     "updated": "2025-03-04T16:42:04.660Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "CXL- Refund - Eligible as per Fare Rules for Visa rejection",
     "description": "Cancellation Refund: Eligible as per Fare Rules for Visa rejection",
@@ -2800,7 +2800,7 @@
     "updated": "2025-03-04T16:42:28.788Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "CXL- Refund - Not Eligible as per Fare Rules for Visa rejection, Customer Still Insists on Refund",
     "description": "Cancellation Refund: Not Eligible as per Fare Rules for Visa rejection, Customer Still Insists on Refund",
@@ -2816,7 +2816,7 @@
     "updated": "2025-03-04T16:42:58.628Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "When we inform the customer about cancellation with Cancellation Protection ETG UK",
     "description": "",
@@ -2832,7 +2832,7 @@
     "updated": "2025-03-04T16:43:59.452Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Chat request -Sending payment link ETG/B.com UK",
     "description": "When sending payment link to the customer",
@@ -2848,7 +2848,7 @@
     "updated": "2025-03-04T16:44:29.733Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Payment confirmation for (Baggage/Seating/Special equipment) ETG/B.com UK",
     "description": "Payment successfully received for [Baggage/Seating/Special equipment]",
@@ -2864,7 +2864,7 @@
     "updated": "2025-03-04T16:45:12.116Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Objection on service fee ETG UK",
     "description": "",
@@ -2880,7 +2880,7 @@
     "updated": "2025-03-04T16:45:32.588Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Customer denies when referred to the airline ETG/B.COM UK",
     "description": "",
@@ -2896,7 +2896,7 @@
     "updated": "2025-03-04T16:45:52.604Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "On support waiting for YY reply ETG/B.com UK",
     "description": "The case is already on support and we are waiting for YY reply",
@@ -2912,7 +2912,7 @@
     "updated": "2025-03-04T16:46:12.492Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Optimized ticket ETG/B.com UK",
     "description": "When a customer booked ONE way and received a Return ticket ",
@@ -2928,7 +2928,7 @@
     "updated": "2025-03-04T16:46:39.428Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Complaint due to extended refund time frame ETG/B.com UK ",
     "description": "When the refund process takes more than 15 business days\t",
@@ -2944,7 +2944,7 @@
     "updated": "2025-03-04T16:47:28.356Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Refund delay from YY (Auth pending) ETG UK",
     "description": "Auth pending from the airline/delay is not from our side To be used after the customer was informed that we haven't received the refund from the airline yet",
@@ -2960,7 +2960,7 @@
     "updated": "2025-03-04T16:47:57.996Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Refund delay from our side ETG/B.com UK",
     "description": "The refund delay is from our side\nTo be used after the customer was informed that the refund is on a queue for payout from our side",
@@ -2976,7 +2976,7 @@
     "updated": "2025-03-04T16:48:23.988Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Refund status disconnect ETG/B.com UK",
     "description": "Disconnect when the customer inquires on the refund status and we have given all possible information",
@@ -2992,7 +2992,7 @@
     "updated": "2025-03-04T16:48:46.820Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": " When the customer uses abusive language ETG/B.com UK",
     "description": "The first warning when the customer is using abusive language",
@@ -3008,7 +3008,7 @@
     "updated": "2025-03-04T16:49:30.236Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Closing when the customer uses abusive language ETG/B.com UK",
     "description": "When the customer continues using abusive language even after our 1st warning",
@@ -3024,7 +3024,7 @@
     "updated": "2025-03-04T16:49:51.988Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "FL transfer to SC ETG/B.com UK",
     "description": "Wrong department",
@@ -3040,7 +3040,7 @@
     "updated": "2025-03-04T16:50:34.941Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Telephone line closure / RU market ETG UK",
     "description": "",
@@ -3056,7 +3056,7 @@
     "updated": "2025-03-04T16:50:48.589Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Czech Airlines partial refund ETG/B.com UK",
     "description": "When the customer asks why the refunded amount is partial and why the refund case is closed",
@@ -3072,7 +3072,7 @@
     "updated": "2025-03-04T16:51:12.685Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Redirect to CR/bag/seat claim ETG/B.com  UK",
     "description": "When a customer wants to raise a claim that requires compensation (both claims handled by CR and FL)",
@@ -3088,7 +3088,7 @@
     "updated": "2025-03-04T16:51:34.997Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Baggage delay ETG/B.com UK",
     "description": "How to handle a persistent customer because baggage hasn't been added yet",
@@ -3104,7 +3104,7 @@
     "updated": "2025-03-04T16:52:17.789Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "KR complaint  7 day right to regret ETG ",
     "description": "For KR market and customers complaining regarding KR law right to regret for 7 days which ETG does not offer",
@@ -3120,7 +3120,7 @@
     "updated": "2025-03-04T16:53:07.317Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "When the customer fails to proceed with payment during the booking process ETG UK",
     "description": "",
@@ -3136,7 +3136,7 @@
     "updated": "2025-03-04T16:53:23.717Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Fare hike during rebooking process ETG UK",
     "description": "",
@@ -3152,7 +3152,7 @@
     "updated": "2025-03-04T16:53:43.365Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Timed out less than 72 hours ETG UK",
     "description": "",
@@ -3168,7 +3168,7 @@
     "updated": "2025-03-04T16:54:27.636Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": " CC2C explanation ETG UK",
     "description": "",
@@ -3189,7 +3189,7 @@
     "updated": "2025-03-04T16:54:51.981Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "When the customer asks if VISA is needed ETG UK",
     "description": "",
@@ -3205,7 +3205,7 @@
     "updated": "2025-03-04T16:55:16.765Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "When the customer wants to add passport details ETG UK",
     "description": "",
@@ -3221,7 +3221,7 @@
     "updated": "2025-03-04T16:55:42.622Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "When the customer asks for compensation for EU Regulation ETG UK",
     "description": "",
@@ -3242,7 +3242,7 @@
     "updated": "2025-03-04T16:56:15.317Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "The customer has questions about currency conversion rate ETG UK",
     "description": "",
@@ -3258,7 +3258,7 @@
     "updated": "2025-03-04T17:01:16.926Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "When the customer asks for check-in or a boarding pass ETG UK",
     "description": "",
@@ -3274,7 +3274,7 @@
     "updated": "2025-03-04T17:01:53.582Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Fuel surcharge info ETG UK (Only for Japan Market)",
     "description": "When customers would like to know about Fuel Surcharge info in our booking flow.",
@@ -3290,7 +3290,7 @@
     "updated": "2025-03-04T17:02:15.063Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "NACO REQ FOR CC2C ORDERS - EXPLAINING CUSTOMER ABOUT CC2C ETG/B.com UK",
     "description": "Why should I pay again for a new ticket? / Educate the customer about the CC2C payment method and why full payment is necessary",
@@ -3306,7 +3306,7 @@
     "updated": "2025-03-04T17:02:43.991Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "When the customer asks about Cancellation Guarantee ETG/B.com UK",
     "description": "",
@@ -3327,7 +3327,7 @@
     "updated": "2025-03-04T17:03:14.264Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "When the customer asks about the Cancel For Any Reasons (CFAR) product ETG/B.com UK",
     "description": "",
@@ -3348,7 +3348,7 @@
     "updated": "2025-03-04T17:03:57.721Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "When the customer asks about check-in product (PassNFly) ETG/B.com UK",
     "description": "",
@@ -3364,7 +3364,7 @@
     "updated": "2025-03-04T18:58:05.938Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "When the customer asks about Cancellation with XCover policy ETG/B.com UK",
     "description": "",
@@ -3380,7 +3380,7 @@
     "updated": "2025-03-04T18:58:23.730Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "If the flight is delayed or overbooked and the customer asks for Airhelp+ ETG/B.com UK",
     "description": "",
@@ -3396,7 +3396,7 @@
     "updated": "2025-03-04T18:58:47.657Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "When the customer asks about Flexible Ticket ETG/B.com UK",
     "description": "",
@@ -3412,7 +3412,7 @@
     "updated": "2025-03-04T18:59:05.418Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Inform the customer about RyanAir verification issues ETG/B.com UK",
     "description": "",
@@ -3428,7 +3428,7 @@
     "updated": "2025-03-04T19:00:36.930Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "New itinerary not updated in the app ETG/B.com UK",
     "description": "",
@@ -3444,7 +3444,7 @@
     "updated": "2025-03-04T19:00:57.378Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Inform the customer about Alias Email  ETG/B.com UK",
     "description": "",
@@ -4244,7 +4244,7 @@
     "updated": "2025-03-04T20:25:05.634Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "KR inquiry 7-day right to regret ETG ",
     "description": "For KR market and customers inquiring regarding KR law right to regret for 7 days which ETG does not offer",
@@ -4804,7 +4804,7 @@
     "updated": "2025-03-04T21:10:28.387Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry - types of personal info were accessed ETG/B.com UK",
     "description": "What specific types of personal information were potentially accessed?",
@@ -4820,7 +4820,7 @@
     "updated": "2025-03-06T10:09:01.062Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "Data breach inquiry - Wish to raise GDPR or data protection driven action ETG/B.com UK",
     "description": "What should I do if I want to take any GDPR or other data protection-driven action, like exercising any of the privacy rights (as described under <brand> Privacy Policy available online) i.e., extracting my data or knowing what data the company holds about me?",
@@ -4836,7 +4836,7 @@
     "updated": "2025-03-06T10:10:43.455Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "CHG request - permitted ETG UK",
     "description": "",
@@ -4852,7 +4852,7 @@
     "updated": "2025-03-06T10:13:43.099Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "chat",
     "title": "ATC- CXL - conf ETG  UK",
     "description": "",
@@ -4868,7 +4868,7 @@
     "updated": "2025-03-06T10:15:58.230Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Refund handling time - to be communicated always when a customer wants to cancel and a refund will be processed ",
     "description": "",
@@ -4884,7 +4884,7 @@
     "updated": "2025-03-05T17:39:05.190Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "The customer wants to cancel (full refund applicable)",
     "description": "",
@@ -4905,7 +4905,7 @@
     "updated": "2025-03-05T17:40:26.223Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "The customer wants to cancel (no refund applicable)",
     "description": "",
@@ -4926,7 +4926,7 @@
     "updated": "2025-03-05T17:40:56.190Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "The customer wants to cancel (the ticket is partially used) ",
     "description": "",
@@ -4947,7 +4947,7 @@
     "updated": "2025-03-05T17:41:26.263Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Objection on service fee",
     "description": "",
@@ -4963,7 +4963,7 @@
     "updated": "2025-03-05T17:41:47.991Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "The customer asks for a rebooking",
     "description": "",
@@ -4984,7 +4984,7 @@
     "updated": "2025-03-05T17:42:47.992Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "If the customer has an objection to airline costs",
     "description": "",
@@ -5000,7 +5000,7 @@
     "updated": "2025-03-05T17:43:06.984Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "The customer wants to cancel (no refund is applicable and our service fee is higher than refundable taxes)",
     "description": "",
@@ -5016,7 +5016,7 @@
     "updated": "2025-03-05T17:43:27.176Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Cancellation Refund: Eligible as per Fare Rules for Death/Medical Reasons",
     "description": "",
@@ -5032,7 +5032,7 @@
     "updated": "2025-03-05T17:43:59.232Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Cancellation Refund: Not Eligible as per Fare Rules for Death/Medical Reasons, Customer Still Insists on Refund",
     "description": "",
@@ -5053,7 +5053,7 @@
     "updated": "2025-03-05T17:44:38.097Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Cancellation Refund: Eligible as per Fare Rules for Visa rejection",
     "description": "",
@@ -5069,7 +5069,7 @@
     "updated": "2025-03-05T17:44:56.449Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Cancellation Refund: Not Eligible as per Fare Rules for Visa rejection, Customer Still Insists on Refund",
     "description": "",
@@ -5090,7 +5090,7 @@
     "updated": "2025-03-05T17:45:24.969Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Rebooking Eligible as per Fare Rules for Death/Medical Reasons",
     "description": "",
@@ -5106,7 +5106,7 @@
     "updated": "2025-03-05T17:45:42.945Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Refund Status",
     "description": "The customer is asking for the status of their refund.",
@@ -5122,7 +5122,7 @@
     "updated": "2025-03-05T17:46:19.522Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Refund Delay *B.com excluded*",
     "description": "The customer keeps pushing back after the agent has repeatedly tried educating the customer in regards to their refund delay.",
@@ -5138,7 +5138,7 @@
     "updated": "2025-03-05T17:46:53.170Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Complaint due to extended refund time frame",
     "description": "The customer complains that the refund was not processed within 15 days, which he was informed about when he canceled the booking. ",
@@ -5154,7 +5154,7 @@
     "updated": "2025-03-05T17:47:14.314Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Refund prioritization",
     "description": "Can you call the airline to prioritize MY refund?",
@@ -5170,7 +5170,7 @@
     "updated": "2025-03-05T17:47:35.194Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Refund timeframe comparison",
     "description": "My friend, who booked with another agency already got their refund, when will I get mine?",
@@ -5186,7 +5186,7 @@
     "updated": "2025-03-05T17:47:58.882Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Pending BSP",
     "description": "When will I get my refund?",
@@ -5202,7 +5202,7 @@
     "updated": "2025-03-05T17:48:24.466Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Open ticket/EMD voucher instead of refund",
     "description": "Why am I not eligible for a full refund?",
@@ -5218,7 +5218,7 @@
     "updated": "2025-03-05T17:48:46.346Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Future HX flights for which no FM policy yet",
     "description": "",
@@ -5234,7 +5234,7 @@
     "updated": "2025-03-05T17:49:05.827Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Future UN/TK flights for which no FM policy yet",
     "description": "Can I get a full refund?",
@@ -5250,7 +5250,7 @@
     "updated": "2025-03-05T18:07:59.908Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Future HK flights for which no FM policy yet",
     "description": "Can I get a full refund?",
@@ -5266,7 +5266,7 @@
     "updated": "2025-03-05T18:08:19.684Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "The ticket was refunded by the airline",
     "description": "I have canceled the ticket with the airline, when will you process the refund?",
@@ -5282,7 +5282,7 @@
     "updated": "2025-03-05T18:08:42.678Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Only one PNR has been affected",
     "description": "Why am I not eligible for a full refund of the whole order?",
@@ -5298,7 +5298,7 @@
     "updated": "2025-03-05T18:09:15.751Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Only one PNR has been refunded until now",
     "description": "When will I get my refund for the other ticket?",
@@ -5314,7 +5314,7 @@
     "updated": "2025-03-05T18:09:42.097Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Czech Airlines partial refund",
     "description": "Why wasn't my order refunded fully and why is my refund case closed?",
@@ -5330,7 +5330,7 @@
     "updated": "2025-03-05T18:10:07.057Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Norwegian DY Refunds *Bookings from before Nov 18, 2020*",
     "description": "\"Customers calling inquiring about their DY refund from a booking before Nov 18, 2020\n\n\n\n**Note:\n\nOur Involuntary Service Fee per person is not to be charged for DY bookings made prior to Nov 20, 2020\"",
@@ -5346,7 +5346,7 @@
     "updated": "2025-03-05T18:10:30.114Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Conflict of information between the airline and us",
     "description": "The airline said I can have a full refund, why are you saying I can't get a full refund?",
@@ -5362,7 +5362,7 @@
     "updated": "2025-03-05T18:10:51.746Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Legal actions",
     "description": "I will sue your company",
@@ -5378,7 +5378,7 @@
     "updated": "2025-03-05T18:11:13.386Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Legal articles",
     "description": "The customer is quoting EU/government legal articles",
@@ -5394,7 +5394,7 @@
     "updated": "2025-03-05T18:11:36.378Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Chargebacks",
     "description": "I will make a dispute with my bank",
@@ -5410,7 +5410,7 @@
     "updated": "2025-03-05T18:11:59.362Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "LCC markup difference",
     "description": "I paid 100 EUR but why did I receive my voucher from the airline with a lower amount?\n\nMarkup difference, tkt costs 90 + 10 markup, customer gets a voucher with a 90 value",
@@ -5426,7 +5426,7 @@
     "updated": "2025-03-05T18:12:26.634Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Compensation",
     "description": "Will I get compensation?",
@@ -5442,7 +5442,7 @@
     "updated": "2025-03-05T18:12:51.362Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Emotional customers",
     "description": "The customer gets angry and becomes rude/aggressive",
@@ -5458,7 +5458,7 @@
     "updated": "2025-03-05T18:13:13.434Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Frustrated Customer",
     "description": "The customer is asking for a Supervisor",
@@ -5474,7 +5474,7 @@
     "updated": "2025-03-05T18:13:47.970Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Mona tours refund",
     "description": "Refund delay/No refund guarantee",
@@ -5490,7 +5490,7 @@
     "updated": "2025-03-05T18:14:08.786Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Blue Air (0B) customer complaint for no refund",
     "description": "For customers that did not get cash refund (flights until 10OCT22) and for the ones that did not get the credit vouchers or cannot use them (flights after 10OCT22)",
@@ -5506,7 +5506,7 @@
     "updated": "2025-03-05T18:14:28.739Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Calls keep getting disconnected",
     "description": "",
@@ -5532,7 +5532,7 @@
     "updated": "2025-03-05T18:15:22.963Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "The customer complaining about long wait times",
     "description": "",
@@ -5548,7 +5548,7 @@
     "updated": "2025-03-05T18:15:39.555Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Dead air/mute/Excessive hold time due to lack of support, verbiage to be included to set expectations",
     "description": "",
@@ -5564,7 +5564,7 @@
     "updated": "2025-03-05T18:15:56.794Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Objection on service fee",
     "description": "",
@@ -5580,7 +5580,7 @@
     "updated": "2025-03-05T18:16:11.923Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "The customer denies when is referred to the airline",
     "description": "",
@@ -5596,7 +5596,7 @@
     "updated": "2025-03-05T18:16:29.282Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Local language support line closed (the language of the customer can be easily defined)",
     "description": "",
@@ -5612,7 +5612,7 @@
     "updated": "2025-03-05T18:16:48.283Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Local language support line closed  (not sure what language the customer speaks)",
     "description": "",
@@ -5628,7 +5628,7 @@
     "updated": "2025-03-05T18:17:08.331Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Booking canceled due to tech error",
     "description": "",
@@ -5644,7 +5644,7 @@
     "updated": "2025-03-05T18:17:30.027Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Legal actions I will sue your company",
     "description": "",
@@ -5660,7 +5660,7 @@
     "updated": "2025-03-05T18:17:52.516Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Legal Articles The customer is quoting EU/government legal articles",
     "description": "",
@@ -5676,7 +5676,7 @@
     "updated": "2025-03-05T18:18:19.117Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Chargebacks I will make a dispute with my bank",
     "description": "",
@@ -5692,7 +5692,7 @@
     "updated": "2025-03-05T18:18:37.773Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "LCC markup difference I paid 100 EUR but why did I receive my voucher from the airline with a lower amount? Markup difference, tkt cost 90 + 10 markup, customer gets a voucher with 90 value",
     "description": "",
@@ -5708,7 +5708,7 @@
     "updated": "2025-03-05T18:18:55.936Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Compensation Will I get compensation?",
     "description": "",
@@ -5729,7 +5729,7 @@
     "updated": "2025-03-05T18:19:35.920Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Emotional customers The customer gets angry and becomes rude/aggressive",
     "description": "",
@@ -5745,7 +5745,7 @@
     "updated": "2025-03-05T18:19:56.195Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Baggage delay ETG/B.com  How to handle a persistent customer because baggage hasn't been added yet",
     "description": "",
@@ -5761,7 +5761,7 @@
     "updated": "2025-03-05T18:20:11.163Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "For KR market, when customers inquire regarding KR law right to regret for 7 days which ETG does not offer",
     "description": "",
@@ -5777,7 +5777,7 @@
     "updated": "2025-03-05T18:20:29.403Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "For KR market, when customers complain regarding KR law right to regret for 7 days which ETG does not offer",
     "description": "",
@@ -5793,7 +5793,7 @@
     "updated": "2025-03-05T18:20:51.070Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Call Opening",
     "description": "",
@@ -5809,7 +5809,7 @@
     "updated": "2025-03-05T19:32:01.323Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Security Verification",
     "description": "",
@@ -5825,7 +5825,7 @@
     "updated": "2025-03-05T19:32:53.923Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Call Opening for Orders Validated During IVR",
     "description": "",
@@ -5841,7 +5841,7 @@
     "updated": "2025-03-05T19:33:11.043Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Call Closing",
     "description": "",
@@ -5862,7 +5862,7 @@
     "updated": "2025-03-05T19:33:36.419Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Transfer",
     "description": "",
@@ -5878,7 +5878,7 @@
     "updated": "2025-03-05T19:33:53.283Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Why should I pay your fee in advance?",
     "description": "",
@@ -5894,7 +5894,7 @@
     "updated": "2025-03-05T19:34:23.332Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Why was my card charged a higher amount?",
     "description": "",
@@ -5910,7 +5910,7 @@
     "updated": "2025-03-05T19:34:47.212Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Why did you charge my card with a different currency than the one I selected?",
     "description": "",
@@ -5926,7 +5926,7 @@
     "updated": "2025-03-05T19:35:03.516Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Why didn’t you inform me about the different currency? Where can I find the information on the website that you will charge me in a different currenсy?",
     "description": "",
@@ -5942,7 +5942,7 @@
     "updated": "2025-03-05T19:35:24.796Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Why do I see two or more different charges on my account?",
     "description": "",
@@ -5958,7 +5958,7 @@
     "updated": "2025-03-05T19:35:50.740Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Why did my bank charge me an additional fee?",
     "description": "",
@@ -5974,7 +5974,7 @@
     "updated": "2025-03-05T19:36:17.636Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "My bank charged me extra fees due to the exchange rate. Who is going to compensate me?",
     "description": "",
@@ -5990,7 +5990,7 @@
     "updated": "2025-03-05T19:36:33.748Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "(in case of a refund) Why did I not receive the correct refundable amount?",
     "description": "",
@@ -6006,7 +6006,7 @@
     "updated": "2025-03-05T19:36:51.556Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "How are we going to treat customers threatened with chargeback?",
     "description": "",
@@ -6022,7 +6022,7 @@
     "updated": "2025-03-05T19:37:10.660Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "I can see that although you have sent me the ticket, my card is not charged",
     "description": "",
@@ -6038,7 +6038,7 @@
     "updated": "2025-03-05T19:37:28.892Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "When a customer request for NACO for a CC2C order/ Why should I pay again for a new ticket / educate the customer about the CC2C payment method and why full payment is necessary",
     "description": "",
@@ -6054,7 +6054,7 @@
     "updated": "2025-03-05T19:38:01.580Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "When the customer is unwilling to make the full payment again / educate the customer about the CC2C payment method and why full payment is necessary",
     "description": "",
@@ -6070,7 +6070,7 @@
     "updated": "2025-03-05T19:38:19.028Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Gotogate App Script",
     "description": "",
@@ -6086,7 +6086,7 @@
     "updated": "2025-03-05T19:38:40.485Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "If no order number, retrieve the booking with the registered contact or email address, send a confirmation to one of those, and then proceed accordingly.  Security verification",
     "description": "",
@@ -6102,7 +6102,7 @@
     "updated": "2025-03-05T19:39:06.604Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "If the caller is not the traveller or the person who created the booking",
     "description": "",
@@ -6118,7 +6118,7 @@
     "updated": "2025-03-05T19:39:23.644Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Request clarification",
     "description": "",
@@ -6134,7 +6134,7 @@
     "updated": "2025-03-05T19:39:39.364Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Order not found with provided reference number\t",
     "description": "",
@@ -6150,7 +6150,7 @@
     "updated": "2025-03-05T19:39:55.428Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Order not found (potentially booked with another provider)",
     "description": "",
@@ -6166,7 +6166,7 @@
     "updated": "2025-03-05T19:40:12.564Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Preparing the customer for payment",
     "description": "",
@@ -6182,7 +6182,7 @@
     "updated": "2025-03-05T19:41:03.397Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Confirm and specify the cost to the customer once again before sending it out to the IVR - all fees need to be separately informed",
     "description": "",
@@ -6198,7 +6198,7 @@
     "updated": "2025-03-05T19:41:21.085Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Explanation of the IVR flow",
     "description": "",
@@ -6214,7 +6214,7 @@
     "updated": "2025-03-05T19:41:37.213Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Payment successfully received",
     "description": "",
@@ -6230,7 +6230,7 @@
     "updated": "2025-03-05T19:41:52.333Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Payment successfully received for (Baggage/Seating/Special equipment)",
     "description": "",
@@ -6246,7 +6246,7 @@
     "updated": "2025-03-05T19:42:12.693Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Payment declined",
     "description": "",
@@ -6262,7 +6262,7 @@
     "updated": "2025-03-05T19:42:28.277Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "The customer said it's not possible the card declined",
     "description": "",
@@ -6278,7 +6278,7 @@
     "updated": "2025-03-05T19:42:47.605Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "The attempt failed -  Error Descriptions:  1. Invalid card details card number was invalid 2. Invalid expiration date/expiration date was invalid 3. Invalid CVV was invalid",
     "description": "",
@@ -6294,7 +6294,7 @@
     "updated": "2025-03-05T19:43:06.949Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "DECLINED_BY_BANK",
     "description": "Transaction declined by customer's bank",
@@ -6310,7 +6310,7 @@
     "updated": "2025-03-05T19:43:53.821Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "GENERIC_ERROR",
     "description": "Temporary communication issues with the bank",
@@ -6326,7 +6326,7 @@
     "updated": "2025-03-05T19:44:13.269Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "NOT_ENOUGH_FUNDS",
     "description": "Insufficient funds or exceeded transaction limit",
@@ -6342,7 +6342,7 @@
     "updated": "2025-03-05T19:44:36.573Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "PAYMENT_DETAILS_ERROR",
     "description": "Invalid card details",
@@ -6358,7 +6358,7 @@
     "updated": "2025-03-05T19:45:06.838Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "TECHNICAL_ERROR",
     "description": "A technical error occurred",
@@ -6374,7 +6374,7 @@
     "updated": "2025-03-05T19:45:49.126Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "USE_ANOTHER_CARD",
     "description": "The transaction failed due to an expired or blocked card, country restrictions, or fraud, etc.",
@@ -6390,7 +6390,7 @@
     "updated": "2025-03-05T19:46:11.262Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "MISSING_ERROR",
     "description": "Reused token or wrong token value",
@@ -6406,7 +6406,7 @@
     "updated": "2025-03-05T19:46:30.942Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Is this a secure way of paying? Will you save my card details?",
     "description": "",
@@ -6422,7 +6422,7 @@
     "updated": "2025-03-05T19:46:50.271Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Since my payment was denied - will you send me a receipt/confirmation on that? ",
     "description": "",
@@ -6438,7 +6438,7 @@
     "updated": "2025-03-05T19:47:05.590Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Response to Customers checking on why the payment link option they got offered last time they called was not available",
     "description": "",
@@ -6454,7 +6454,7 @@
     "updated": "2025-03-05T19:47:26.630Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Since the customer won't hear the payment amount while making the actual transaction on the IVR to avoid payment disputes, we will advise the passenger to contact us as soon as possible and not later than 30 minutes after receiving the receipt of payment confirmation, if they realize that their receipt email is not aligned with the agreed conditions of the request.",
     "description": "",
@@ -6470,7 +6470,7 @@
     "updated": "2025-03-05T19:47:43.246Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "When a B.com customer accidentally calls the ETG queue and you want to provide the correct contact details",
     "description": "",
@@ -6501,7 +6501,7 @@
     "updated": "2025-03-05T19:48:40.111Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "When the customer insists on receiving a specific contact number  (use the list here for correct contact numbers)",
     "description": "",
@@ -6517,7 +6517,7 @@
     "updated": "2025-03-05T19:48:55.214Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "When the customer insists on being transferred",
     "description": "",
@@ -6533,7 +6533,7 @@
     "updated": "2025-03-05T19:49:13.798Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Feedback request on where the customer found the incorrect number",
     "description": "",
@@ -6549,7 +6549,7 @@
     "updated": "2025-03-05T19:49:28.895Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "If the customer mentions the recent data breach/suspicious activity detected/security incident email",
     "description": "",
@@ -6565,7 +6565,7 @@
     "updated": "2025-03-05T19:50:12.687Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "What specific types of personal information were potentially accessed?",
     "description": "",
@@ -6581,7 +6581,7 @@
     "updated": "2025-03-05T19:50:28.655Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "How did the attacker get access to your system/exploit the system vulnerabilities?",
     "description": "",
@@ -6597,7 +6597,7 @@
     "updated": "2025-03-05T19:50:43.751Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "What advice or support is being offered to potentially impacted individuals?",
     "description": "",
@@ -6613,7 +6613,7 @@
     "updated": "2025-03-05T19:51:04.271Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "What should I do if I want to take any GDPR or other data protection-driven action, like exercising any of the privacy rights (as described under <brand> Privacy Policy available online) i.e., extracting my data or knowing what data the company holds about me?",
     "description": "",
@@ -6629,7 +6629,7 @@
     "updated": "2025-03-05T19:51:19.207Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Do I have the right to have all my data erased according to GDPR?",
     "description": "",
@@ -6645,7 +6645,7 @@
     "updated": "2025-03-05T19:51:37.703Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "When was the breach discovered?",
     "description": "",
@@ -6661,7 +6661,7 @@
     "updated": "2025-03-05T19:51:54.919Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Has there been any evidence of misuse of the compromised data?",
     "description": "",
@@ -6677,7 +6677,7 @@
     "updated": "2025-03-05T19:52:10.399Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "What immediate steps were taken upon discovering the breach?",
     "description": "",
@@ -6693,7 +6693,7 @@
     "updated": "2025-03-05T19:52:26.152Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Have any further security measures been implemented to prevent future incidents?",
     "description": "",
@@ -6709,7 +6709,7 @@
     "updated": "2025-03-05T19:52:43.687Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Have relevant regulatory bodies been notified of the breach?",
     "description": "",
@@ -6725,7 +6725,7 @@
     "updated": "2025-03-05T19:53:01.583Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "How can customers be assured that their data is now secure?",
     "description": "",
@@ -6741,7 +6741,7 @@
     "updated": "2025-03-05T19:53:16.664Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "What long-term measures are being implemented to strengthen data security?",
     "description": "",
@@ -6757,7 +6757,7 @@
     "updated": "2025-03-05T19:53:35.879Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Is there an ongoing investigation?",
     "description": "",
@@ -6773,7 +6773,7 @@
     "updated": "2025-03-05T19:53:52.111Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Is there any chance that fraudsters can make changes to impacted customers' reservations and/or request a refund? ",
     "description": "",
@@ -6789,7 +6789,7 @@
     "updated": "2025-03-05T19:54:09.608Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Are other reservations (e.g. accommodation, car rental, etc.) made via the Booking.com platform impacted by such a security incident?",
     "description": "",
@@ -6805,7 +6805,7 @@
     "updated": "2025-03-05T19:54:26.352Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Closing script",
     "description": "",
@@ -6821,7 +6821,7 @@
     "updated": "2025-03-05T19:55:08.408Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Payment successfully received for (Baggage/Seating/Special equipment)",
     "description": "",
@@ -6837,7 +6837,7 @@
     "updated": "2025-03-05T19:55:34.696Z"
   },
   {
-    "id": "ETG Scripts",
+    "id": "ETG Chat Scripts",
     "category": "voice",
     "title": "Ticket pending issuance due to Wenrix ticketing optimisation",
     "description": "",
