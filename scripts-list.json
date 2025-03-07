@@ -3476,7 +3476,7 @@
       "updated": "2025-03-04T19:01:15.970Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Chat Opening (asking to wait) ETG/B.com UK",
       "description": "",
@@ -3492,7 +3492,7 @@
       "updated": "2025-03-04T19:33:17.398Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Chat Opening (asking to state the request) ETG/B.com UK",
       "description": "",
@@ -3508,7 +3508,7 @@
       "updated": "2025-03-04T19:47:58.013Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Chat Opening due to long wait time (more than 5 minutes) Request stated ETG/B.com UK",
       "description": "The customer has gone through the workflow and is waiting to be connected to the agent",
@@ -3524,7 +3524,7 @@
       "updated": "2025-03-04T19:50:02.174Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Question before closing ETG/B.com UK",
       "description": "",
@@ -3540,7 +3540,7 @@
       "updated": "2025-03-04T19:50:33.470Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Close chat ETG/B.com UK",
       "description": "When the customer responds \"no\" to a question \"Is there anything else I can help you with?\"",
@@ -3556,7 +3556,7 @@
       "updated": "2025-03-04T19:51:08.934Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Chat Closing When customer irate or unhappy ETG/B.com UK",
       "description": "The customer is already unhappy with our service: we need to use this script instead of a standard closing script.",
@@ -3572,7 +3572,7 @@
       "updated": "2025-03-04T20:02:45.267Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Customer doesn't respond 1st Warning ETG/B.com UK",
       "description": "To use when the customer doesn't respond for 2 minutes. Send it and wait for another 3 min.",
@@ -3588,7 +3588,7 @@
       "updated": "2025-03-04T20:03:10.979Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Customer doesn't respond - prior to closing the chat  ETG/B.com UK",
       "description": "To use prior to disconnecting the interaction.",
@@ -3604,7 +3604,7 @@
       "updated": "2025-03-04T20:03:39.155Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Close chat after no response for 5 min ETG/B.com UK",
       "description": "",
@@ -3620,7 +3620,7 @@
       "updated": "2025-03-04T20:03:58.891Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Hold ETG/B.com UK",
       "description": "",
@@ -3636,7 +3636,7 @@
       "updated": "2025-03-04T20:04:16.883Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Refresh Hold ETG/B.com UK",
       "description": "",
@@ -3652,7 +3652,7 @@
       "updated": "2025-03-04T20:04:35.404Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Consequent refresh hold (This should be the last hold during your interaction) ETG/B.com UK",
       "description": "For this last hold, you should not mention specific minutes, however, you must get back to the chat within 5 minutes to avoid \"dead air\"",
@@ -3668,7 +3668,7 @@
       "updated": "2025-03-04T20:05:09.324Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Proceed request ETG/B.com UK",
       "description": "",
@@ -3684,7 +3684,7 @@
       "updated": "2025-03-04T20:05:26.588Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "upervisor escalation ETG/B.com UK",
       "description": "Supervisor call within 24 h",
@@ -3700,7 +3700,7 @@
       "updated": "2025-03-04T20:06:45.612Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Phone number request ETG/B.com UK",
       "description": "",
@@ -3716,7 +3716,7 @@
       "updated": "2025-03-04T20:07:04.972Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Supervisor escalation confirmation ETG/B.com UK",
       "description": "When the customer agrees to a supervisor call within 24 hours ",
@@ -3732,7 +3732,7 @@
       "updated": "2025-03-04T20:07:47.028Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Supervisor escalation N2 ETG/B.com UK",
       "description": "When the customer declines the offered supervisor call. Choose one depending on the scenario",
@@ -3748,7 +3748,7 @@
       "updated": "2025-03-04T20:08:13.077Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Supervisor request ETG/B.com UK",
       "description": "When the customer is asking for a supervisor straight away",
@@ -3764,7 +3764,7 @@
       "updated": "2025-03-04T20:08:48.902Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Escalate Internal Support ETG/B.com UK",
       "description": "When the request has to be placed on support",
@@ -3780,7 +3780,7 @@
       "updated": "2025-03-04T20:09:13.621Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Escalate Internal Support - Payment not processed on airline's site ETG/B.com UK",
       "description": "When the payment link/MOTO cannot go through the airline's website",
@@ -3796,7 +3796,7 @@
       "updated": "2025-03-04T20:09:38.341Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "CHG request - not permitted/non-ref.  ETG/B.com UK",
       "description": "",
@@ -3812,7 +3812,7 @@
       "updated": "2025-03-04T20:09:55.213Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "CHG request - not permitted too late to rebook ETG/B.com UK",
       "description": "When rebooking is only permitted up to XX days before departure and the time passed",
@@ -3828,7 +3828,7 @@
       "updated": "2025-03-04T20:10:22.022Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "CHG request - permitted B.com UK",
       "description": "",
@@ -3844,7 +3844,7 @@
       "updated": "2025-03-04T20:13:18.311Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "No changes made ETG/B.com UK",
       "description": "  Pax doesn't want to rebook\n  Pax doesn't  want to cancel",
@@ -3860,7 +3860,7 @@
       "updated": "2025-03-04T20:13:41.206Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Rebooking - Eligible as per Fare Rules for Death/Medical Reasons ETG/B.COM UK",
       "description": "Rebooking Eligible as per Fare Rules for Death/Medical Reasons",
@@ -3876,7 +3876,7 @@
       "updated": "2025-03-04T20:14:34.767Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "ATC- CXL - fare rules  B.com UK",
       "description": "",
@@ -3892,7 +3892,7 @@
       "updated": "2025-03-04T20:15:07.103Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "ATC- CXL - non-ref tax B.com UK",
       "description": "",
@@ -3908,7 +3908,7 @@
       "updated": "2025-03-04T20:15:32.439Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "ATC -CXL - conf B.com UK",
       "description": "",
@@ -3924,7 +3924,7 @@
       "updated": "2025-03-04T20:16:09.519Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "CXL - fare rules  B.com UK",
       "description": "",
@@ -3940,7 +3940,7 @@
       "updated": "2025-03-04T20:16:24.376Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "CXL - conf ETG/B.com UK",
       "description": "When the customer confirms cancellation of the booking",
@@ -3956,7 +3956,7 @@
       "updated": "2025-03-04T20:17:03.904Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "CXL - non-ref tax B.com UK",
       "description": "",
@@ -3972,7 +3972,7 @@
       "updated": "2025-03-04T20:17:25.152Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "CXL - non ref ETG/B.com UK",
       "description": "",
@@ -3988,7 +3988,7 @@
       "updated": "2025-03-04T20:17:49.905Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "SC/FM CXL request B.com UK",
       "description": "",
@@ -4004,7 +4004,7 @@
       "updated": "2025-03-04T20:18:05.832Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "CXL- fare rules/partially used tickets B.com",
       "description": "When the ticket is partially used\t",
@@ -4020,7 +4020,7 @@
       "updated": "2025-03-04T20:18:39.792Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "CXL - Refund - Eligible as per Fare Rules for Death/Medical Reasons",
       "description": "",
@@ -4036,7 +4036,7 @@
       "updated": "2025-03-04T20:19:15.969Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "CXL- Refund - Not Eligible as per Fare Rules for Death/Medical Reasons, Customer Still Insists on Refund",
       "description": "",
@@ -4052,7 +4052,7 @@
       "updated": "2025-03-04T20:19:44.273Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "CXL - Refund - Eligible as per Fare Rules for Visa rejection",
       "description": "",
@@ -4068,7 +4068,7 @@
       "updated": "2025-03-04T20:20:04.480Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "CXL - Refund - Not Eligible as per Fare Rules for Visa rejection, Customer Still Insists on Refund",
       "description": "",
@@ -4084,7 +4084,7 @@
       "updated": "2025-03-04T20:20:23.809Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Chat request -Sending payment link ETG/B.com UK",
       "description": "When sending a payment link to the customer",
@@ -4100,7 +4100,7 @@
       "updated": "2025-03-04T20:20:50.625Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Payment confirmation for (Baggage/Seating/Special equipment) ETG/B.com UK",
       "description": "Payment successfully received for (Baggage/Seating/Special equipment)",
@@ -4116,7 +4116,7 @@
       "updated": "2025-03-04T20:21:15.137Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Customer denies when referred to the airline ETG/B.COM UK",
       "description": "",
@@ -4132,7 +4132,7 @@
       "updated": "2025-03-04T20:21:32.129Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Czech Airlines partial refund ETG/B.com UK",
       "description": "When the customer asks why the refunded amount is partial and why the refund case is closed.",
@@ -4148,7 +4148,7 @@
       "updated": "2025-03-04T20:21:56.578Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "On support waiting for YY reply ETG/B.com UK",
       "description": "The case is already on support and we are waiting for YY reply",
@@ -4164,7 +4164,7 @@
       "updated": "2025-03-04T20:22:23.609Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Optimized ticket ETG/B.com UK",
       "description": "When the customer booked ONE way and received a Return ticket ",
@@ -4180,7 +4180,7 @@
       "updated": "2025-03-04T20:22:53.257Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Complaint due to extended refund time frame ETG/B.com UK    ",
       "description": "When the refund process takes more than 15 business days",
@@ -4196,7 +4196,7 @@
       "updated": "2025-03-04T20:23:14.578Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Refund delay from YY (Auth pending) B.com UK",
       "description": "",
@@ -4212,7 +4212,7 @@
       "updated": "2025-03-04T20:23:34.466Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Refund delay from our side ETG/B.com UK",
       "description": "The refund delay is from our side\nTo be used after the customer was informed that the refund is on a queue for payout from our side",
@@ -4228,7 +4228,7 @@
       "updated": "2025-03-04T20:24:06.817Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Refund status disconnect ETG/B.com UK",
       "description": "Disconnect when the customer inquires on the refund status and we have given all possible information",
@@ -4244,7 +4244,7 @@
       "updated": "2025-03-04T20:24:32.866Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "When the customer uses abusive language ETG/B.com UK",
       "description": "The first warning when the customer is using abusive language",
@@ -4276,7 +4276,7 @@
       "updated": "2025-03-04T20:25:49.371Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Closing when the customer uses abusive language ETG/B.com UK",
       "description": "When the customer continues using abusive language even after our 1st warning",
@@ -4292,7 +4292,7 @@
       "updated": "2025-03-04T20:26:36.642Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "FL transfer to SC ETG/B.com UK",
       "description": "Wrong department ",
@@ -4308,7 +4308,7 @@
       "updated": "2025-03-04T20:27:00.714Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Redirect to CR/bag/seat claim ETG/B.com  UK",
       "description": "When a customer wants to raise a claim that requires compensation (both claims handled by CR and FL)",
@@ -4324,7 +4324,7 @@
       "updated": "2025-03-04T20:27:21.163Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Non-flight related query B.com UK",
       "description": "When a customer inquires about nonflight service (accommodation/car rentals etc.)",
@@ -4340,7 +4340,7 @@
       "updated": "2025-03-04T20:27:55.963Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": " Baggage delay ETG/B.com UK",
       "description": "How to handle a persistent customer because baggage hasn't been added yet",
@@ -4356,7 +4356,7 @@
       "updated": "2025-03-04T20:29:23.811Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Handling Fraudulent Reservation B.com UK",
       "description": "Handling a persistent caller with a fraudulent reservation",
@@ -4372,7 +4372,7 @@
       "updated": "2025-03-04T20:29:49.203Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Fuel surcharge info ETG UK (Only for Japan Market)",
       "description": "When customers would like to know about Fuel Surcharge info in our booking flow.",
@@ -4388,7 +4388,7 @@
       "updated": "2025-03-04T20:30:11.379Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry ETG/B.com UK",
       "description": "If the customer mentions the recent data breach/suspicious activity detected/security incident email",
@@ -4404,7 +4404,7 @@
       "updated": "2025-03-04T20:30:35.428Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry - the type of personal info was accessed ETG/B.com UK",
       "description": "What specific types of personal information were potentially accessed?",
@@ -4420,7 +4420,7 @@
       "updated": "2025-03-04T20:30:57.876Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry - Inquiry about system vulnerabilities ETG/B.com UK",
       "description": "How did the attacker get access to your system/exploit the system vulnerabilities?",
@@ -4436,7 +4436,7 @@
       "updated": "2025-03-04T20:31:20.676Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry - Support for impacted individuals ETG/B.com UK",
       "description": "What advice or support is being offered to potentially impacted individuals?",
@@ -4452,7 +4452,7 @@
       "updated": "2025-03-04T20:31:43.804Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry - Wish to raise GDPR or data protection-driven action ETG/B.com UK",
       "description": "What should I do if I want to take any GDPR or other data protection-driven action, like exercising any of the privacy rights (as described under <brand> Privacy Policy available online) i.e., extracting my data or knowing what data the company holds about me?",
@@ -4468,7 +4468,7 @@
       "updated": "2025-03-04T20:32:09.212Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry - Request to erase the customer data ETG/B.com UK",
       "description": "Do I have the right to have all my data erased according to GDPR?",
@@ -4484,7 +4484,7 @@
       "updated": "2025-03-04T20:32:32.068Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry - When was the breach discovered ETG/B.com UK",
       "description": "When was the breach discovered?",
@@ -4500,7 +4500,7 @@
       "updated": "2025-03-04T20:32:55.692Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry - Enquiring the evidence of misuse of the data ETG/B.com UK",
       "description": "Has there been any evidence of misuse of the compromised data?",
@@ -4516,7 +4516,7 @@
       "updated": "2025-03-04T20:41:32.430Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry -Action Taken on the Breach Occurrence  ETG/B.com UK",
       "description": "What immediate steps were taken upon discovering the breach?",
@@ -4532,7 +4532,7 @@
       "updated": "2025-03-04T20:41:58.582Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry - Inquiring about security measures for future incidents ETG/B.com UK",
       "description": "Have any further security measures been implemented to prevent future incidents?",
@@ -4548,7 +4548,7 @@
       "updated": "2025-03-04T20:47:01.935Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry - Inquiring if relevant bodies have been notified ETG/B.com UK",
       "description": "Have relevant regulatory bodies been notified of the breach?",
@@ -4564,7 +4564,7 @@
       "updated": "2025-03-04T20:47:35.455Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry - Assurance of Data Security ETG/B.com UK",
       "description": "How can customers be assured that their data is now secure?",
@@ -4580,7 +4580,7 @@
       "updated": "2025-03-04T20:47:58.983Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry - Actions taken to strengthen data security ETG/B.com UK",
       "description": "What long-term measures are being implemented to strengthen data security?",
@@ -4596,7 +4596,7 @@
       "updated": "2025-03-04T20:48:30.943Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry- Inquiring about ongoing investigation ETG/B.com UK",
       "description": "Is there an ongoing investigation?",
@@ -4612,7 +4612,7 @@
       "updated": "2025-03-04T20:48:57.464Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry - Possibility of changes/refund request to impacted pax orders by fraudsters ETG/B.com UK",
       "description": "Is there any chance that fraudsters can make changes to impacted customers' reservations and/or request a refund? ",
@@ -4628,7 +4628,7 @@
       "updated": "2025-03-04T20:49:19.135Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry - Impact on accommodation, car rental made via BCOM ETG/B.com UK",
       "description": "Are other reservations (e.g. accommodation, car rental, etc.) made via the Booking.com platform impacted by such a security incident?",
@@ -4644,7 +4644,7 @@
       "updated": "2025-03-04T20:49:40.840Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Data breach inquiry - CLOSING - ETG/B.com UK",
       "description": "",
@@ -4660,7 +4660,7 @@
       "updated": "2025-03-04T20:49:57.432Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "NACO REQ FOR CC2C ORDERS - EXPLAINING CUSTOMER ABOUT CC2C/ B.com UK",
       "description": "Why should I pay again for a new ticket? / Educate the customer about the CC2C payment method and why full payment is necessary.",
@@ -4676,7 +4676,7 @@
       "updated": "2025-03-04T20:50:24.904Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Cancellation Guarantee ETG/B.com UK",
       "description": "When the customer asks about Cancellation Guarantee product",
@@ -4692,7 +4692,7 @@
       "updated": "2025-03-04T20:50:58.113Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Cancel For Any Reasons (CFAR) product ETG/B.com UK",
       "description": "When the customer asks about the CFAR product",
@@ -4708,7 +4708,7 @@
       "updated": "2025-03-04T20:51:51.592Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Chek-in (PassNFly) Product ETG/B.com UK",
       "description": "When the customer asks about the check-in product",
@@ -4724,7 +4724,7 @@
       "updated": "2025-03-04T20:52:12.712Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Cancellation with XCover ETG/B.com UK",
       "description": "When the customer asks about Cancellation with the XCover policy",
@@ -4740,7 +4740,7 @@
       "updated": "2025-03-04T20:52:56.825Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Airhelp+ ETG/B.com UK",
       "description": "When the flight is delayed or overbooked and the customer asks about the Airhelp+ product",
@@ -4756,7 +4756,7 @@
       "updated": "2025-03-04T21:08:46.091Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Flexible Ticket ETG/B.com UK",
       "description": "When the customer asks about the Flexible ticket",
@@ -4772,7 +4772,7 @@
       "updated": "2025-03-04T21:09:05.595Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Inform the customer about RyanAir verification issues ETG/B.com UK",
       "description": "",
@@ -4788,7 +4788,7 @@
       "updated": "2025-03-04T21:09:53.123Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "New itinerary is not updated in the app ETG/B.com UK",
       "description": "",
@@ -4804,7 +4804,7 @@
       "updated": "2025-03-04T21:10:09.428Z"
     },
     {
-      "id": "B.COM Scripts",
+      "id": "B.COM Chat Scripts",
       "category": "chat",
       "title": "Inform the customer about Alias Email ETG/B.com UK",
       "description": "",
