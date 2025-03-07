@@ -411,9 +411,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const form = document.querySelector(`.form-container:nth-child(${formIndex})`);
         let copiedData = '';
     
-        // Copy text inputs
+        // Copy text inputs (excluding Edwin Order#)
         form.querySelectorAll("input[type='text']").forEach(input => {
-            if (input.value.trim()) {
+            // Skip the Edwin Order# field
+            if (input.id !== `input-edwin-id-${formIndex}` && input.value.trim()) {
                 const label = form.querySelector(`label[for='${input.id}']`).textContent.trim();
                 copiedData += `${label}: ${input.value}\n`;
             }
@@ -440,6 +441,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function archiveFormData(formIndex) {
         const form = document.querySelector(`.form-container:nth-child(${formIndex})`);
         const formData = {
+            edwinId: document.getElementById(`input-edwin-id-${formIndex}`).value,
             interactionId: document.getElementById(`input-interaction-id-${formIndex}`).value,
             customerName: document.getElementById(`input-cxname-${formIndex}`).value,
             dpa: document.getElementById(`input-dpa-${formIndex}`).value,
@@ -471,7 +473,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const archivedErrands = JSON.parse(localStorage.getItem('archivedErrands')) || [];
         if (index >= 0 && index < archivedErrands.length) {
             const errand = archivedErrands[index];
-            let targetFormIndex = document.getElementById('input-interaction-id-1').value ? 2 : 1;
+            let targetFormIndex = document.getElementById('input-edwin-id-1').value ? 2 : 1;
             const form = document.querySelector(`.form-container:nth-child(${targetFormIndex})`);
 
             Object.keys(errand).forEach(key => {
@@ -479,6 +481,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (input) input.value = errand[key];
             });
 
+            document.getElementById(`input-edwin-id-${targetFormIndex}`).value = errand.edwinId;
             document.getElementById(`input-interaction-id-${targetFormIndex}`).value = errand.interactionId;
             document.getElementById(`input-cxname-${targetFormIndex}`).value = errand.customerName;
             document.getElementById(`notes-${targetFormIndex}`).value = errand.notes || '';
@@ -538,6 +541,7 @@ document.addEventListener('DOMContentLoaded', function () {
             };
             
             csvContent += [
+                escapeCsvField(errand.edwinId),
                 escapeCsvField(errand.interactionId),
                 escapeCsvField(errand.archivedDate),
                 escapeCsvField(errand.customerName),
@@ -581,7 +585,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (index > 0) {
                 clipboardText += '\n' + '*-'.repeat(20) +'*'+ '\n\n';
             }
-            
+            clipboardText += `Edwin Order#:\n${errand.edwinId || 'N/A'}\n`;
             clipboardText += `Interaction ID:\n${errand.interactionId || 'N/A'}\n`;
             clipboardText += `Customer Name: ${errand.customerName || 'N/A'}\n`;
             clipboardText += `DPA: ${errand.dpa || 'N/A'}\n`;
@@ -640,6 +644,7 @@ document.addEventListener('DOMContentLoaded', function () {
             archivedErrands.forEach((errand, index) => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
+                    <td>${errand.edwinId}</td>
                     <td>${errand.interactionId}</td>
                     <td>${errand.customerName}</td>
                     <td>${errand.dpa || 'N/A'}</td>
