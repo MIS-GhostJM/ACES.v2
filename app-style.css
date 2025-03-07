@@ -317,7 +317,7 @@ body {
     display: block;
 }
 .script-nav-container {
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 4px;
     padding-left: 10px;
     padding-right: 10px;
@@ -346,24 +346,55 @@ body {
     cursor: pointer;
     transition: var(--transition);
 }
+
+.script-nav-container button :nth-child(17),
+.script-nav-container button :nth-child(16),
+.script-nav-container button :nth-child(15) {
+    font-size: 14px;
+}
+
 #C-Sat\ Scripts-nav{
-    background: linear-gradient(135deg, #32e21a, #02a14a);
+    background: #d9ff00;
+    color: #000000;
 }
 #C-Sat\ Scripts-nav.active{
     background: #BC6C25;
 }
 
 #Exchange\ and\ Cancellation\ Tips-nav{
-    background: linear-gradient(135deg, #214bd3da, #776206);
+    background: #014883;
 }
 #Exchange\ and\ Cancellation\ Tips-nav.active{
     background: #BC6C25;
 }
 
 #General\ Scripts-nav{
-    background: linear-gradient(135deg, #abe410da, #776206);
+    background: #02a14a;
 }
 #General\ Scripts-nav.active{
+    background: #BC6C25;
+}
+
+#ETG\ Chat\ Scripts-nav{
+    background: #8684e5;
+}
+
+#ETG\ Chat\ Scripts-nav.active{
+    background: #BC6C25;
+}
+
+#ETG\ Voice\ Scripts-nav{
+    background: #b98c49;
+}
+
+#ETG\ Voice\ Scripts-nav.active{
+    background: #BC6C25;
+}
+#B\.COM\ Chat\ Scripts-nav{
+    background: #5e9249;
+}
+
+#B\.COM\ Chat\ Scripts-nav.active{
     background: #BC6C25;
 }
 
@@ -423,7 +454,7 @@ body {
     flex-direction: column;
     border: 2px solid #2c3e50;
     border-radius: 8px;
-    background: linear-gradient(to right,#101157, #012b25);
+    background: linear-gradient(to right, #2980b9, #BC6C25);
     border-radius: 20px 0 0 20px;
     padding: 12px;
     text-align: center;
@@ -538,6 +569,17 @@ body {
     cursor: pointer;
     transition: var(--transition);
 }
+
+#Automated\ Void-nav{
+    background: #02a14a;
+}
+#Automated\ Exchange-nav{
+    background: #02a14a;
+}
+#Automated\ Cancel-nav{
+    background: #02a14a;
+}
+
 .check-list-nav-container button.active {
     background: #BC6C25;
     color: var(--white);
