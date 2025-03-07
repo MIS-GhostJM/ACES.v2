@@ -101,6 +101,10 @@
                             <h2 id="customer1-heading" class="customer-heading">Customer 1</h2>
                             <div class="form-area">
                                 <div class="input-pair">
+                                    <label for="input-edwin-id-1" class="input-label">Edwin Order #: </label>
+                                    <input type="text" name="input-edwin-id" id="input-edwin-id-1" placeholder="Edwin Order #" class="input-field">
+                                </div>
+                                <div class="input-pair">
                                     <label for="input-interaction-id-1" class="input-label">Interaction ID: </label>
                                     <input type="text" name="input-interaction-id" id="input-interaction-id-1" placeholder="Interaction ID" class="input-field" aria-required="true">
                                 </div>
@@ -149,6 +153,10 @@
                         <form class="form-container" aria-labelledby="customer2-heading">
                             <h2 id="customer2-heading" class="customer-heading">Customer 2</h2>
                             <div class="form-area">
+                                <div class="input-pair">
+                                    <label for="input-edwin-id-2" class="input-label">Edwin Order #: </label>
+                                    <input type="text" name="input-edwin-id" id="input-edwin-id-2" placeholder="Edwin Order #" class="input-field">
+                                </div>
                                 <div class="input-pair">
                                     <label for="input-interaction-id-2" class="input-label">Interaction ID: </label>
                                     <input type="text" name="input-interaction-id" id="input-interaction-id-2" placeholder="Interaction ID" class="input-field" aria-required="true">
@@ -216,6 +224,7 @@
                             <table id="archived-errands-table">
                                 <thead>
                                     <tr>
+                                        <th>Edwin ID</th>
                                         <th>Interaction ID</th>
                                         <th>Customer Name</th>
                                         <th>DPA</th>
@@ -270,6 +279,6 @@
     <script src="copy-functions.js" defer></script>
     <script src="sync-inputs.js" defer></script>
     <script src="errands-page.js"></script>
-    <script src="checklistcontroll.js" defer></script>
+    <script src="checklistcontrol.js" defer></script>
 </body>
 </html>
