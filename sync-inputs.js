@@ -24,6 +24,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    // Color configuration for different script modules
+    const moduleColorMap = {
+        'ETG Chat Scripts': '#b2b1e0',
+        'ETG Voice Scripts': '#b49b74',
+        'B.COM Chat Scripts': '#9ed189',
+        // Add more module IDs and colors as needed
+    };
+
+    // Default color for modules not specified in the map
+    const defaultColor = '#f9f9f9';
+
     fetch(jsonFilePath)
         .then(response => response.json())
         .then(data => {
@@ -32,6 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
             initializeAllFunctionality();
             initializeNavigation();
             updateNavBadges(); // Add badges to nav buttons based on new/updated cards
+            applyCardBackgroundColors(); // Apply background colors based on module ID
+            addCardHoverEffects(); // Add hover effects to cards
         })
         .catch(error => console.error('Failed to load scripts:', error));
 
@@ -323,6 +336,68 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             `;
             document.head.appendChild(styleEl);
+        }
+    }
+
+    /**
+     * Applies background colors to card modules based on their parent script-module id
+     */
+    function applyCardBackgroundColors() {
+        document.querySelectorAll('.script-module').forEach(module => {
+            const moduleId = module.id;
+            const color = moduleColorMap[moduleId] || defaultColor;
+            
+            // Apply the color to all card-module elements within this script-module
+            const cardModules = module.querySelectorAll('.card-module');
+            cardModules.forEach(card => {
+                card.style.backgroundColor = color;
+                
+                // Add a subtle border that's a darker shade of the background
+                const darkerShade = adjustColorBrightness(color, -15);
+                card.style.borderColor = darkerShade;
+            });
+        });
+    }
+
+    /**
+     * Helper function to darken or lighten a color
+     * @param {string} color - Hex color code (#rrggbb)
+     * @param {number} percent - Percentage to adjust brightness (negative = darker, positive = lighter)
+     * @returns {string} - Adjusted hex color
+     */
+    function adjustColorBrightness(color, percent) {
+        let R = parseInt(color.substring(1, 3), 16);
+        let G = parseInt(color.substring(3, 5), 16);
+        let B = parseInt(color.substring(5, 7), 16);
+
+        R = Math.max(0, Math.min(255, R + (R * percent / 100)));
+        G = Math.max(0, Math.min(255, G + (G * percent / 100)));
+        B = Math.max(0, Math.min(255, B + (B * percent / 100)));
+
+        const RR = Math.round(R).toString(16).padStart(2, '0');
+        const GG = Math.round(G).toString(16).padStart(2, '0');
+        const BB = Math.round(B).toString(16).padStart(2, '0');
+
+        return `#${RR}${GG}${BB}`;
+    }
+
+    /**
+     * Adds hover effects to card modules
+     */
+    function addCardHoverEffects() {
+        if (!document.getElementById('card-hover-styles')) {
+            const styleElement = document.createElement('style');
+            styleElement.id = 'card-hover-styles';
+            styleElement.textContent = `
+                .card-module {
+                    transition: transform 0.2s ease, box-shadow 0.2s ease;
+                }
+                .card-module:hover {
+                    transform: translateY(-2px);
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                }
+            `;
+            document.head.appendChild(styleElement);
         }
     }
 
