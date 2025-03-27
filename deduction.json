@@ -1,0 +1,42 @@
+{
+    "2025": {
+        "March": {
+            "csat": [
+                {"min": 0, "max": 60, "multiplier": 1.0},
+                {"min": 61, "max": 80, "multiplier": 1.2},
+                {"min": 81, "max": 100, "multiplier": 1.4}
+            ],
+            "absence": [
+                {"count": 0, "deductionRate": 0},
+                {"count": 1, "deductionRate": 0.25},
+                {"count": 2, "deductionRate": 0.5},
+                {"count": 3, "deductionRate": 1.0}
+            ],
+            "agentError": [
+                {"count": 0, "deductionRate": 0},
+                {"count": 1, "deductionRate": 0.25},
+                {"count": 2, "deductionRate": 0.5},
+                {"count": 3, "deductionRate": 1.0}
+            ]
+        },
+        "April": {
+            "csat": [
+                {"min": 0, "max": 60, "multiplier": 1.0},
+                {"min": 61, "max": 80, "multiplier": 1.25},
+                {"min": 81, "max": 100, "multiplier": 1.45}
+            ],
+            "absence": [
+                {"count": 0, "deductionRate": 0},
+                {"count": 1, "deductionRate": 0.3},
+                {"count": 2, "deductionRate": 0.6},
+                {"count": 3, "deductionRate": 1.0}
+            ],
+            "agentError": [
+                {"count": 0, "deductionRate": 0},
+                {"count": 1, "deductionRate": 0.3},
+                {"count": 2, "deductionRate": 0.6},
+                {"count": 3, "deductionRate": 1.0}
+            ]
+        }
+    }
+}
