@@ -1,0 +1,54 @@
+{
+    "version": "1.0.0",
+    "metadata": {
+        "lastUpdated": "2025-03-27",
+        "description": "Performance Incentive Matrix Configuration"
+    },
+    "performanceMatrix": {
+        "2025": {
+            "quarters": {
+                "Q1": {
+                    "March": {
+                        "regular": [
+                            {"min": 0, "max": 15, "multiplier": 15},
+                            {"min": 15, "max": 20, "multiplier": 18},
+                            {"min": 20, "max": 30, "multiplier": 20},
+                            {"min": 30, "max": 999, "multiplier": 22}
+                        ],
+                        "rd": [
+                            {"min": 0, "max": 15, "multiplier": 40},
+                            {"min": 15, "max": 20, "multiplier": 45},
+                            {"min": 20, "max": 30, "multiplier": 50},
+                            {"min": 30, "max": 999, "multiplier": 55}
+                        ]
+                    },
+                    "April": {
+                        "regular": [
+                            {"min": 0, "max": 15, "multiplier": 16},
+                            {"min": 15, "max": 20, "multiplier": 19},
+                            {"min": 20, "max": 30, "multiplier": 21},
+                            {"min": 30, "max": 999, "multiplier": 23}
+                        ],
+                        "rd": [
+                            {"min": 0, "max": 15, "multiplier": 41},
+                            {"min": 15, "max": 20, "multiplier": 46},
+                            {"min": 20, "max": 30, "multiplier": 51},
+                            {"min": 30, "max": 999, "multiplier": 56}
+                        ]
+                    }
+                }
+            },
+            "settings": {
+                "baseRates": {
+                    "regular": 10,
+                    "rd": 15
+                },
+                "deductions": {
+                    "agentError": 5,
+                    "absentDay": 50,
+                    "csatReductionFactor": 0.01
+                }
+            }
+        }
+    }
+}
