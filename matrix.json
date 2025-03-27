@@ -1,0 +1,30 @@
+{
+    "2025": {
+        "March": {
+            "regular": [
+                {"min": 0, "max": 15, "multiplier": 15},
+                {"min": 15, "max": 20, "multiplier": 18},
+                {"min": 20, "max": 30, "multiplier": 20},
+                {"min": 30, "max": null, "multiplier": 22}
+            ],
+            "rd": [
+                {"min": 0, "max": 20, "multiplier": 40},
+                {"min": 20, "max": 30, "multiplier": 45},
+                {"min": 30, "max": null, "multiplier": 50}
+            ]
+        },
+        "April": {
+            "regular": [
+                {"min": 0, "max": 15, "multiplier": 16},
+                {"min": 15, "max": 20, "multiplier": 19},
+                {"min": 20, "max": 30, "multiplier": 21},
+                {"min": 30, "max": null, "multiplier": 23}
+            ],
+            "rd": [
+                {"min": 0, "max": 20, "multiplier": 41},
+                {"min": 20, "max": 30, "multiplier": 46},
+                {"min": 30, "max": null, "multiplier": 51}
+            ]
+        }
+    }
+}
